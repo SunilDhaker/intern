@@ -1,0 +1,7 @@
+sudo su postgres 
+
+psql (to start databse command line)
+
+create user lurnq1 with passsword "technium" ;
+
+create database TESTDATA with owner = lurnq1 ;

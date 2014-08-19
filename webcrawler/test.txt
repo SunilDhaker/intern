@@ -1,0 +1,7610 @@
+cv=1&pu=true&stateCode=08&districtCode=30&Schooltype=2&blockCode=0&villageCode=0&townCode=0&wardCode=0&schoolCategory=0&search=Search
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+<title>School Directory Listing For View Only</title>
+<link href="/css/displaytagstyles.css;jsessionid=71D387DF200C9D17621514EA82306420" rel="stylesheet" type="text/css"/>
+<link href="/css/aises.css;jsessionid=71D387DF200C9D17621514EA82306420" rel="stylesheet" type="text/css"/>
+<style title="currentStyle" type="text/css">
+				@import "css/demo_page.css";
+				@import "css/demo_table.css";
+		</style>
+<script src="js/ajax.js;jsessionid=71D387DF200C9D17621514EA82306420" type="text/javascript"></script>
+<script language="javascript" src="js/jquery.js" type="text/javascript"></script>
+<script language="javascript" src="js/jquery.dataTables.js" type="text/javascript"></script>
+<script src="js/schooldirectory.js;jsessionid=71D387DF200C9D17621514EA82306420" type="text/javascript"></script>
+<script type="text/javascript">
+			$(document).ready(function() 
+			{
+				$('#example').dataTable();
+				$('#example2').dataTable();
+			});
+		</script>
+</head>
+<body onload="javascript:getCheckedValue(document.forms['schoolSearchForm'].elements['Schooltype']),showMessage();">
+<div id="main-container">
+<div id="" style="height: 125px;">
+<link href="css/aises-css.css" rel="stylesheet" type="text/css"/>
+<link href="images/favicon.ico" rel="shortcut icon" type="image/x-icon"/>
+<div id="header-container">
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+<tr>
+<td>
+<table align="center" border="0" cellpadding="0" cellspacing="0" width="100%">
+<tr>
+<td align="left" class="date" colspan="2" valign="middle"> </td>
+<td align="right" rowspan="2" style="padding-right:10px;" valign="top" width="45%">
+<a class="" href="/home;jsessionid=71D387DF200C9D17621514EA82306420" title="AISES">
+<img border="0" height="76" src="images/aises-text-hindi.gif" width="349"/>
+</a> </td>
+</tr>
+<tr>
+<td align="left" valign="top" width="44%"><table border="0" cellpadding="0" cellspacing="0" height="80" width="100%">
+<tr>
+<td align="left" height="80" valign="top"><img height="76" src="images/mohrd.gif" width="345"/></td>
+</tr>
+</table></td>
+<td align="center" style="padding-left:5px;" valign="top" width="11%"><img border="0" height="67" src="images/emblem.jpg" width="42"/></td>
+</tr>
+</table>
+</td>
+</tr><tr class="gray12pxlink">
+<td align="right" height="13" style="padding-right:12px;" valign="top">
+<hr color="#EAEAEA" size="1" width="100%"/>
+</td>
+</tr>
+<tr class="gray12pxlink">
+<td align="right" style="padding-right:12px;padding-top: 15px;" valign="middle"><table border="0" cellpadding="0" cellspacing="0" width="100%">
+<tr>
+<td align="left" class="date" style="padding-left:10px;" valign="middle">
+		  15 June, 2014
+		   </td>
+<td align="right" valign="middle">
+<a class="gray11pxlink" href="/home;jsessionid=71D387DF200C9D17621514EA82306420" title="Home">Home</a>
+		   |
+	 <a class="gray11pxlink" href="/sitemap;jsessionid=71D387DF200C9D17621514EA82306420" title="Sitemap">Sitemap</a>
+     |
+     <a class="gray11pxlink" href="/feedbackpage;jsessionid=71D387DF200C9D17621514EA82306420" title="Feedback">Feedback</a>
+     |
+     <a class="gray11pxlink" href="documents/pdf/region_wise_feed_back_emails07-02-2011.pdf" target="_blank" title="Contact Us">Contact Us</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</div>
+</div>
+<div class="innerbanner">
+<div class="innerleft-content">
+<div class="left-menu-bg">
+<div class="banner_left">
+<img alt=" " height="264" src="images/topmenu_left.gif" title=" " width="16"/></div>
+<div class="left-menu">
+<ul class="topleft-menu">
+<li><a href="/aboutncert;jsessionid=71D387DF200C9D17621514EA82306420" title="About NCERT">About NCERT</a></li>
+<li><a href="/aboutdepartment;jsessionid=71D387DF200C9D17621514EA82306420" title="About Department: Department of Educational Surveys and Data Processing">About Department</a></li>
+<li><a href="/aboutsurvey;jsessionid=71D387DF200C9D17621514EA82306420" title="About Survey">About Survey</a></li>
+<!--<li><a href='/schooldirectoryforviewonly;jsessionid=71D387DF200C9D17621514EA82306420' title="School Directory">School Directory</a></li>
+--><li><a href="/committee;jsessionid=71D387DF200C9D17621514EA82306420" title="Committees">Committees</a></li>
+<!-- 
+<li><a href='/document;jsessionid=71D387DF200C9D17621514EA82306420' title="Important Documents">Important Documents</a></li>
+<li><a href='/flashstatistics;jsessionid=71D387DF200C9D17621514EA82306420' title="Flash Statistics">Flash Statistics</a></li>
+ -->
+<li><a href="/archives;jsessionid=71D387DF200C9D17621514EA82306420" title="Archieves">Archives</a></li>
+<li><a href="/whoiswho;jsessionid=71D387DF200C9D17621514EA82306420" title="Who's Who">Who's Who</a></li>
+<li><a href="/instructionforfieldofficer;jsessionid=71D387DF200C9D17621514EA82306420" title="Instructions for field officers">Instructions for field FO's</a></li>
+<li><a href="/relatedlinks;jsessionid=71D387DF200C9D17621514EA82306420" title="Related Links">Related Links</a></li>
+<li class="lastitem"><a href="/faqs;jsessionid=71D387DF200C9D17621514EA82306420" title="FAQs">FAQs</a></li>
+</ul>
+</div>
+<div class="inner-mid"><img alt=" " height="16" src="images/topmenu_right.gif" title=" " width="22"/></div>
+</div>
+<div class="left-menu-bg">
+<div class="newsevents"><img alt="new sandevents" height="22" src="images/imp_links.gif" width="182"/></div>
+<ul class="news">
+<li><a href="/schooldirectoryforviewonly;jsessionid=71D387DF200C9D17621514EA82306420?pu=true" title="School Directory">School Directory</a></li>
+<li><a href="/surveytools;jsessionid=71D387DF200C9D17621514EA82306420" title="Survey Tools">Survey Tools</a></li>
+<li><a href="/surveyoutputs;jsessionid=71D387DF200C9D17621514EA82306420" title="Survey Reports">Survey Reports</a></li>
+<li><a href="/surveyguidelines;jsessionid=71D387DF200C9D17621514EA82306420" title="Survey Guidelines">Survey Guidelines</a></li>
+</ul>
+<div class="add">
+<!-- 
+<a href="/downloads;jsessionid=71D387DF200C9D17621514EA82306420"><img src="images/in_download_ban.jpg" alt="download_ban" width="190" height="55" border="0" title="download_ban" /></a>
+-->
+</div>
+</div>
+</div>
+<div class="innerright-content">
+<div class="inner-head">
+<h2>
+						School Directory
+						</h2>
+</div>
+<div class="inner-content">
+<p><strong class="breadcrump">You are here  :   </strong><span class="gray12pxlink"><a class="gray12pxlink" href="/userhome;jsessionid=71D387DF200C9D17621514EA82306420" title="Home">Home</a></span> &gt; School Directory </p>
+</div>
+<form action="/schooldirectoryforviewonly;jsessionid=71D387DF200C9D17621514EA82306420?pu=true" id="schooldirectoryforviewonly_jsessionid_71D387DF200C9D17621514EA82306420_pu_true" method="POST" name="schoolSearchForm">
+<table align="center" border="0" cellpadding="0" cellspacing="0" style="margin-left: 27px;" width="95%">
+<tr>
+<td align="left" class="tblcontent1" colspan="2" height="22"><strong>School Details</strong></td>
+</tr>
+<tr>
+<td class="tblcontent" width="35%">State <span class="mandy">*</span></td>
+<td class="tblcontent" width="65%">
+<input id="schooldirectoryforviewonly_jsessionid_71D387DF200C9D17621514EA82306420_pu_true_cv" name="cv" type="hidden" value="1"/>
+<input id="schooldirectoryforviewonly_jsessionid_71D387DF200C9D17621514EA82306420_pu_true_pu" name="pu" type="hidden" value="true"/>
+<span class="mandy">
+<div class="wwgrp" id="wwgrp_stateCode">
+<div class="wwctrl" id="wwctrl_stateCode">
+<select id="stateCode" name="stateCode" onchange="showDistrictListing(this.value), refreshDataBelowState(), hideDataGrid(), hideAdministrativeValues()">
+<option value="-1">---Select State---</option>
+<option value="01">01 - Jammu  Kashmir</option>
+<option value="02">02 - Himachal Pradesh</option>
+<option value="03">03 - Punjab</option>
+<option value="04">04 - Chandigarh</option>
+<option value="05">05 - Uttarakhand</option>
+<option value="06">06 - Haryana</option>
+<option value="07">07 - Delhi</option>
+<option selected="selected" value="08">08 - Rajasthan</option>
+<option value="09">09 - Uttar Pradesh</option>
+<option value="10">10 - Bihar</option>
+<option value="11">11 - Sikkim</option>
+<option value="12">12 - Arunachal Pradesh</option>
+<option value="13">13 - Nagaland</option>
+<option value="14">14 - Manipur</option>
+<option value="15">15 - Mizoram</option>
+<option value="16">16 - Tripura</option>
+<option value="17">17 - Meghalaya</option>
+<option value="18">18 - Assam</option>
+<option value="19">19 - West Bengal</option>
+<option value="20">20 - Jharkhand</option>
+<option value="21">21 - Orissa</option>
+<option value="22">22 - Chhattisgarh</option>
+<option value="23">23 - Madhya Pradesh</option>
+<option value="24">24 - Gujarat</option>
+<option value="25">25 - Daman  Diu</option>
+<option value="26">26 - Dadra  Nagar Haveli</option>
+<option value="27">27 - Maharashtra</option>
+<option value="28">28 - Andhra Pradesh</option>
+<option value="29">29 - Karnataka</option>
+<option value="30">30 - Goa</option>
+<option value="31">31 - Lakshadweep</option>
+<option value="32">32 - Kerala</option>
+<option value="33">33 - Tamil Nadu</option>
+<option value="34">34 - Puducherry</option>
+<option value="35">35 - Andaman  Nicobar Islands</option>
+</select></div> </div>
+</span>
+</td>
+</tr>
+<tr>
+<td class="tblcontent" width="35%">District <span class="mandy">*</span></td>
+<td class="tblcontent" style="padding-bottom: 10px;padding-top: 10px;" width="65%">
+<div id="showDistrict">
+<span class="mandy">
+<div class="wwgrp" id="wwgrp_districtCode">
+<div class="wwctrl" id="wwctrl_districtCode">
+<select id="districtCode" name="districtCode" onchange="refreshDataBelowDistrict(), hideDataGrid(), hideAdministrativeValues()">
+<option value="0">---Select District---</option>
+<option value="01">01 - Ganganagar</option>
+<option value="02">02 - Hanumangarh</option>
+<option value="03">03 - Bikaner</option>
+<option value="04">04 - Churu</option>
+<option value="05">05 - Jhunjhunun</option>
+<option value="06">06 - Alwar</option>
+<option value="07">07 - Bharatpur</option>
+<option value="08">08 - Dhaulpur</option>
+<option value="09">09 - Karauli</option>
+<option value="10">10 - Sawai Madhopur</option>
+<option value="11">11 - Dausa</option>
+<option value="12">12 - Jaipur</option>
+<option value="13">13 - Sikar</option>
+<option value="14">14 - Nagaur</option>
+<option value="15">15 - Jodhpur</option>
+<option value="16">16 - Jaisalmer</option>
+<option value="17">17 - Barmer</option>
+<option value="18">18 - Jalor</option>
+<option value="19">19 - Sirohi</option>
+<option value="20">20 - Pali</option>
+<option value="21">21 - Ajmer</option>
+<option value="22">22 - Tonk</option>
+<option value="23">23 - Bundi</option>
+<option value="24">24 - Bhilwara</option>
+<option value="25">25 - Rajsamand</option>
+<option value="26">26 - Udaipur</option>
+<option value="27">27 - Dungarpur</option>
+<option value="28">28 - Banswara</option>
+<option value="29">29 - Chittaurgarh</option>
+<option selected="selected" value="30">30 - Kota</option>
+<option value="31">31 - Baran</option>
+<option value="32">32 - Jhalawar</option>
+<option value="33">33 - Pratapgarh</option>
+</select></div> </div>
+</span>
+</div>
+</td>
+</tr>
+<tr>
+<td class="tblcontent" width="35%">Select School Area <span class="mandy">*</span></td>
+<td class="tblcontent" width="35%">
+<div class="wwgrp" id="wwgrp_Schooltype">
+<div class="wwctrl" id="wwctrl_Schooltype">
+<input id="Schooltype1" name="Schooltype" onclick="javascript:getCheckedValue(document.forms['schoolSearchForm'].elements['Schooltype']), hideDataGrid(), refreshDataBelowSchoolArea()" type="radio" value="1"/><label for="Schooltype1">Rural</label>
+<input checked="checked" id="Schooltype2" name="Schooltype" onclick="javascript:getCheckedValue(document.forms['schoolSearchForm'].elements['Schooltype']), hideDataGrid(), refreshDataBelowSchoolArea()" type="radio" value="2"/><label for="Schooltype2">Urban</label>
+</div> </div>
+</td>
+</tr>
+<tr id="ruralblocklist">
+<td class="tblcontent" width="35%">Block (Optional)</td>
+<td class="tblcontent" style="padding-bottom: 10px;padding-top: 10px;" width="65%">
+<div id="showDistrictsBlocks">
+<div class="wwgrp" id="wwgrp_blockCode">
+<div class="wwctrl" id="wwctrl_blockCode">
+<select id="blockCode" name="blockCode">
+<option selected="selected" value="0">---Select Block---</option>
+<option value="0001">0 - Itawa</option>
+<option value="0002">0 - Sultanpur</option>
+<option value="0003">0 - Ladpura</option>
+<option value="0004">0 - Khairabad</option>
+<option value="0005">0 - Sangod</option>
+</select></div> </div>
+</div>
+</td>
+</tr>
+<tr id="ruralvillagelist">
+<td class="tblcontent" width="35%">Village (Optional)</td>
+<td class="tblcontent" style="padding-bottom: 10px;padding-top: 10px;" width="65%">
+<div id="showBlocksVillages">
+<div class="wwgrp" id="wwgrp_villageCode">
+<div class="wwctrl" id="wwctrl_villageCode">
+<select id="villageCode" name="villageCode" onchange="hideDataGrid()">
+<option selected="selected" value="0">---Select Village---</option>
+</select></div> </div>
+</div>
+</td>
+</tr>
+<tr id="urbantownlist">
+<td class="tblcontent" width="35%">Town (Optional)</td>
+<td class="tblcontent" style="padding-bottom: 10px;padding-top: 10px;" width="65%">
+<div id="showDistrictsTowns">
+<div class="wwgrp" id="wwgrp_townCode">
+<div class="wwctrl" id="wwctrl_townCode">
+<select id="townCode" name="townCode" onchange="hideDataGrid()">
+<option selected="selected" value="0">---Select Town---</option>
+<option value="43001000">0 - Kota M Corp.</option>
+<option value="43004000">0 - Chechat CT</option>
+<option value="43005000">0 - Modak CT</option>
+<option value="43006000">0 - Udpura CT</option>
+<option value="43007000">0 - Ramganj Mandi M</option>
+<option value="43008000">0 - Satalkheri CT</option>
+<option value="43009000">0 - Suket CT</option>
+<option value="43010000">0 - Kumbhkot CT</option>
+<option value="43011000">0 - Sangod M</option>
+<option value="83000001">0 - Kaithoon</option>
+</select></div> </div>
+</div>
+</td>
+</tr>
+<tr id="urbanwardlist">
+<td class="tblcontent" width="35%">Ward (Optional)</td>
+<td class="tblcontent" style="padding-bottom: 10px;padding-top: 10px;" width="65%">
+<div id="showTownsWards">
+<select id="wardCode" name="wardCode" onchange="hideDataGrid()">
+<option value="0">--Select Ward--</option>
+<option value="000">000 - Non Class 1 Town Ward</option>
+<option value="All_Wards">All_Wards - All_Wards</option>
+</select>
+</div>
+</td>
+</tr>
+<tr id="schoolcategorylist">
+<td class="tblcontent" width="35%">
+								School Category (Optional)
+							</td>
+<td class="tblcontent" width="65%">
+<div class="wwgrp" id="wwgrp_schoolCategory">
+<div class="wwctrl" id="wwctrl_schoolCategory">
+<select id="schoolCategory" name="schoolCategory" onchange="hideDataGrid()">
+<option selected="selected" value="0">--Select Category--</option>
+<option value="All Categories">All Categories</option>
+<option value="1">1 - Primary School</option>
+<option value="2">2 - Upper Primary School</option>
+<option value="3">3 - Secondary School</option>
+<option value="4">4 - Higher Secondary School</option>
+<option value="5">5 - College</option>
+</select></div> </div>
+</td>
+</tr>
+<tr>
+<td align="right" colspan="2" style="padding-left: 0px;padding-top: 10px;padding-bottom: 10px;">
+<table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td style="padding-top: 10px;">
+<div align="right" id="wwctrl_schooldirectoryforviewonly_jsessionid_71D387DF200C9D17621514EA82306420_pu_true_search"><input class="button" id="schooldirectoryforviewonly_jsessionid_71D387DF200C9D17621514EA82306420_pu_true_search" name="search" type="submit" value="Search"/>
+</div>
+</td>
+<td width="15"> </td>
+<td style="padding-top: 10px;">
+<a href="/schooldirectoryforviewonly;jsessionid=71D387DF200C9D17621514EA82306420?pu=true" id="schooldirectoryforviewonly_jsessionid_71D387DF200C9D17621514EA82306420_pu_true_">
+<img border="0" src="/images/reset.png;jsessionid=71D387DF200C9D17621514EA82306420"/>
+</a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+<div id="summaryTable" style="width: 685px;padding-left: 27px;">
+<fieldset style="border:solid 1px #FFBA00">
+<legend><strong>Search Summary</strong></legend>
+<table border="0" cellpadding="0" cellspacing="0" class="display" width="100%">
+<tbody>
+<tr>
+<td width="37%">Number of Primary Schools</td>
+<td align="center" width="2%">:</td>
+<td align="left" class="" width="61%">
+										120
+									</td>
+</tr>
+<tr>
+<td width="37%">Number of Upper Primary Schools</td>
+<td align="center">:</td>
+<td align="left" class=""> 
+							  			358							  
+							  		</td>
+</tr>
+<tr>
+<td width="37%">Number of Secondary Schools</td>
+<td align="center">:</td>
+<td align="left" class="">
+								  		211							 
+								  	</td>
+</tr>
+<tr>
+<td width="37%">Number of Higher Secondary Schools</td>
+<td align="center">:</td>
+<td align="left" class="">
+							  			207
+							  		</td>
+</tr>
+</tbody>
+</table>
+</fieldset>
+</div>
+<br/>
+<table align="center" border="0" cellpadding="0" cellspacing="0" width="97%">
+<tr>
+<td align="center" class="gray12pxlink" width="">
+								Please provide your valuable 
+								<a class="gray12pxlink" href="/feedbackpage;jsessionid=71D387DF200C9D17621514EA82306420" title="Feedback"><b>Feedback</b></a>, if any discrepancies appear in school data.
+							</td>
+</tr>
+</table>
+</form>
+<div id="ruralDiv">
+<table border="0" cellpadding="0" cellspacing="0" class="display" id="ruralnodataid" style="display:none;">
+<tbody>
+<tr>
+<td align="center" style="font-weight: bold; padding-top: 20px; color: red;">
+					  				No records found for searched criteria.
+					  			</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div id="urbanDiv">
+<table align="center" border="0" cellpadding="0" cellspacing="0" id="urbanListTable" style="margin-top: 10px;" width="97%">
+<tr>
+<td align="left" colspan="5">
+<table border="0" cellpadding="0" cellspacing="0" class="display" id="example2" style="margin-top: 10px; margin-bottom: 10px;">
+<thead>
+<tr>
+<th>School Code</th>
+<th>School Category</th>
+<th>School Name</th>
+<th>School Address</th>
+<th>Town Name</th>
+<th>Ward Name</th>
+</tr>
+</thead>
+<tbody>
+<tr class="gradeA">
+<td>2003</td>
+<td>U Primary</td>
+<td>U.p.s.,.keshav Vidya Peeth,</td>
+<td>Balita</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  1</td>
+</tr>
+<tr class="gradeA">
+<td>2004</td>
+<td>U Primary</td>
+<td>U.p.s.sandeep Public</td>
+<td>Nayakhera</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  1</td>
+</tr>
+<tr class="gradeA">
+<td>3002</td>
+<td>Secondary</td>
+<td>Sec. Kids Career Academy Balita road</td>
+<td>bapunagar kunhari</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  1</td>
+</tr>
+<tr class="gradeA">
+<td>2002</td>
+<td>U Primary</td>
+<td>G.u.p.s,kunhadi</td>
+<td>Kunhadi</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  2</td>
+</tr>
+<tr class="gradeA">
+<td>2001</td>
+<td>U Primary</td>
+<td>Govt.u.p.s.,naya Khera</td>
+<td>Naya Khera</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  1</td>
+</tr>
+<tr class="gradeA">
+<td>3001</td>
+<td>Secondary</td>
+<td>G.ovt. sec. School, balita</td>
+<td>Balita</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  1</td>
+</tr>
+<tr class="gradeA">
+<td>2002</td>
+<td>U Primary</td>
+<td>U.p.s.,laxmi Acedamy, Bapu Nagar, Balita</td>
+<td>Bapu Nagar, Balita</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  1</td>
+</tr>
+<tr class="gradeA">
+<td>2003</td>
+<td>U Primary</td>
+<td>Ups  Pupils Own School Krishna Vihar Kunhari</td>
+<td>kunhari</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  2</td>
+</tr>
+<tr class="gradeA">
+<td>4005</td>
+<td>H Secondary</td>
+<td>G.g.sr.sec.school</td>
+<td>Kunhari</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  2</td>
+</tr>
+<tr class="gradeA">
+<td>2001</td>
+<td>U Primary</td>
+<td>G.g.up.s.,thermal Colony</td>
+<td>Thermal Colony</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  3</td>
+</tr>
+<tr class="gradeA">
+<td>2002</td>
+<td>U Primary</td>
+<td>G.u.p.s.,sakatpura</td>
+<td>Sakatpura</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  3</td>
+</tr>
+<tr class="gradeA">
+<td>2003</td>
+<td>U Primary</td>
+<td>G.g.u.p.s.,sakatpura</td>
+<td>Sakatpura</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  3</td>
+</tr>
+<tr class="gradeA">
+<td>2004</td>
+<td>U Primary</td>
+<td>G.u.p.s.,thermal Colony</td>
+<td>Thermal Colony</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  3</td>
+</tr>
+<tr class="gradeA">
+<td>3002</td>
+<td>Secondary</td>
+<td>Sec Mother K.D.S.</td>
+<td>Sakatpura</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  3</td>
+</tr>
+<tr class="gradeA">
+<td>3004</td>
+<td>Secondary</td>
+<td>Sec  Immanual Mission School</td>
+<td>Sakatpura</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  3</td>
+</tr>
+<tr class="gradeA">
+<td>4001</td>
+<td>H Secondary</td>
+<td>Sr.sec. Agresen Academy Pub.sch.</td>
+<td>Sakatpura</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  3</td>
+</tr>
+<tr class="gradeA">
+<td>4002</td>
+<td>H Secondary</td>
+<td>Sr.Sec. Laxmi Bal shiksha samiti</td>
+<td>Sakatpura</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  3</td>
+</tr>
+<tr class="gradeA">
+<td>1001</td>
+<td>Primary</td>
+<td>G.p.s.,badgaon</td>
+<td>Badgaon</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  4</td>
+</tr>
+<tr class="gradeA">
+<td>2001</td>
+<td>U Primary</td>
+<td>G.u.p.s.,nanta</td>
+<td>Nanta</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  4</td>
+</tr>
+<tr class="gradeA">
+<td>2002</td>
+<td>U Primary</td>
+<td>G.g.u.p.s.,nanta</td>
+<td>Nanta</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  4</td>
+</tr>
+<tr class="gradeA">
+<td>2003</td>
+<td>U Primary</td>
+<td>U.p.s.,nav Ankur,</td>
+<td>Badgaon</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  4</td>
+</tr>
+<tr class="gradeA">
+<td>3002</td>
+<td>Secondary</td>
+<td>G.sec. School, Nanta Mahal</td>
+<td>Nanta Mahal</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  4</td>
+</tr>
+<tr class="gradeA">
+<td>4001</td>
+<td>H Secondary</td>
+<td>G.Sr. sec. School,badgoan</td>
+<td>Badgoan</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  4</td>
+</tr>
+<tr class="gradeA">
+<td>2007</td>
+<td>U Primary</td>
+<td>Ups Antariksh Pub. School</td>
+<td>Veersawarker Nagar</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  5</td>
+</tr>
+<tr class="gradeA">
+<td>3006</td>
+<td>Secondary</td>
+<td>Sec.Shri  Jyoti Pub. School</td>
+<td>185veer Saverker Nagar</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  5</td>
+</tr>
+<tr class="gradeA">
+<td>2002</td>
+<td>U Primary</td>
+<td>Ups. Prakash Bal Vidya Mandir</td>
+<td>Hanuman Nagar,dadabari</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  6</td>
+</tr>
+<tr class="gradeA">
+<td>2003</td>
+<td>U Primary</td>
+<td>Ups. Satyam Shiksha Niketan</td>
+<td>Shivpura</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  6</td>
+</tr>
+<tr class="gradeA">
+<td>2004</td>
+<td>U Primary</td>
+<td>Ups.  Aadarsh Saraswati Bal V.</td>
+<td>Hanuman Basti, Dadabari</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  6</td>
+</tr>
+<tr class="gradeA">
+<td>2006</td>
+<td>U Primary</td>
+<td>Ups Sagar Vidya Mandir Chanchal Vihar</td>
+<td>C 19 Chanchal Vihar Kunhari</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  2</td>
+</tr>
+<tr class="gradeA">
+<td>3001</td>
+<td>Secondary</td>
+<td>Sec Sch Prakash Vidhya Mandir Chanchal Vihar Kunhari</td>
+<td>Kunhari</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  2</td>
+</tr>
+<tr class="gradeA">
+<td>3004</td>
+<td>Secondary</td>
+<td>Sec.Vinayak Public School Main Market Kunhari</td>
+<td>Kunhari</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  2</td>
+</tr>
+<tr class="gradeA">
+<td>3007</td>
+<td>Secondary</td>
+<td>Sec. New Nehru Children School Kunhari</td>
+<td>Kunhari</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  2</td>
+</tr>
+<tr class="gradeA">
+<td>4001</td>
+<td>H Secondary</td>
+<td>Sr. Sec.Gautam School Nanta</td>
+<td>Nanta Road Kunadi</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  2</td>
+</tr>
+<tr class="gradeA">
+<td>2007</td>
+<td>U Primary</td>
+<td>Ups M.D.S. Public School Near Old Dispensory Sakatpura</td>
+<td>Sakatpura</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  3</td>
+</tr>
+<tr class="gradeA">
+<td>1002</td>
+<td>Primary</td>
+<td>Govt. P.S.Karni Nagar Nanta</td>
+<td>Nanta</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  4</td>
+</tr>
+<tr class="gradeA">
+<td>3001</td>
+<td>Secondary</td>
+<td>Sec., Bal Sanskar Vidhya Niketan School Near Ganesh Tempal Badgaon</td>
+<td>Badgaon</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  4</td>
+</tr>
+<tr class="gradeA">
+<td>2001</td>
+<td>U Primary</td>
+<td>Govt.UPS Hanuman Basti Dadabari</td>
+<td>Hanuman Basti Dadabari</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  6</td>
+</tr>
+<tr class="gradeA">
+<td>2005</td>
+<td>U Primary</td>
+<td>Ups.  Maharana Pratap Academy Shivpura</td>
+<td>Shivpura</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  6</td>
+</tr>
+<tr class="gradeA">
+<td>2002</td>
+<td>U Primary</td>
+<td>Govt.Girls u.p.s.Vinobha Bhave Nagar</td>
+<td>Vinobha Bhave Nagar</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  5</td>
+</tr>
+<tr class="gradeA">
+<td>2003</td>
+<td>U Primary</td>
+<td>Govt.U.P.S.Anwali</td>
+<td>Anwali</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  5</td>
+</tr>
+<tr class="gradeA">
+<td>2004</td>
+<td>U Primary</td>
+<td>Govt.UPS  Rojari</td>
+<td>Rojari</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  5</td>
+</tr>
+<tr class="gradeA">
+<td>2005</td>
+<td>U Primary</td>
+<td>Govt.U.P.S.Bandha</td>
+<td>Bandha</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  5</td>
+</tr>
+<tr class="gradeA">
+<td>2006</td>
+<td>U Primary</td>
+<td>Govt. U.P.School Naya Gaon</td>
+<td>Naya Gaon</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  5</td>
+</tr>
+<tr class="gradeA">
+<td>2008</td>
+<td>U Primary</td>
+<td>Govt.U.P.S.Lakhawa</td>
+<td>Lakhawa</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  5</td>
+</tr>
+<tr class="gradeA">
+<td>2009</td>
+<td>U Primary</td>
+<td>GOVT.UPS Rataya chooki</td>
+<td>Rataya chooki</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  5</td>
+</tr>
+<tr class="gradeA">
+<td>2011</td>
+<td>U Primary</td>
+<td>Ups Bansal public Sckool Ganesh nagar</td>
+<td>Ganesh nagar</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  5</td>
+</tr>
+<tr class="gradeA">
+<td>2012</td>
+<td>U Primary</td>
+<td>Ups Ambition Pub. Sch.Vivekanand Nagar</td>
+<td>229 VHL Vivekanand Nagar</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  5</td>
+</tr>
+<tr class="gradeA">
+<td>3001</td>
+<td>Secondary</td>
+<td>Sec..  Tilak Sec. School Ganesh Nagar</td>
+<td>Ganesh Nagar</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  5</td>
+</tr>
+<tr class="gradeA">
+<td>3002</td>
+<td>Secondary</td>
+<td>Sec. Kadambari Vidya Mandir School, R.K.Puram</td>
+<td>B-458, R.K.Puram</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  5</td>
+</tr>
+<tr class="gradeA">
+<td>3005</td>
+<td>Secondary</td>
+<td>Sec. Gurukul Bal Sansthan, Veersawarker Nagar Rangbari Road</td>
+<td>186-B, Veersawarker Nagar, Rangbari Road</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  5</td>
+</tr>
+<tr class="gradeA">
+<td>4001</td>
+<td>H Secondary</td>
+<td>Govt. Sr.Sec. School, Ranpur</td>
+<td>Ranpur</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  5</td>
+</tr>
+<tr class="gradeA">
+<td>4003</td>
+<td>H Secondary</td>
+<td>Sr. Sec.. Rajasthan Bal Vidyalaya, Swami Vivekanand Nagar</td>
+<td>Swami Vivekanand Nagar</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  5</td>
+</tr>
+<tr class="gradeA">
+<td>3002</td>
+<td>Secondary</td>
+<td>Sec. Ma Gayatri springdal shivpura</td>
+<td>Shiv Pura</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  6</td>
+</tr>
+<tr class="gradeA">
+<td>3004</td>
+<td>Secondary</td>
+<td>sec.  Chauhan Bal Vidya Niketa</td>
+<td>Shiv Pura</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  6</td>
+</tr>
+<tr class="gradeA">
+<td>3005</td>
+<td>Secondary</td>
+<td>Sec.sant Tulsi Sec. School</td>
+<td>Godawari  Dham shivpura</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  6</td>
+</tr>
+<tr class="gradeA">
+<td>4001</td>
+<td>H Secondary</td>
+<td>G.Sr.sec,shiv Pura</td>
+<td>Shivpura</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  6</td>
+</tr>
+<tr class="gradeA">
+<td>2004</td>
+<td>U Primary</td>
+<td>Ups. New Priyanka Bal V.m.</td>
+<td>R.k,puram</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  7</td>
+</tr>
+<tr class="gradeA">
+<td>3001</td>
+<td>Secondary</td>
+<td>Sec.  Children Career sch. 91A Rkpuram</td>
+<td>91 R.k.puram</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  7</td>
+</tr>
+<tr class="gradeA">
+<td>4002</td>
+<td>H Secondary</td>
+<td>Sr.sec. Royal Pub. School,</td>
+<td>75c Shrinath Puram</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  7</td>
+</tr>
+<tr class="gradeA">
+<td>4003</td>
+<td>H Secondary</td>
+<td>sr sec. Shivalik Pub. Sch.</td>
+<td>Shrinathpuram</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  7</td>
+</tr>
+<tr class="gradeA">
+<td>4005</td>
+<td>H Secondary</td>
+<td>Sr.sec Dilip Vidhya Viketan</td>
+<td>Shrinath Puram</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  7</td>
+</tr>
+<tr class="gradeA">
+<td>4012</td>
+<td>H Secondary</td>
+<td>sr.Sec. Prabha  Gyan Peeth</td>
+<td>Mahaveer Nagar  Ext.</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  7</td>
+</tr>
+<tr class="gradeA">
+<td>2002</td>
+<td>U Primary</td>
+<td>Ups Blue Bells School</td>
+<td>1077 Mahaveer Nagar I</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  9</td>
+</tr>
+<tr class="gradeA">
+<td>2004</td>
+<td>U Primary</td>
+<td>G.u.p.s.,mahaveer Nagar  I</td>
+<td>Mahaveer Nagar   I</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  9</td>
+</tr>
+<tr class="gradeA">
+<td>2006</td>
+<td>U Primary</td>
+<td>Ups Saraswati Bal Vidyalay</td>
+<td>Anantpura</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  9</td>
+</tr>
+<tr class="gradeA">
+<td>2010</td>
+<td>U Primary</td>
+<td>Ups Akshara  Public School</td>
+<td>Mpb19 ,mahaveer Nagar I</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  9</td>
+</tr>
+<tr class="gradeA">
+<td>3001</td>
+<td>Secondary</td>
+<td>Sec.  Tarun Shanti Vidya Niketa</td>
+<td>458 Mahaveer Nagar I</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  9</td>
+</tr>
+<tr class="gradeA">
+<td>3001</td>
+<td>Secondary</td>
+<td>Sec. Nav Aadarsh Keshav School Shivpura</td>
+<td>Bheetariya Kund shivpura</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  6</td>
+</tr>
+<tr class="gradeA">
+<td>3003</td>
+<td>Secondary</td>
+<td>Sec. Idial  Public Sch.,shiv mandin ke pas shiv Pura</td>
+<td>Shiv Pura</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  6</td>
+</tr>
+<tr class="gradeA">
+<td>4002</td>
+<td>H Secondary</td>
+<td>Sr.Sec.deepak Vidya Mandir Bheetariya Kund Shivpura</td>
+<td>Shivpura</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  6</td>
+</tr>
+<tr class="gradeA">
+<td>2001</td>
+<td>U Primary</td>
+<td>Govt. Girls UPS Rangbari</td>
+<td>Rangbari</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  8</td>
+</tr>
+<tr class="gradeA">
+<td>2003</td>
+<td>U Primary</td>
+<td>Govt. UPS  R.k.puram</td>
+<td>R.k.puram</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  7</td>
+</tr>
+<tr class="gradeA">
+<td>2007</td>
+<td>U Primary</td>
+<td>Ups.Pandeet Deendayal Uppadhya Shrinathpuram C</td>
+<td>Shrinathpuram Sec. C</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  7</td>
+</tr>
+<tr class="gradeA">
+<td>2006</td>
+<td>U Primary</td>
+<td>Ups. Bhaskar Academy Shrinathpuram</td>
+<td>Shrinathpuram</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  7</td>
+</tr>
+<tr class="gradeA">
+<td>2008</td>
+<td>U Primary</td>
+<td>Ups Janki Public School R.K.Puram</td>
+<td>914-915A, R.K.Puram</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  7</td>
+</tr>
+<tr class="gradeA">
+<td>3003</td>
+<td>Secondary</td>
+<td>Sec Sch. Science Acedamy 885c</td>
+<td>Shrinathpuram</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  7</td>
+</tr>
+<tr class="gradeA">
+<td>4001</td>
+<td>H Secondary</td>
+<td>Sr.Sec. Lawrence And Mayo  Public School</td>
+<td>Shrinathpuram Sec.A</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  7</td>
+</tr>
+<tr class="gradeA">
+<td>3008</td>
+<td>Secondary</td>
+<td>Govt. Sec. Sch. Shrinathpuram</td>
+<td>Shrinathpuram</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  7</td>
+</tr>
+<tr class="gradeA">
+<td>3009</td>
+<td>Secondary</td>
+<td>Sec. Maheshwari Public  School, Shrinathpuram</td>
+<td>Shrinathpuram</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  7</td>
+</tr>
+<tr class="gradeA">
+<td>2001</td>
+<td>U Primary</td>
+<td>Govt.U.P.S  Subhash Nagar</td>
+<td>Subhash Nagar</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  9</td>
+</tr>
+<tr class="gradeA">
+<td>2003</td>
+<td>U Primary</td>
+<td>Ups Swami VivakaNand Vidhya Niketan</td>
+<td>Mahaveer Nager I</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  9</td>
+</tr>
+<tr class="gradeA">
+<td>2007</td>
+<td>U Primary</td>
+<td>Ups Sent Zeviar Public School</td>
+<td>Pandit Deendayal Upadhyay Nagar</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  9</td>
+</tr>
+<tr class="gradeA">
+<td>2008</td>
+<td>U Primary</td>
+<td>Ups Dream world. School Near Saifia Sch.Anant Pura</td>
+<td>Anant Pura</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  9</td>
+</tr>
+<tr class="gradeA">
+<td>3002</td>
+<td>Secondary</td>
+<td>Govt.Sec.School ,Anantpura</td>
+<td>Anantpura</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  9</td>
+</tr>
+<tr class="gradeA">
+<td>3003</td>
+<td>Secondary</td>
+<td>Sec.  Rajshree Vidya Niketan</td>
+<td>Pandit Deendayal Upadhyay Nagar</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  9</td>
+</tr>
+<tr class="gradeA">
+<td>4001</td>
+<td>H Secondary</td>
+<td>Sr. Sec. Nalanda Academy</td>
+<td>Anantpura</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  9</td>
+</tr>
+<tr class="gradeA">
+<td>4002</td>
+<td>H Secondary</td>
+<td>Sr. Sec. New Divya Jyoti Bal V.n.</td>
+<td>Anant Pura</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  9</td>
+</tr>
+<tr class="gradeA">
+<td>4003</td>
+<td>H Secondary</td>
+<td>Sr. Sec.. Saiphiya Children School</td>
+<td>Anantpura</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  9</td>
+</tr>
+<tr class="gradeA">
+<td>4004</td>
+<td>H Secondary</td>
+<td>G.sr.sec.school, Mahaveer N.i</td>
+<td>Mahaveer Nagar  I</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  9</td>
+</tr>
+<tr class="gradeA">
+<td>4005</td>
+<td>H Secondary</td>
+<td>Sr. Sec.sumit Bal Vidya Mandi</td>
+<td>Mahaveer Nagar   I</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  9</td>
+</tr>
+<tr class="gradeA">
+<td>3001</td>
+<td>Secondary</td>
+<td>Sec. Saraswati Vidya Mandir</td>
+<td>Mahaveer Nagar  Iii</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  10</td>
+</tr>
+<tr class="gradeA">
+<td>4001</td>
+<td>H Secondary</td>
+<td>Sr.sec. Mother Teresa Pub. Sch.</td>
+<td>Veershanwarker Nagar</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  10</td>
+</tr>
+<tr class="gradeA">
+<td>2001</td>
+<td>U Primary</td>
+<td>Ups Pushpa Pub. Sch.</td>
+<td>Hanuman Nagar,dadabari</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  15</td>
+</tr>
+<tr class="gradeA">
+<td>2002</td>
+<td>U Primary</td>
+<td>Ups . Kapil Bal Vidya Mandir</td>
+<td>Dadabari</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  15</td>
+</tr>
+<tr class="gradeA">
+<td>4001</td>
+<td>H Secondary</td>
+<td>Sr.sec. Akalank .pub. School</td>
+<td>Basant Bihar</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  15</td>
+</tr>
+<tr class="gradeA">
+<td>4002</td>
+<td>H Secondary</td>
+<td>Sr.sec. Albart  Ainsteen</td>
+<td>Basant Bihar</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  15</td>
+</tr>
+<tr class="gradeA">
+<td>1001</td>
+<td>Primary</td>
+<td>G.p.s.,keshavpura Navsrajit</td>
+<td>Keshavpura</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  16</td>
+</tr>
+<tr class="gradeA">
+<td>3001</td>
+<td>Secondary</td>
+<td>G.Sec.,balakund</td>
+<td>Balakund</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  16</td>
+</tr>
+<tr class="gradeA">
+<td>3007</td>
+<td>Secondary</td>
+<td>Sec. Anand Academy Galaxy School</td>
+<td>Plot No. 18 kachchi basti balakund keshavpura</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  16</td>
+</tr>
+<tr class="gradeA">
+<td>3008</td>
+<td>Secondary</td>
+<td>Sec. Shri Suman Children Schoo</td>
+<td>Balakund</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  16</td>
+</tr>
+<tr class="gradeA">
+<td>3009</td>
+<td>Secondary</td>
+<td>Sec. Anand Academy Galaxy</td>
+<td>Balakund Keshavpura</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  16</td>
+</tr>
+<tr class="gradeA">
+<td>2002</td>
+<td>U Primary</td>
+<td>UPS Prabhat Public School Santoshi Nagar Mahveer Nagar Ext.Sec4</td>
+<td>Mahaveer Nagar Ext.</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  12</td>
+</tr>
+<tr class="gradeA">
+<td>1001</td>
+<td>Primary</td>
+<td>Govt. PS Sindhi Rampura-Dadabari Basant vihar</td>
+<td>Basant Vihar</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  14</td>
+</tr>
+<tr class="gradeA">
+<td>2001</td>
+<td>U Primary</td>
+<td>Govt. UPS RAC.Family Colony, Ganesh Talab Dadabari</td>
+<td>Ganesh Talab Dadabari</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  14</td>
+</tr>
+<tr class="gradeA">
+<td>2002</td>
+<td>U Primary</td>
+<td>UPS New Sneh Bharti Bal Vidhyalya Shyam Nagar Rawat Bhata Road</td>
+<td>Shyam Nagar Rawat Bhata Road</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  14</td>
+</tr>
+<tr class="gradeA">
+<td>3001</td>
+<td>Secondary</td>
+<td>Govt. Sec School Basant Vihar Dadabri</td>
+<td>Basant  Vihar</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  14</td>
+</tr>
+<tr class="gradeA">
+<td>4001</td>
+<td>H Secondary</td>
+<td>Sr.Sec. Maa Sharda Vidhya Mandir School Ganesh Talab</td>
+<td>Basant  Vihar</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  14</td>
+</tr>
+<tr class="gradeA">
+<td>4002</td>
+<td>H Secondary</td>
+<td>Sr.sec. Kota Bal Vidhya Mandir 6-A-10 M.N.Ext</td>
+<td>Mahaveer Nagar Ext.</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  14</td>
+</tr>
+<tr class="gradeA">
+<td>3001</td>
+<td>Secondary</td>
+<td>Sec Sanskar Bharati School 1338 Basant Vihar</td>
+<td>Basant Vihar</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  15</td>
+</tr>
+<tr class="gradeA">
+<td>2003</td>
+<td>U Primary</td>
+<td>UPS Saraswati Gyan Kunj Balakund</td>
+<td>Balakund</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  16</td>
+</tr>
+<tr class="gradeA">
+<td>3004</td>
+<td>Secondary</td>
+<td>Sec Seeta Shakti School Basant Vihar Road Balakund Keshavpura</td>
+<td>Balakund Keshavpura</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  16</td>
+</tr>
+<tr class="gradeA">
+<td>2008</td>
+<td>U Primary</td>
+<td>UPS Shri  Keshav Bal Niketan 749-50 Keshavpura</td>
+<td>Keshavpura</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  16</td>
+</tr>
+<tr class="gradeA">
+<td>3006</td>
+<td>Secondary</td>
+<td>Sec. Vishwa Bharati Children School 567-568 Keshavpura</td>
+<td>Keshavpura</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  16</td>
+</tr>
+<tr class="gradeA">
+<td>4002</td>
+<td>H Secondary</td>
+<td>Govt.Sr. Sec.. School,Mahaveer Nagar  III</td>
+<td>Mahaveer Nagar  III</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  10</td>
+</tr>
+<tr class="gradeA">
+<td>4004</td>
+<td>H Secondary</td>
+<td>G.sr.sec. School,keshavpura</td>
+<td>Keshavpura</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  16</td>
+</tr>
+<tr class="gradeA">
+<td>2002</td>
+<td>U Primary</td>
+<td>GU..p.s.tallwandi Bhattapara</td>
+<td>Tallmandi Bhattapara</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  17</td>
+</tr>
+<tr class="gradeA">
+<td>4005</td>
+<td>H Secondary</td>
+<td>Sr.Sec. prashanti vidya Mandir G</td>
+<td>Mahaveer Nagar  Ii</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  19</td>
+</tr>
+<tr class="gradeA">
+<td>2001</td>
+<td>U Primary</td>
+<td>G.g.u.p.s.,nantaDada bari</td>
+<td>Dadabari</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  20</td>
+</tr>
+<tr class="gradeA">
+<td>2002</td>
+<td>U Primary</td>
+<td>G.u.p.s.,dadabari  Ext.</td>
+<td>Dadabari  Ext.</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  20</td>
+</tr>
+<tr class="gradeA">
+<td>2003</td>
+<td>U Primary</td>
+<td>Ups Shivalik Public School</td>
+<td>Dadabari</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  20</td>
+</tr>
+<tr class="gradeA">
+<td>4001</td>
+<td>H Secondary</td>
+<td>SrSec. Satya Niketen Sec.</td>
+<td>Dadabari</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  20</td>
+</tr>
+<tr class="gradeA">
+<td>4002</td>
+<td>H Secondary</td>
+<td>SrSec. Swami  Taun Ram  Allok</td>
+<td>Dada Bari</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  20</td>
+</tr>
+<tr class="gradeA">
+<td>4003</td>
+<td>H Secondary</td>
+<td>G.sr.sec. School, Dadabari</td>
+<td>Dadabari</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  20</td>
+</tr>
+<tr class="gradeA">
+<td>4004</td>
+<td>H Secondary</td>
+<td>G.g.sr.sec. School,dadabari</td>
+<td>Dadabari</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  20</td>
+</tr>
+<tr class="gradeA">
+<td>4006</td>
+<td>H Secondary</td>
+<td>Sr.sec. Shivalic Publice Schoo</td>
+<td>Dada Bari</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  20</td>
+</tr>
+<tr class="gradeA">
+<td>4007</td>
+<td>H Secondary</td>
+<td>Sr.sec. Vidya Mandir Girls Sch</td>
+<td>Dadabari</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  20</td>
+</tr>
+<tr class="gradeA">
+<td>2003</td>
+<td>U Primary</td>
+<td>Ups Wisdom Pub. School</td>
+<td>Kishorepura</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  21</td>
+</tr>
+<tr class="gradeA">
+<td>2005</td>
+<td>U Primary</td>
+<td>Ups  Subhash Bal Niketan</td>
+<td>Kishorepura</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  21</td>
+</tr>
+<tr class="gradeA">
+<td>2007</td>
+<td>U Primary</td>
+<td>Ups Robbin Children School</td>
+<td>Vakfa Nagar</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  21</td>
+</tr>
+<tr class="gradeA">
+<td>2008</td>
+<td>U Primary</td>
+<td>G.u.p.s.,vakfa Nagar</td>
+<td>Vakfa Nagar</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  21</td>
+</tr>
+<tr class="gradeA">
+<td>2009</td>
+<td>U Primary</td>
+<td>Ups New Subhash S.,adharsheel</td>
+<td>Vakfa Nagar</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  21</td>
+</tr>
+<tr class="gradeA">
+<td>3001</td>
+<td>Secondary</td>
+<td>Sec.hadauti Bal Vidya Niketan</td>
+<td>Kishorepura</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  21</td>
+</tr>
+<tr class="gradeA">
+<td>2002</td>
+<td>U Primary</td>
+<td>G.u.p.s.sindhi Vallabh Nagar</td>
+<td>Vallabh Nagar</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  22</td>
+</tr>
+<tr class="gradeA">
+<td>4001</td>
+<td>H Secondary</td>
+<td>Sr.sec. Maa Bharti Vidhya Bhawan 5-C-16 M.N. III</td>
+<td>Mahaveer Nagar III</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  17</td>
+</tr>
+<tr class="gradeA">
+<td>4002</td>
+<td>H Secondary</td>
+<td>Govt. G. Sr. Sec. School,talwandi</td>
+<td>Talwandi</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  17</td>
+</tr>
+<tr class="gradeA">
+<td>4003</td>
+<td>H Secondary</td>
+<td>Sr. Sec.Central Public School 3-G-14 Talwandi</td>
+<td>Talwandi</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  17</td>
+</tr>
+<tr class="gradeA">
+<td>2001</td>
+<td>U Primary</td>
+<td>UPS Ayush Pub. School 2-M16 Talwandi</td>
+<td>2-M16 Talwandi</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  18</td>
+</tr>
+<tr class="gradeA">
+<td>4001</td>
+<td>H Secondary</td>
+<td>Sr.Sec. M. B. Public School 4-C-16-17 Talwandi</td>
+<td>4-C-16-17 Talwandi</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  18</td>
+</tr>
+<tr class="gradeA">
+<td>4002</td>
+<td>H Secondary</td>
+<td>Sr. Sec.Adarsh Gyan Mandir School 368-B Talwandi</td>
+<td>368-B Talwandi</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  18</td>
+</tr>
+<tr class="gradeA">
+<td>2004</td>
+<td>U Primary</td>
+<td>Ups Lzebra Public School</td>
+<td>121 Shastri Nagar, Dadabari, Kota</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  20</td>
+</tr>
+<tr class="gradeA">
+<td>2010</td>
+<td>U Primary</td>
+<td>Ups Career Children School</td>
+<td>Adhar Sheela, Near Chambal Garden</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  21</td>
+</tr>
+<tr class="gradeA">
+<td>2001</td>
+<td>U Primary</td>
+<td>Govt.Girls U.P.S.Retwali</td>
+<td>Adrashnagar Banzara Basti</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  22</td>
+</tr>
+<tr class="gradeA">
+<td>2003</td>
+<td>U Primary</td>
+<td>U.P.S.APEX PUBLIC SCHOOL VALLBH NAGAR</td>
+<td>B-26 VALLBH NAGAR</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  22</td>
+</tr>
+<tr class="gradeA">
+<td>4003</td>
+<td>H Secondary</td>
+<td>Sr. Sec.shiv jyoti indra vihar</td>
+<td>Talwandi</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  18</td>
+</tr>
+<tr class="gradeA">
+<td>4001</td>
+<td>H Secondary</td>
+<td>Sr.Sec. Sant Pauls School</td>
+<td>Ballabh Nagar</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  22</td>
+</tr>
+<tr class="gradeA">
+<td>4002</td>
+<td>H Secondary</td>
+<td>Sr.sec. Shiv Jyoti  Balvidya niketan</td>
+<td>Ballabh Nagar</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  22</td>
+</tr>
+<tr class="gradeA">
+<td>4003</td>
+<td>H Secondary</td>
+<td>G.g.sr.sec.school,ballabhnagar</td>
+<td>Ballabhnagar</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  22</td>
+</tr>
+<tr class="gradeA">
+<td>2001</td>
+<td>U Primary</td>
+<td>G.g.u.p.s.,gumanpura</td>
+<td>Gumanpura</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  24</td>
+</tr>
+<tr class="gradeA">
+<td>2002</td>
+<td>U Primary</td>
+<td>Ups. Maharshi Gautam Vidyalay</td>
+<td>Kent Ki Chauki</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  24</td>
+</tr>
+<tr class="gradeA">
+<td>2004</td>
+<td>U Primary</td>
+<td>Ups. Little Star School</td>
+<td>Shripura</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  24</td>
+</tr>
+<tr class="gradeA">
+<td>3001</td>
+<td>Secondary</td>
+<td>Sec.. Baby Sophiya Children S.</td>
+<td>Shripura</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  24</td>
+</tr>
+<tr class="gradeA">
+<td>3002</td>
+<td>Secondary</td>
+<td>G.sec. School,surajpole</td>
+<td>Surajpole</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  24</td>
+</tr>
+<tr class="gradeA">
+<td>3003</td>
+<td>Secondary</td>
+<td>Sec. Goldy Child School</td>
+<td>Shree Pura</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  24</td>
+</tr>
+<tr class="gradeA">
+<td>3004</td>
+<td>Secondary</td>
+<td>Sec. Swami Vivekanand Girls Sc</td>
+<td>Shopping Centre</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  24</td>
+</tr>
+<tr class="gradeA">
+<td>4001</td>
+<td>H Secondary</td>
+<td>Sr.Sec. Lucky  School</td>
+<td>Shripura</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  24</td>
+</tr>
+<tr class="gradeA">
+<td>4002</td>
+<td>H Secondary</td>
+<td>G.g.Sr.sec.school,gumanpura</td>
+<td>Gumanpura</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  24</td>
+</tr>
+<tr class="gradeA">
+<td>4003</td>
+<td>H Secondary</td>
+<td>G.g.sr.sec. School,shripura</td>
+<td>Shripura</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  24</td>
+</tr>
+<tr class="gradeA">
+<td>4004</td>
+<td>H Secondary</td>
+<td>Sr. Sec. Sarvoday School</td>
+<td>Surajpole</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  24</td>
+</tr>
+<tr class="gradeA">
+<td>4005</td>
+<td>H Secondary</td>
+<td>G.sr.sec.school,gumanpura</td>
+<td>Gumanpura</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  24</td>
+</tr>
+<tr class="gradeA">
+<td>1001</td>
+<td>Primary</td>
+<td>G.p.s.,vigyan Nagar</td>
+<td>Vigyan Nagar</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  26</td>
+</tr>
+<tr class="gradeA">
+<td>2001</td>
+<td>U Primary</td>
+<td>G.U..p.s.vigyan Nager New.s.</td>
+<td>Vigyan Nagar</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  26</td>
+</tr>
+<tr class="gradeA">
+<td>2008</td>
+<td>U Primary</td>
+<td>Ups Tanwar Academy</td>
+<td>Aman Colony , Vigyan Nagar</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  26</td>
+</tr>
+<tr class="gradeA">
+<td>2012</td>
+<td>U Primary</td>
+<td>Ups Badhit Bal Vikas Kendra</td>
+<td>Jhalawar Road</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  26</td>
+</tr>
+<tr class="gradeA">
+<td>3009</td>
+<td>Secondary</td>
+<td>G.sec.school,vigyan Nagar</td>
+<td>Kota</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  26</td>
+</tr>
+<tr class="gradeA">
+<td>4002</td>
+<td>H Secondary</td>
+<td>Sr.Sec. Luccky Montesary School</td>
+<td>6d56 Vigyan Nagar Ext.</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  26</td>
+</tr>
+<tr class="gradeA">
+<td>4004</td>
+<td>H Secondary</td>
+<td>G.g.sr.sec.school,vigyan Nagar</td>
+<td>Vigyan Nagar</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  26</td>
+</tr>
+<tr class="gradeA">
+<td>2002</td>
+<td>U Primary</td>
+<td>Govt. UPS Naveen Mokhapara  Kaithunipol</td>
+<td>Mokhapara  Kaithunipol</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  23</td>
+</tr>
+<tr class="gradeA">
+<td>2004</td>
+<td>U Primary</td>
+<td>Govt. G. UPS Tipta II Mokhapara</td>
+<td>Tipta II Mokhapara</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  23</td>
+</tr>
+<tr class="gradeA">
+<td>2006</td>
+<td>U Primary</td>
+<td>UPS Vyas Bal Niketan Mokhapara</td>
+<td>Mokhapara</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  23</td>
+</tr>
+<tr class="gradeA">
+<td>3001</td>
+<td>Secondary</td>
+<td>Sec. Aadarsh Gautam Bal Vidhya Niketan Retwali</td>
+<td>Retwali</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  23</td>
+</tr>
+<tr class="gradeA">
+<td>4001</td>
+<td>H Secondary</td>
+<td>Sr.Sec. Arun Rashmi Bal Vidya Niketan Near Afim Godam Sabarmati Colony</td>
+<td>Sabarmati Colony</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  23</td>
+</tr>
+<tr class="gradeA">
+<td>2001</td>
+<td>U Primary</td>
+<td>UPS Saraswati Public Vidhya Niketan Chhatrapura</td>
+<td>Chhatrapura</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  25</td>
+</tr>
+<tr class="gradeA">
+<td>4007</td>
+<td>H Secondary</td>
+<td>Sr. Sec. Mayank .school</td>
+<td>Vigyan Nagar</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  26</td>
+</tr>
+<tr class="gradeA">
+<td>4009</td>
+<td>H Secondary</td>
+<td>Sr.sec. Central Public</td>
+<td>Vigyan Nagar</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  26</td>
+</tr>
+<tr class="gradeA">
+<td>2007</td>
+<td>U Primary</td>
+<td>Ups Impirial Pub. School</td>
+<td>Sanjay  Gandhi ,nagar</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  28</td>
+</tr>
+<tr class="gradeA">
+<td>2008</td>
+<td>U Primary</td>
+<td>Ups Prachi  Vidya Mandir</td>
+<td>3k18  Vigyan Nagar</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  28</td>
+</tr>
+<tr class="gradeA">
+<td>3002</td>
+<td>Secondary</td>
+<td>Sec. Millenium Pub. Sch.IL26 Jama Msj</td>
+<td>Vigyan Nagar Sanjay Nagar</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  28</td>
+</tr>
+<tr class="gradeA">
+<td>3003</td>
+<td>Secondary</td>
+<td>Sec.Abhigyan Vidya Niketan G.N</td>
+<td>Vigyan Nagar</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  28</td>
+</tr>
+<tr class="gradeA">
+<td>3004</td>
+<td>Secondary</td>
+<td>Sec.. Awantika Bal Vidya Mandir</td>
+<td>Vigyan Nagar</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  28</td>
+</tr>
+<tr class="gradeA">
+<td>3005</td>
+<td>Secondary</td>
+<td>Sec. Gayatri Vidya Mandir</td>
+<td>Vigyan Nagar</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  28</td>
+</tr>
+<tr class="gradeA">
+<td>2001</td>
+<td>U Primary</td>
+<td>G.u.p.s.,ummedganj</td>
+<td>Ummedganj</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  30</td>
+</tr>
+<tr class="gradeA">
+<td>3002</td>
+<td>Secondary</td>
+<td>Sec.  Vidyasagar School</td>
+<td>Shri Ram Nagar</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  30</td>
+</tr>
+<tr class="gradeA">
+<td>3003</td>
+<td>Secondary</td>
+<td>Sec.  Harsh Academy School</td>
+<td>Shri Ram Nagar</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  30</td>
+</tr>
+<tr class="gradeA">
+<td>1001</td>
+<td>Primary</td>
+<td>G.p.s.,indra Gandhi Nagar</td>
+<td>Indra Gandhi Nagar</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  32</td>
+</tr>
+<tr class="gradeA">
+<td>2004</td>
+<td>U Primary</td>
+<td>Ups Nehru Navoday Vidyalay</td>
+<td>Indra Gandhi Nagar</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  32</td>
+</tr>
+<tr class="gradeA">
+<td>4001</td>
+<td>H Secondary</td>
+<td>Sr. Sec. Indra Gandhi Vidya Niketa</td>
+<td>Indra Gandhi Nagar</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  32</td>
+</tr>
+<tr class="gradeA">
+<td>4002</td>
+<td>H Secondary</td>
+<td>G.Sr.sec. School Indra gandhi nagar</td>
+<td>Indra Gandhi Nagar</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  32</td>
+</tr>
+<tr class="gradeA">
+<td>4003</td>
+<td>H Secondary</td>
+<td>Sr. Sec. Kavi Taigore Pub. Sch.</td>
+<td>Indra Gandhi Nagar</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  32</td>
+</tr>
+<tr class="gradeA">
+<td>4004</td>
+<td>H Secondary</td>
+<td>Sr. Sec. Jyoti Manas Sr. Sec.</td>
+<td>Indra Gandhi Nagar</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  32</td>
+</tr>
+<tr class="gradeA">
+<td>2003</td>
+<td>U Primary</td>
+<td>Ups Priyanka Bal Vidya Mandir</td>
+<td>J.k.sursagar</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  33</td>
+</tr>
+<tr class="gradeA">
+<td>3003</td>
+<td>Secondary</td>
+<td>Sec.Dr.rajendra Prasad Vidyalay</td>
+<td>Prem Nagar 1</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  33</td>
+</tr>
+<tr class="gradeA">
+<td>3004</td>
+<td>Secondary</td>
+<td>Sec. Shyam Hari Singhaniya Sec</td>
+<td>J.k.nagar, Kota</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  33</td>
+</tr>
+<tr class="gradeA">
+<td>4001</td>
+<td>H Secondary</td>
+<td>Sr.Sec. Harbart Children School</td>
+<td>Govind Nagar</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  33</td>
+</tr>
+<tr class="gradeA">
+<td>4002</td>
+<td>H Secondary</td>
+<td>Sr.Sec. Star Pub. Sec.school</td>
+<td>Govind Nagar</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  33</td>
+</tr>
+<tr class="gradeA">
+<td>3001</td>
+<td>Secondary</td>
+<td>Sec.  Tilak Vidyamandir</td>
+<td>Kansua</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  34</td>
+</tr>
+<tr class="gradeA">
+<td>2002</td>
+<td>U Primary</td>
+<td>Govt. G. UPS Vigan Nagar</td>
+<td>Vigan Nagar</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  27</td>
+</tr>
+<tr class="gradeA">
+<td>3001</td>
+<td>Secondary</td>
+<td>Govt. Sec. Ramnagar Udhyogpuri</td>
+<td>Ramnagar</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  30</td>
+</tr>
+<tr class="gradeA">
+<td>3001</td>
+<td>Secondary</td>
+<td>Sec. Emmanuel Mission School Raipura Kaithun Road</td>
+<td>Raipura Kaithun Road</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  31</td>
+</tr>
+<tr class="gradeA">
+<td>2001</td>
+<td>U Primary</td>
+<td>Govt. UPS Kansuwa</td>
+<td>Kansuwa</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  34</td>
+</tr>
+<tr class="gradeA">
+<td>2002</td>
+<td>U Primary</td>
+<td>Govt. G. UPS Kansuwa</td>
+<td>Kansuwa</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  34</td>
+</tr>
+<tr class="gradeA">
+<td>3002</td>
+<td>Secondary</td>
+<td>Sec. Vaidik School Shanti Sadan Kansuwa</td>
+<td>Shanti Sadan Kansuwa</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  34</td>
+</tr>
+<tr class="gradeA">
+<td>4001</td>
+<td>H Secondary</td>
+<td>Sr.Sec. Aadarsh Nursary School Kansuwa</td>
+<td>Kansuwa</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  34</td>
+</tr>
+<tr class="gradeA">
+<td>4002</td>
+<td>H Secondary</td>
+<td>Sr.Sec. National Children School Kansuwa Premnagar</td>
+<td>Kansuwa Premnagar</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  34</td>
+</tr>
+<tr class="gradeA">
+<td>4003</td>
+<td>H Secondary</td>
+<td>Sr. Sec. Mangal School Gatta Factory Road Kansuwa</td>
+<td>Gatta Factory Road Kansuwa</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  34</td>
+</tr>
+<tr class="gradeA">
+<td>4008</td>
+<td>H Secondary</td>
+<td>Sr. Sec.Sahara public school</td>
+<td>4TA -38 Vigyan Nagar</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  26</td>
+</tr>
+<tr class="gradeA">
+<td>1001</td>
+<td>Primary</td>
+<td>Govt.Ps.Vigyan nagar Thane ke pichhe</td>
+<td>Vigyan Nagar</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  28</td>
+</tr>
+<tr class="gradeA">
+<td>2001</td>
+<td>U Primary</td>
+<td>Govt.Ups Girls Naveen vigyan Nagar</td>
+<td>Vigyan Nagar EXTN</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  28</td>
+</tr>
+<tr class="gradeA">
+<td>2001</td>
+<td>U Primary</td>
+<td>Govt.Girls.u.p.s., Udyog Nagar</td>
+<td>Udyog Nagar Indra Gandi nagar</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  32</td>
+</tr>
+<tr class="gradeA">
+<td>2006</td>
+<td>U Primary</td>
+<td>Govt.Ups Indra Gandhi Nagar</td>
+<td>Indra Gandhi Nagar, Kota</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  32</td>
+</tr>
+<tr class="gradeA">
+<td>3001</td>
+<td>Secondary</td>
+<td>G.Sec. School govind Nagar</td>
+<td>Govind Nagar</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  33</td>
+</tr>
+<tr class="gradeA">
+<td>4003</td>
+<td>H Secondary</td>
+<td>Sr.sec.School Subhash Bal Vidhya Mandir</td>
+<td>Govind Nagar</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  33</td>
+</tr>
+<tr class="gradeA">
+<td>3005</td>
+<td>Secondary</td>
+<td>Sec. Children Girls School</td>
+<td>Chawani</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  35</td>
+</tr>
+<tr class="gradeA">
+<td>4002</td>
+<td>H Secondary</td>
+<td>Sr. Sec. Children School</td>
+<td>Chawani</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  35</td>
+</tr>
+<tr class="gradeA">
+<td>2001</td>
+<td>U Primary</td>
+<td>Ups  Krishna Moddle School</td>
+<td>Bajrang  Dal Mil,  Kotri</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  37</td>
+</tr>
+<tr class="gradeA">
+<td>2002</td>
+<td>U Primary</td>
+<td>Ups. New Mother India Children</td>
+<td>Kotri</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  37</td>
+</tr>
+<tr class="gradeA">
+<td>2007</td>
+<td>U Primary</td>
+<td>Ups Primier School</td>
+<td>Kotri  Gordhanpura</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  37</td>
+</tr>
+<tr class="gradeA">
+<td>3002</td>
+<td>Secondary</td>
+<td>Sec. Khandelwal Vaishay bagherwal Dharam</td>
+<td>.kotri Gordhanpura</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  37</td>
+</tr>
+<tr class="gradeA">
+<td>3003</td>
+<td>Secondary</td>
+<td>Sec. Shastri Bal Vidya Niketan</td>
+<td>Kotri, Gordhanpura</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  37</td>
+</tr>
+<tr class="gradeA">
+<td>3004</td>
+<td>Secondary</td>
+<td>Sec. Maharshi Dayanand Vidyala</td>
+<td>Kotri</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  37</td>
+</tr>
+<tr class="gradeA">
+<td>1001</td>
+<td>Primary</td>
+<td>Ps Nehru Bal Vidya Niketan</td>
+<td>Sonu Sadan ,chawani</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  38</td>
+</tr>
+<tr class="gradeA">
+<td>2001</td>
+<td>U Primary</td>
+<td>Ups National Children School</td>
+<td>Ramchandra  Pura,  Chawani</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  38</td>
+</tr>
+<tr class="gradeA">
+<td>3002</td>
+<td>Secondary</td>
+<td>Sec.. Suman Bal Bharati</td>
+<td>Ramchandra Pura, Chawani</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  38</td>
+</tr>
+<tr class="gradeA">
+<td>3003</td>
+<td>Secondary</td>
+<td>Sec. Bal Vikas Niketan School</td>
+<td>Chawani</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  38</td>
+</tr>
+<tr class="gradeA">
+<td>3004</td>
+<td>Secondary</td>
+<td>Sec. Tilak  Vidyalay</td>
+<td>Chawani</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  38</td>
+</tr>
+<tr class="gradeA">
+<td>3001</td>
+<td>Secondary</td>
+<td>Sec. Vishav Bharati Pub. Sch.</td>
+<td>Bajarang Nagar</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  39</td>
+</tr>
+<tr class="gradeA">
+<td>3002</td>
+<td>Secondary</td>
+<td>Sec.new Mayank Pub. Sch.</td>
+<td>Bajrang Nagar Police line</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  39</td>
+</tr>
+<tr class="gradeA">
+<td>4001</td>
+<td>H Secondary</td>
+<td>Sr.Sec. Bright Land gaytrivihar nahar ke kinare</td>
+<td>Bajrang Nagar Police line</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  39</td>
+</tr>
+<tr class="gradeA">
+<td>4002</td>
+<td>H Secondary</td>
+<td>Sr. Sec.  Modern India Pub. Sch.3,4,5 Jaihindnagar</td>
+<td>Jai Hind Nagar</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  39</td>
+</tr>
+<tr class="gradeA">
+<td>4003</td>
+<td>H Secondary</td>
+<td>Sr. Sec.. Nutan Bhartia Vidyamandir</td>
+<td>Jaihind Nagar,</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  39</td>
+</tr>
+<tr class="gradeA">
+<td>2001</td>
+<td>U Primary</td>
+<td>G.u.p.s.,deoli Arab</td>
+<td>Deoli Arab</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  40</td>
+</tr>
+<tr class="gradeA">
+<td>2003</td>
+<td>U Primary</td>
+<td>Ups Antim Saraswati Bal Vid.</td>
+<td>Thegara</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  40</td>
+</tr>
+<tr class="gradeA">
+<td>2004</td>
+<td>U Primary</td>
+<td>Ups Saroj Vidya Mandir</td>
+<td>Deoli Arab</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  40</td>
+</tr>
+<tr class="gradeA">
+<td>3002</td>
+<td>Secondary</td>
+<td>G.sec.school, Deoli Arab</td>
+<td>Deoli Arab</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  40</td>
+</tr>
+<tr class="gradeA">
+<td>1001</td>
+<td>Primary</td>
+<td>G.p.s.,bhadana</td>
+<td>Bhadana</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  42</td>
+</tr>
+<tr class="gradeA">
+<td>2002</td>
+<td>U Primary</td>
+<td>Ups Sadaned Vidyalay</td>
+<td>Kailash Puri ,ganesh Pura  Road,junction</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  42</td>
+</tr>
+<tr class="gradeA">
+<td>2003</td>
+<td>U Primary</td>
+<td>Ups Mayuri Bal Vidyalay</td>
+<td>J.p.nagar Kota Jun.</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  42</td>
+</tr>
+<tr class="gradeA">
+<td>2004</td>
+<td>U Primary</td>
+<td>Ups New India Pub. Sch.</td>
+<td>J.p.nagar</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  42</td>
+</tr>
+<tr class="gradeA">
+<td>2007</td>
+<td>U Primary</td>
+<td>G.u.p.s.,gopal Mil</td>
+<td>Industrial Area</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  42</td>
+</tr>
+<tr class="gradeA">
+<td>2008</td>
+<td>U Primary</td>
+<td>Ups Rajasthan  Public School</td>
+<td>Rajeev Nagar,ganesh Pura KotaJn</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  42</td>
+</tr>
+<tr class="gradeA">
+<td>3001</td>
+<td>Secondary</td>
+<td>G.sec. School,bhadana</td>
+<td>Bhadana</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  42</td>
+</tr>
+<tr class="gradeA">
+<td>2001</td>
+<td>U Primary</td>
+<td>Govt. UPS Ramchandra Pura</td>
+<td>Ramchandra Pura Chawani</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  35</td>
+</tr>
+<tr class="gradeA">
+<td>2002</td>
+<td>U Primary</td>
+<td>UPS  Bhagatsingh Bal Vidya Niketan Chawani</td>
+<td>Chawani</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  35</td>
+</tr>
+<tr class="gradeA">
+<td>3002</td>
+<td>Secondary</td>
+<td>Sec.  Parihar Bal Vidhya Niketan Ramchandrapura Opp Goyal Dharam Shala Chawani</td>
+<td>Ram Chandrapura, Chawani</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  35</td>
+</tr>
+<tr class="gradeA">
+<td>3003</td>
+<td>Secondary</td>
+<td>Sec. Vijay Shree School Subji Mandi Chawani</td>
+<td>Chawani</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  35</td>
+</tr>
+<tr class="gradeA">
+<td>3004</td>
+<td>Secondary</td>
+<td>Govt. Sec.school, Chawani Near Jain Mandir</td>
+<td>Chawani</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  35</td>
+</tr>
+<tr class="gradeA">
+<td>4001</td>
+<td>H Secondary</td>
+<td>Govt. G. Sr. Sec. School Chawani</td>
+<td>Chawani</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  35</td>
+</tr>
+<tr class="gradeA">
+<td>2001</td>
+<td>U Primary</td>
+<td>Govt. UPS Nav Srajit, Kotri</td>
+<td>Kotri</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  36</td>
+</tr>
+<tr class="gradeA">
+<td>2003</td>
+<td>U Primary</td>
+<td>Govt. UPS Kotri H.B.</td>
+<td>Kotri</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  36</td>
+</tr>
+<tr class="gradeA">
+<td>3001</td>
+<td>Secondary</td>
+<td>Sec. Sarvodaya Vidhyalay Kotri</td>
+<td>Kotri</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  36</td>
+</tr>
+<tr class="gradeA">
+<td>3002</td>
+<td>Secondary</td>
+<td>Sec.. Akhilesh Bal Niketan Kotari</td>
+<td>Kotri</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  36</td>
+</tr>
+<tr class="gradeA">
+<td>3003</td>
+<td>Secondary</td>
+<td>Sec. Bright Future  School Nagar Nigam Colony Chhawani</td>
+<td>Chhawani</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  36</td>
+</tr>
+<tr class="gradeA">
+<td>2003</td>
+<td>U Primary</td>
+<td>UPS Subhash Brigade Children School Charbhuja Temple Kotri</td>
+<td>Kotri  Gordhanpura</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  37</td>
+</tr>
+<tr class="gradeA">
+<td>2006</td>
+<td>U Primary</td>
+<td>Govt. UPS Bhoi Mohalla Kotri</td>
+<td>Bhoi Mohalla Kotri</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  37</td>
+</tr>
+<tr class="gradeA">
+<td>2008</td>
+<td>U Primary</td>
+<td>UPS New Aadarsh Millenuem Children School 507 Vinay Vatika Kotri</td>
+<td>507 Vinay Vatika Kotri</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  37</td>
+</tr>
+<tr class="gradeA">
+<td>2002</td>
+<td>U Primary</td>
+<td>Ups Nutan Bhartiya Vidya Mandir Jai Hind Nagar Baran Road</td>
+<td>Jai Hind Nagar Baran Road</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  39</td>
+</tr>
+<tr class="gradeA">
+<td>4004</td>
+<td>H Secondary</td>
+<td>Sr. Sec. Ramanand School Gopal Vihar</td>
+<td>Gopal Vihar Police Line</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  39</td>
+</tr>
+<tr class="gradeA">
+<td>2002</td>
+<td>U Primary</td>
+<td>G.u.p.s.,raipura</td>
+<td>Raipura</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  40</td>
+</tr>
+<tr class="gradeA">
+<td>3001</td>
+<td>Secondary</td>
+<td>Govt. Sec School Daslana</td>
+<td>Daslana</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  40</td>
+</tr>
+<tr class="gradeA">
+<td>4001</td>
+<td>H Secondary</td>
+<td>Sr.Sec.  Vandana Bal Vidyalay Badana</td>
+<td>Kailashpuri Kota jn.</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  42</td>
+</tr>
+<tr class="gradeA">
+<td>4002</td>
+<td>H Secondary</td>
+<td>Sr. Sec.  Om Laxmi Bal Vidya Man</td>
+<td>Pratap Colony,kota Jun.</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  42</td>
+</tr>
+<tr class="gradeA">
+<td>4004</td>
+<td>H Secondary</td>
+<td>Sr. Sec.  Krishna Bal Vidya Nik</td>
+<td>Bhadana</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  42</td>
+</tr>
+<tr class="gradeA">
+<td>4005</td>
+<td>H Secondary</td>
+<td>Sr. Sec.ramanand School</td>
+<td>Rangpur Road</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  42</td>
+</tr>
+<tr class="gradeA">
+<td>3001</td>
+<td>Secondary</td>
+<td>Sec. Rajasthan Maruti Vidyal</td>
+<td>Rang Pur Road,kota Junction</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  43</td>
+</tr>
+<tr class="gradeA">
+<td>3005</td>
+<td>Secondary</td>
+<td>Sec. Sophiya School</td>
+<td>Railway Colony, Kota Junction</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  43</td>
+</tr>
+<tr class="gradeA">
+<td>4001</td>
+<td>H Secondary</td>
+<td>Sr. Sec. . Merry Children School</td>
+<td>Sunder Nagar, Kota Junction</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  43</td>
+</tr>
+<tr class="gradeA">
+<td>4002</td>
+<td>H Secondary</td>
+<td>Sr. Sec. .sagar Bal School</td>
+<td>Mahaveer Colony</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  43</td>
+</tr>
+<tr class="gradeA">
+<td>3002</td>
+<td>Secondary</td>
+<td>Sec.  Evarest Pub. Sch.Sumannagar</td>
+<td>Candrecal roadi,kota Jun.</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  44</td>
+</tr>
+<tr class="gradeA">
+<td>3003</td>
+<td>Secondary</td>
+<td>Sec. New Moon School</td>
+<td>Purohit Nagar,kota Jun.</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  44</td>
+</tr>
+<tr class="gradeA">
+<td>4001</td>
+<td>H Secondary</td>
+<td>Sr. Sec. Kota Modren Pub. Sch.</td>
+<td>Rang Talab, Nai Basti, Kota Junction</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  44</td>
+</tr>
+<tr class="gradeA">
+<td>4002</td>
+<td>H Secondary</td>
+<td>Sr. Sec.  Aadarsh Vidyalay Niketan</td>
+<td>Sunder Nagar Railway Station Junction</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  44</td>
+</tr>
+<tr class="gradeA">
+<td>3001</td>
+<td>Secondary</td>
+<td>Sec. New Citizen Pub. Sch.</td>
+<td>Mahatma Gandhi Colony,kota Junction</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  45</td>
+</tr>
+<tr class="gradeA">
+<td>4001</td>
+<td>H Secondary</td>
+<td>Sr. Sec.Saraswati Bal Vidyalay</td>
+<td>Hospital Road,kota Jun.</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  45</td>
+</tr>
+<tr class="gradeA">
+<td>2001</td>
+<td>U Primary</td>
+<td>G.u.p.s.,police Line</td>
+<td>Police Line</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  46</td>
+</tr>
+<tr class="gradeA">
+<td>2003</td>
+<td>U Primary</td>
+<td>Ups Shanti Niketan U.p.s.</td>
+<td>Shiv Nagar Police Line</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  46</td>
+</tr>
+<tr class="gradeA">
+<td>2006</td>
+<td>U Primary</td>
+<td>Ups Kranti Bal Vidyalay</td>
+<td>Borkhera</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  46</td>
+</tr>
+<tr class="gradeA">
+<td>3003</td>
+<td>Secondary</td>
+<td>Sec.Vishva Bharati Vidya Mand</td>
+<td>Borkhera</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  46</td>
+</tr>
+<tr class="gradeA">
+<td>3004</td>
+<td>Secondary</td>
+<td>Sec. Chatna Pbulic school borkhera</td>
+<td>Borkhera</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  46</td>
+</tr>
+<tr class="gradeA">
+<td>3005</td>
+<td>Secondary</td>
+<td>Sec. Pratibha Pub. Sch.</td>
+<td>Mandi Para, Borkhera</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  46</td>
+</tr>
+<tr class="gradeA">
+<td>3006</td>
+<td>Secondary</td>
+<td>G.sec. S.,police Line</td>
+<td>Police Line</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  46</td>
+</tr>
+<tr class="gradeA">
+<td>4001</td>
+<td>H Secondary</td>
+<td>Sr. Sec. Bharat Vidya Peeth Adityanagar</td>
+<td>Borkhera</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  46</td>
+</tr>
+<tr class="gradeA">
+<td>4005</td>
+<td>H Secondary</td>
+<td>Sr.sec.bal Sr.sec.school  Add</td>
+<td>Baran Road</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  46</td>
+</tr>
+<tr class="gradeA">
+<td>4006</td>
+<td>H Secondary</td>
+<td>Sr. Sec. Central Academy</td>
+<td>Police Line</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  46</td>
+</tr>
+<tr class="gradeA">
+<td>4007</td>
+<td>H Secondary</td>
+<td>Sr. Sec. Holly Mother Sharda</td>
+<td>Police Line</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  46</td>
+</tr>
+<tr class="gradeA">
+<td>4008</td>
+<td>H Secondary</td>
+<td>Sr. Sec. Pragati Public School</td>
+<td>Police Line</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  46</td>
+</tr>
+<tr class="gradeA">
+<td>2001</td>
+<td>U Primary</td>
+<td>G.u.p.s. Gumanpura Naveen</td>
+<td>Harijan Basti</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  47</td>
+</tr>
+<tr class="gradeA">
+<td>3003</td>
+<td>Secondary</td>
+<td>Sec. Sch New Pratap Vidhya Mandir Sarswati Colony Roteda Road Kota Jn.</td>
+<td>Sarswati Colony Roteda Road Kota Jn.</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  42</td>
+</tr>
+<tr class="gradeA">
+<td>1001</td>
+<td>Primary</td>
+<td>Govt.Ps Railway Primary School</td>
+<td>Workshop Colony, Kota Junction</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  43</td>
+</tr>
+<tr class="gradeA">
+<td>2003</td>
+<td>U Primary</td>
+<td>Ups Aadarsh Vikas Bal Vidhaylay Roteda Road Saraswati  Colony</td>
+<td>Saraswati Colony,kota Jun.</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  43</td>
+</tr>
+<tr class="gradeA">
+<td>3002</td>
+<td>Secondary</td>
+<td>Railway Sec. Sch. Purani Basti Railway colony</td>
+<td>Railay colony Kota Jn.</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  43</td>
+</tr>
+<tr class="gradeA">
+<td>3004</td>
+<td>Secondary</td>
+<td>Sec.Sch. Saraswati  Ball Mandir Sansthan Railway Colony</td>
+<td>Railway Colony Kota Junction</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  43</td>
+</tr>
+<tr class="gradeA">
+<td>4004</td>
+<td>H Secondary</td>
+<td>Sr. Sec.Bal  Mandir   Add Loco Colony</td>
+<td>Loco Colony Kota Jn.</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  43</td>
+</tr>
+<tr class="gradeA">
+<td>3001</td>
+<td>Secondary</td>
+<td>Govt.Sec..School Rang Talab</td>
+<td>Rang Talab</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  44</td>
+</tr>
+<tr class="gradeA">
+<td>2001</td>
+<td>U Primary</td>
+<td>Ups Modren Jenith Pub. Sch.Tullapura Kota Jn.</td>
+<td>Tullapura Kota Jn.</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  45</td>
+</tr>
+<tr class="gradeA">
+<td>4002</td>
+<td>H Secondary</td>
+<td>Sr. Sec. New Morden School Mahatma Gandhi Colony</td>
+<td>Mahatma Gandhi Colony, Kota Junction</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  45</td>
+</tr>
+<tr class="gradeA">
+<td>3001</td>
+<td>Secondary</td>
+<td>Govt. G.Sec.,borkhera</td>
+<td>Borkhera</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  46</td>
+</tr>
+<tr class="gradeA">
+<td>4002</td>
+<td>H Secondary</td>
+<td>Sr. Sec. Kaushal Shiksha Niketan Bajrangnager</td>
+<td>Bajrangnager, Police Line</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  46</td>
+</tr>
+<tr class="gradeA">
+<td>4003</td>
+<td>H Secondary</td>
+<td>Sr. Sec..Tilak Vidhya Niketan School Borkhera</td>
+<td>Borkhera, Near Petrol Pump Baran Road</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  46</td>
+</tr>
+<tr class="gradeA">
+<td>4004</td>
+<td>H Secondary</td>
+<td>Sr. Sec.. Sanjay Gandhi  Baran Road Borkhera</td>
+<td>Baran Road Borkhera</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  46</td>
+</tr>
+<tr class="gradeA">
+<td>3001</td>
+<td>Secondary</td>
+<td>Sec. Dev Tainy Tot Pub. School, 130 Ballabh Bari</td>
+<td>Ballabh Bari</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  47</td>
+</tr>
+<tr class="gradeA">
+<td>4002</td>
+<td>H Secondary</td>
+<td>Sr.sec. Jain Deewaker School</td>
+<td>Ballbh Bari</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  47</td>
+</tr>
+<tr class="gradeA">
+<td>2002</td>
+<td>U Primary</td>
+<td>Ups Bal Bharati Arya Shish Add</td>
+<td>Rampura</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  48</td>
+</tr>
+<tr class="gradeA">
+<td>4001</td>
+<td>H Secondary</td>
+<td>Sr.Sec. Akalank School</td>
+<td>Rampura, Kota</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  48</td>
+</tr>
+<tr class="gradeA">
+<td>2008</td>
+<td>U Primary</td>
+<td>Ups Mahesh Bal Vid.niketan</td>
+<td>Brijrajpura</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  49</td>
+</tr>
+<tr class="gradeA">
+<td>3001</td>
+<td>Secondary</td>
+<td>Sec. Gyan Bharti Secondary Sch</td>
+<td>Indra Market</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  49</td>
+</tr>
+<tr class="gradeA">
+<td>1001</td>
+<td>Primary</td>
+<td>G.p.s.,chandra Ghata Naveen</td>
+<td>Chandra Ghata Naveen</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  50</td>
+</tr>
+<tr class="gradeA">
+<td>1002</td>
+<td>Primary</td>
+<td>G.p.s.saray Ka Sthan</td>
+<td>Saray Ka Sthan</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  50</td>
+</tr>
+<tr class="gradeA">
+<td>2002</td>
+<td>U Primary</td>
+<td>Ups Nehru Pub. Sch.</td>
+<td>Chandra Ghata</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  50</td>
+</tr>
+<tr class="gradeA">
+<td>2003</td>
+<td>U Primary</td>
+<td>Ups Alphiya Children School</td>
+<td>Chandra Ghata</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  50</td>
+</tr>
+<tr class="gradeA">
+<td>2008</td>
+<td>U Primary</td>
+<td>Ups Santsur Academy</td>
+<td>Saray Ka Sthan</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  50</td>
+</tr>
+<tr class="gradeA">
+<td>2010</td>
+<td>U Primary</td>
+<td>Ups Sant Jojaf Pub. School</td>
+<td>Bairaj Road, Tipta</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  50</td>
+</tr>
+<tr class="gradeA">
+<td>3001</td>
+<td>Secondary</td>
+<td>G.g.sec.school,tipta</td>
+<td>Tipta</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  50</td>
+</tr>
+<tr class="gradeA">
+<td>3002</td>
+<td>Secondary</td>
+<td>G.sec.school,patanpole</td>
+<td>Patanpole</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  50</td>
+</tr>
+<tr class="gradeA">
+<td>3003</td>
+<td>Secondary</td>
+<td>Sec. Shiv Bal Nikaten</td>
+<td>Saray Ka Isthan</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  50</td>
+</tr>
+<tr class="gradeA">
+<td>3004</td>
+<td>Secondary</td>
+<td>Sec. Anjuman Islamiya</td>
+<td>Ghantaghar</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  50</td>
+</tr>
+<tr class="gradeA">
+<td>4002</td>
+<td>H Secondary</td>
+<td>Sr.sec. Shri Ram Vidya Niketen</td>
+<td>Saray Ka Sthan</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  50</td>
+</tr>
+<tr class="gradeA">
+<td>1001</td>
+<td>Primary</td>
+<td>G.p.s.,rampura</td>
+<td>Rampura</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  52</td>
+</tr>
+<tr class="gradeA">
+<td>2001</td>
+<td>U Primary</td>
+<td>GU.p.s.,bhata Pada ,rampura</td>
+<td>Bhatapara  Rampura</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  52</td>
+</tr>
+<tr class="gradeA">
+<td>2002</td>
+<td>U Primary</td>
+<td>G.u.p.s.,rampura</td>
+<td>Rampura</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  52</td>
+</tr>
+<tr class="gradeA">
+<td>2003</td>
+<td>U Primary</td>
+<td>G.u.p.s.,dhan Mandi Samad</td>
+<td>Rampura</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  52</td>
+</tr>
+<tr class="gradeA">
+<td>2005</td>
+<td>U Primary</td>
+<td>Ups Delta Pub. School</td>
+<td>Mehra Para,bajaj Khana</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  52</td>
+</tr>
+<tr class="gradeA">
+<td>2008</td>
+<td>U Primary</td>
+<td>Ups Shri Agrawal Bal Niketan</td>
+<td>Mehra Para, Bajaj Khana</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  52</td>
+</tr>
+<tr class="gradeA">
+<td>1001</td>
+<td>Primary</td>
+<td>G.p.s.,ladpura  I</td>
+<td>Ladpura</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  53</td>
+</tr>
+<tr class="gradeA">
+<td>1002</td>
+<td>Primary</td>
+<td>G.p.s.,ladpura  H.b.</td>
+<td>Ladpura</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  53</td>
+</tr>
+<tr class="gradeA">
+<td>2003</td>
+<td>U Primary</td>
+<td>Ups Ravindra Vidya Mandir Add</td>
+<td>Ladpura</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  53</td>
+</tr>
+<tr class="gradeA">
+<td>2005</td>
+<td>U Primary</td>
+<td>Ups Purnima Bal Vidya Niketan</td>
+<td>Ladpura</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  53</td>
+</tr>
+<tr class="gradeA">
+<td>2006</td>
+<td>U Primary</td>
+<td>Ups Aadarsh Nursary School</td>
+<td>Ladpura</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  53</td>
+</tr>
+<tr class="gradeA">
+<td>4002</td>
+<td>H Secondary</td>
+<td>SrSec. Sumen Bharti Vidyalay</td>
+<td>Gulab Bari</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  53</td>
+</tr>
+<tr class="gradeA">
+<td>2002</td>
+<td>U Primary</td>
+<td>Ups Gyan Bharti Shishu Nik</td>
+<td>Bus Stand, Nayapura</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  54</td>
+</tr>
+<tr class="gradeA">
+<td>2003</td>
+<td>U Primary</td>
+<td>G.u.p.s.,nayapura,kalpura</td>
+<td>Nayapura,kalpura</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  54</td>
+</tr>
+<tr class="gradeA">
+<td>3001</td>
+<td>Secondary</td>
+<td>Sec Jai Ashoka Bal Vid. Ma</td>
+<td>Nayapura</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  54</td>
+</tr>
+<tr class="gradeA">
+<td>3002</td>
+<td>Secondary</td>
+<td>SecNew Upasana Children S.</td>
+<td>Nayapura</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  54</td>
+</tr>
+<tr class="gradeA">
+<td>2001</td>
+<td>U Primary</td>
+<td>Govt. Girls UPS Rampura Math School</td>
+<td>Rampura Math</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  48</td>
+</tr>
+<tr class="gradeA">
+<td>2004</td>
+<td>U Primary</td>
+<td>Ups Matra Seva Sadan Balika School Rampura</td>
+<td>Rampura</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  48</td>
+</tr>
+<tr class="gradeA">
+<td>3001</td>
+<td>Secondary</td>
+<td>Govt. Girls Sec. School Chhoti Maharani Rampura</td>
+<td>Rampura</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  48</td>
+</tr>
+<tr class="gradeA">
+<td>1001</td>
+<td>Primary</td>
+<td>Govt. PS New Subji Mandi Chittora Ka Nohra Satti Chabutra Brijrajpura</td>
+<td>Chittora Ka Nohra Satti Chabutra Brijrajpura</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  49</td>
+</tr>
+<tr class="gradeA">
+<td>2002</td>
+<td>U Primary</td>
+<td>Ups. Nurka Bal Vidya Mandir Patan Pole</td>
+<td>Brijrajpura</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  49</td>
+</tr>
+<tr class="gradeA">
+<td>2003</td>
+<td>U Primary</td>
+<td>UPS Gopal Bal Vidhya Niketan Brijrajpura</td>
+<td>Brijrajpura</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  49</td>
+</tr>
+<tr class="gradeA">
+<td>2001</td>
+<td>U Primary</td>
+<td>Ups Bapu Bal Mandir</td>
+<td>Patanpole</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  50</td>
+</tr>
+<tr class="gradeA">
+<td>2009</td>
+<td>U Primary</td>
+<td>UPS Aryan Children School Bhat Ji Ghat Radha Vilas Patan Pole</td>
+<td>Radha Vilas Patan Pole</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  50</td>
+</tr>
+<tr class="gradeA">
+<td>4001</td>
+<td>H Secondary</td>
+<td>Sr. Sec. Lal Bahadur Shastri Public School</td>
+<td>Sarai Ka Sthan</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  50</td>
+</tr>
+<tr class="gradeA">
+<td>2001</td>
+<td>U Primary</td>
+<td>Ups Islami Dargah Rajki Haweli Makbara</td>
+<td>Rajki Haweli Makbara</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  51</td>
+</tr>
+<tr class="gradeA">
+<td>2006</td>
+<td>U Primary</td>
+<td>UPS Decent School Rampura</td>
+<td>Rampura</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  52</td>
+</tr>
+<tr class="gradeA">
+<td>3001</td>
+<td>Secondary</td>
+<td>Sec.shree Agresen Bal Vidhya Niketan School Rampura</td>
+<td>Rampura</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  52</td>
+</tr>
+<tr class="gradeA">
+<td>4001</td>
+<td>H Secondary</td>
+<td>Govt. Girls Sr. Sec. School Maharani Rampura</td>
+<td>Rampura</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  52</td>
+</tr>
+<tr class="gradeA">
+<td>2001</td>
+<td>U Primary</td>
+<td>Govt. UPS Ladpura  II Karbala Road</td>
+<td>Ladpura  II Karbala Road</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  53</td>
+</tr>
+<tr class="gradeA">
+<td>2002</td>
+<td>U Primary</td>
+<td>G.u.p.s Ladpura I Near Jain Diwakar</td>
+<td>Ladpura</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  53</td>
+</tr>
+<tr class="gradeA">
+<td>2004</td>
+<td>U Primary</td>
+<td>UPS Gautam Vidya Mandir Ladpura</td>
+<td>Ladpura</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  53</td>
+</tr>
+<tr class="gradeA">
+<td>3001</td>
+<td>Secondary</td>
+<td>Govt. Girls Sec.. School, Ladpura</td>
+<td>Ladpura</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  53</td>
+</tr>
+<tr class="gradeA">
+<td>2001</td>
+<td>U Primary</td>
+<td>Govt. Girls UPS Nayapura Bag</td>
+<td>Nayapura Bag</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  54</td>
+</tr>
+<tr class="gradeA">
+<td>3003</td>
+<td>Secondary</td>
+<td>Sec Future Point Children</td>
+<td>Nehru Colony ,nayapura</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  54</td>
+</tr>
+<tr class="gradeA">
+<td>4001</td>
+<td>H Secondary</td>
+<td>G.g.sr.sec.school,nayapura Bag</td>
+<td>Nayapura</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  54</td>
+</tr>
+<tr class="gradeA">
+<td>4002</td>
+<td>H Secondary</td>
+<td>Sr. Sec.bhartiy Shiksha Niket</td>
+<td>Nayapura</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  54</td>
+</tr>
+<tr class="gradeA">
+<td>1001</td>
+<td>Primary</td>
+<td>G.p.s.,harijan B.,nayapura</td>
+<td>Nayapura</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  55</td>
+</tr>
+<tr class="gradeA">
+<td>2003</td>
+<td>U Primary</td>
+<td>Ups Tiny Tooddler School</td>
+<td>Civil Line</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  55</td>
+</tr>
+<tr class="gradeA">
+<td>2005</td>
+<td>U Primary</td>
+<td>G.u.p.s.,montesari,nayapura</td>
+<td>Nayapura</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  55</td>
+</tr>
+<tr class="gradeA">
+<td>3001</td>
+<td>Secondary</td>
+<td>Sec Samarth Guru Bal V.m.</td>
+<td>Nayapura</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  55</td>
+</tr>
+<tr class="gradeA">
+<td>3002</td>
+<td>Secondary</td>
+<td>Sec New Pub. Vidya.niketan</td>
+<td>Ismail Chauk, Nayapura</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  55</td>
+</tr>
+<tr class="gradeA">
+<td>3003</td>
+<td>Secondary</td>
+<td>G.sec. School,civil Line</td>
+<td>Civil Line</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  55</td>
+</tr>
+<tr class="gradeA">
+<td>4001</td>
+<td>H Secondary</td>
+<td>G.sr.sec.school, vocational</td>
+<td>Nayapura</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  55</td>
+</tr>
+<tr class="gradeA">
+<td>4002</td>
+<td>H Secondary</td>
+<td>Sr. Sec. Bhart  School</td>
+<td>Nayapura</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  55</td>
+</tr>
+<tr class="gradeA">
+<td>4003</td>
+<td>H Secondary</td>
+<td>Sr. Sec. Holly Angiles</td>
+<td>Mukti Marg, Nayapura</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  55</td>
+</tr>
+<tr class="gradeA">
+<td>2004</td>
+<td>U Primary</td>
+<td>Ups Modern Millanium Pub.s</td>
+<td>Manda House, Khandgaonri</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  56</td>
+</tr>
+<tr class="gradeA">
+<td>3003</td>
+<td>Secondary</td>
+<td>G.sec. School, Kherli Purohit</td>
+<td>Kherli Purohit</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  56</td>
+</tr>
+<tr class="gradeA">
+<td>4002</td>
+<td>H Secondary</td>
+<td>Sr. Sec.usha Shishu Niket</td>
+<td>Kherli  Phatak</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  56</td>
+</tr>
+<tr class="gradeA">
+<td>4003</td>
+<td>H Secondary</td>
+<td>Sr. Sec.lord Krishna Public Sc</td>
+<td>Kherli Phatak</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  56</td>
+</tr>
+<tr class="gradeA">
+<td>3001</td>
+<td>Secondary</td>
+<td>Sec. Alpha Pub. School</td>
+<td>Sanjay Nagar,kota Junction</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  58</td>
+</tr>
+<tr class="gradeA">
+<td>4001</td>
+<td>H Secondary</td>
+<td>Sr. Sec. Anand Bal Vidyalay</td>
+<td>Sanjay Nagar,kota Junction</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  58</td>
+</tr>
+<tr class="gradeA">
+<td>4002</td>
+<td>H Secondary</td>
+<td>Sr. Sec. Saraswati Devi Vidya Nike</td>
+<td>Aadarsh Colony,chaupara Firm ,kota Jun.</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  58</td>
+</tr>
+<tr class="gradeA">
+<td>4003</td>
+<td>H Secondary</td>
+<td>G.sr.sec.school,bheem Mandi</td>
+<td>Bheem Mandi</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  58</td>
+</tr>
+<tr class="gradeA">
+<td>4004</td>
+<td>H Secondary</td>
+<td>G.g.sr.sec. School, Bheem Mand</td>
+<td>Bheem Mandi</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  58</td>
+</tr>
+<tr class="gradeA">
+<td>1001</td>
+<td>Primary</td>
+<td>G.p.s.,bheem Mandi  Ii</td>
+<td>Bheem Mandi</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  59</td>
+</tr>
+<tr class="gradeA">
+<td>2001</td>
+<td>U Primary</td>
+<td>G.g.u.p.s.,dadwara</td>
+<td>Dadwara</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  59</td>
+</tr>
+<tr class="gradeA">
+<td>2003</td>
+<td>U Primary</td>
+<td>Ups Shri Vidya Mandir</td>
+<td>Maharashtriya Parisar ,dadwara</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  59</td>
+</tr>
+<tr class="gradeA">
+<td>2005</td>
+<td>U Primary</td>
+<td>G.u.p.s.,nehru Nagar ,k.b.</td>
+<td>Nehru Nagar</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  59</td>
+</tr>
+<tr class="gradeA">
+<td>2008</td>
+<td>U Primary</td>
+<td>G.u.p.s.,bheem Mandi  Ii</td>
+<td>Bheem Mandi</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  59</td>
+</tr>
+<tr class="gradeA">
+<td>2009</td>
+<td>U Primary</td>
+<td>Ups Central Academy</td>
+<td>Kota Junction</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  59</td>
+</tr>
+<tr class="gradeA">
+<td>3001</td>
+<td>Secondary</td>
+<td>Sec. Chaupara Pub,. Sch.</td>
+<td>Chaupara Firm ,kota Junction</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  59</td>
+</tr>
+<tr class="gradeA">
+<td>3003</td>
+<td>Secondary</td>
+<td>Sec. New Kavita Sec. School</td>
+<td>Dadwara</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  59</td>
+</tr>
+<tr class="gradeA">
+<td>4001</td>
+<td>H Secondary</td>
+<td>Sr. Sec.  New Little Modren Scho</td>
+<td>Chaupara Firm ,dadwara</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  59</td>
+</tr>
+<tr class="gradeA">
+<td>4002</td>
+<td>H Secondary</td>
+<td>Sr. Sec.emmanual  School</td>
+<td>Bheem Mandi</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  59</td>
+</tr>
+<tr class="gradeA">
+<td>4003</td>
+<td>H Secondary</td>
+<td>Sr. Sec.nirmala Girls  School</td>
+<td>Bheem Mandi</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  59</td>
+</tr>
+<tr class="gradeA">
+<td>2001</td>
+<td>U Primary</td>
+<td>G.g.up.s.bheem Mandi</td>
+<td>Bheem Mandi</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  60</td>
+</tr>
+<tr class="gradeA">
+<td>2003</td>
+<td>U Primary</td>
+<td>G.u.p.s.,j.n.marshal</td>
+<td>J.n.marshal ,station</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  60</td>
+</tr>
+<tr class="gradeA">
+<td>2004</td>
+<td>U Primary</td>
+<td>Ups Shiva Pub. School</td>
+<td>Shivaji Colony,kota Jun</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  60</td>
+</tr>
+<tr class="gradeA">
+<td>2005</td>
+<td>U Primary</td>
+<td>Ups  Little Angels School</td>
+<td>Station Road, Kota Junction</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  60</td>
+</tr>
+<tr class="gradeA">
+<td>3001</td>
+<td>Secondary</td>
+<td>Sec.. Nutan Ankur Bal Vidyalay</td>
+<td>Aadarsh Nagar,kota Junction</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  60</td>
+</tr>
+<tr class="gradeA">
+<td>3002</td>
+<td>Secondary</td>
+<td>Sec New Pratap Vidya Mandir</td>
+<td>Kota Junction</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  60</td>
+</tr>
+<tr class="gradeA">
+<td>3003</td>
+<td>Secondary</td>
+<td>Sec Scan Academy</td>
+<td>Shivaji Colony,kota Junction</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  60</td>
+</tr>
+<tr class="gradeA">
+<td>3004</td>
+<td>Secondary</td>
+<td>G.sec.school. Bhimmandi</td>
+<td>Bheem Mandi</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  60</td>
+</tr>
+<tr class="gradeA">
+<td>3006</td>
+<td>Secondary</td>
+<td>Sec. Maharshi Dayanand Vidyala</td>
+<td>Bheem Mandi</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  60</td>
+</tr>
+<tr class="gradeA">
+<td>3007</td>
+<td>Secondary</td>
+<td>Sec. Tare Pub. Sch.</td>
+<td>Bheem Mandi</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  60</td>
+</tr>
+<tr class="gradeA">
+<td>2001</td>
+<td>U Primary</td>
+<td>UPS  Bakhshis Springdels School Civil Lines Nayapura</td>
+<td>Civil Lines Nayapura</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  55</td>
+</tr>
+<tr class="gradeA">
+<td>2002</td>
+<td>U Primary</td>
+<td>Govt. Girls UPS kayana House Nayapura</td>
+<td>kayana House Nayapura</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  55</td>
+</tr>
+<tr class="gradeA">
+<td>2004</td>
+<td>U Primary</td>
+<td>UPS New Holy Angels Pub. Sch. Civil Lines</td>
+<td>Civil Lines</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  55</td>
+</tr>
+<tr class="gradeA">
+<td>2001</td>
+<td>U Primary</td>
+<td>UPS Maa Bharati Shiksha Niketan Adarsh Colony Kherli Phatak</td>
+<td>Adarsh Colony Kherli Phatak</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  56</td>
+</tr>
+<tr class="gradeA">
+<td>2003</td>
+<td>U Primary</td>
+<td>UPS Sarvoday Convent Academy Maon Road Kherli Phatak</td>
+<td>Maon Road Kherli Phatak</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  56</td>
+</tr>
+<tr class="gradeA">
+<td>3001</td>
+<td>Secondary</td>
+<td>Govt. Sec. School Bhata para Khand Ganwari</td>
+<td>Khand Ganwari</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  56</td>
+</tr>
+<tr class="gradeA">
+<td>3008</td>
+<td>Secondary</td>
+<td>Sec.  Kota Bal  Vidyalay</td>
+<td>Mahatma Gandhi Colony, Malaroad</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  60</td>
+</tr>
+<tr class="gradeA">
+<td>4002</td>
+<td>H Secondary</td>
+<td>Sr. Sec. Kendriya School  ii</td>
+<td>Kota Juc.ii</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  60</td>
+</tr>
+<tr class="gradeA">
+<td>4003</td>
+<td>H Secondary</td>
+<td>Sr. Sec. Anand Academy</td>
+<td>Bheem Mandi</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  60</td>
+</tr>
+<tr class="gradeA">
+<td>4005</td>
+<td>H Secondary</td>
+<td>Sr. Sec. Kendriya School  i</td>
+<td>Kota Juc.</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  60</td>
+</tr>
+<tr class="gradeA">
+<td>2001</td>
+<td>U Primary</td>
+<td>Govt. Upper primary School G  CHECHAT</td>
+<td>Chechat</td>
+<td>Chechat CT</td>
+<td>Ward No. 1</td>
+</tr>
+<tr class="gradeA">
+<td>3003</td>
+<td>Secondary</td>
+<td>MINRVA PRAVESHIKA SANSKRIT</td>
+<td>Chechat</td>
+<td>Chechat CT</td>
+<td>Ward No. 1</td>
+</tr>
+<tr class="gradeA">
+<td>4001</td>
+<td>H Secondary</td>
+<td>GOVT.SR.SEC.SCH. CHECHAT Boys</td>
+<td>Chechat</td>
+<td>Chechat CT</td>
+<td>Ward No. 1</td>
+</tr>
+<tr class="gradeA">
+<td>4002</td>
+<td>H Secondary</td>
+<td>GOVT.SR.SEC.SCH. CHECHAT Girls</td>
+<td>Chechat</td>
+<td>Chechat CT</td>
+<td>Ward No. 1</td>
+</tr>
+<tr class="gradeA">
+<td>1001</td>
+<td>Primary</td>
+<td>Govt.primary School  MORAK STATION</td>
+<td>Modak Station udpura</td>
+<td>Udpura CT</td>
+<td>Udpura</td>
+</tr>
+<tr class="gradeA">
+<td>2001</td>
+<td>U Primary</td>
+<td>Govt. Upper primary School  UDPURA</td>
+<td>Modak Staion udpura</td>
+<td>Udpura CT</td>
+<td>Udpura</td>
+</tr>
+<tr class="gradeA">
+<td>2002</td>
+<td>U Primary</td>
+<td>Govt. Upper primary School G MORAKSTATION SEPRATE</td>
+<td>Modak Station udpura</td>
+<td>Udpura CT</td>
+<td>Udpura</td>
+</tr>
+<tr class="gradeA">
+<td>2003</td>
+<td>U Primary</td>
+<td>GYAN VIGYAN U.P.S.</td>
+<td>Modak Station udpura</td>
+<td>Udpura CT</td>
+<td>Udpura</td>
+</tr>
+<tr class="gradeA">
+<td>4001</td>
+<td>H Secondary</td>
+<td>GOVT.SR.SEC.SCH. MORAK STATION</td>
+<td>Modak Station udpura</td>
+<td>Udpura CT</td>
+<td>Udpura</td>
+</tr>
+<tr class="gradeA">
+<td>3001</td>
+<td>Secondary</td>
+<td>SWAMI VIVEKANAN CHILDREN  SECONDRY SCH.</td>
+<td>Chechat</td>
+<td>Chechat CT</td>
+<td>Ward No. 1</td>
+</tr>
+<tr class="gradeA">
+<td>2005</td>
+<td>U Primary</td>
+<td>UPS GYAN DEHI SARSWATI VIDHYA MANDIR</td>
+<td>Modak Station udpura</td>
+<td>Udpura CT</td>
+<td>Udpura</td>
+</tr>
+<tr class="gradeA">
+<td>2001</td>
+<td>U Primary</td>
+<td>GUPS  MORAK GAON</td>
+<td>Modak Goan</td>
+<td>Modak CT</td>
+<td>N/A</td>
+</tr>
+<tr class="gradeA">
+<td>2002</td>
+<td>U Primary</td>
+<td>MA SARSWATI PUBLIC S.</td>
+<td>Modak Gaon</td>
+<td>Modak CT</td>
+<td>N/A</td>
+</tr>
+<tr class="gradeA">
+<td>2003</td>
+<td>U Primary</td>
+<td>GUPSG  MORAK GAON</td>
+<td>Modak Gaon</td>
+<td>Modak CT</td>
+<td>N/A</td>
+</tr>
+<tr class="gradeA">
+<td>2004</td>
+<td>U Primary</td>
+<td>NEW GEETANJALI SIKSHAN SANSTHA</td>
+<td>Modak Gaon</td>
+<td>Modak CT</td>
+<td>N/A</td>
+</tr>
+<tr class="gradeA">
+<td>3001</td>
+<td>Secondary</td>
+<td>AKTA JYOTI BAL VIDHYA MANDIR</td>
+<td>Modak Gaon</td>
+<td>Modak CT</td>
+<td>N/A</td>
+</tr>
+<tr class="gradeA">
+<td>4001</td>
+<td>H Secondary</td>
+<td>D.A.V. PUBLIC SCHOOL</td>
+<td>Modak Gaon</td>
+<td>Modak CT</td>
+<td>N/A</td>
+</tr>
+<tr class="gradeA">
+<td>4002</td>
+<td>H Secondary</td>
+<td>GOVT.SR.SEC. MORAK GAON</td>
+<td>Modak Gaon</td>
+<td>Modak CT</td>
+<td>N/A</td>
+</tr>
+<tr class="gradeA">
+<td>1001</td>
+<td>Primary</td>
+<td>Govt.primary School  SATAL KHEDI GAON</td>
+<td>Satal Kheri</td>
+<td>Satalkheri CT</td>
+<td>N/A</td>
+</tr>
+<tr class="gradeA">
+<td>1002</td>
+<td>Primary</td>
+<td>A.S.I. P.S.  VIDHYA</td>
+<td>Satal Kheri</td>
+<td>Satalkheri CT</td>
+<td>N/A</td>
+</tr>
+<tr class="gradeA">
+<td>2001</td>
+<td>U Primary</td>
+<td>Govt. Upper primary School  SATAL KHEDI KHAN</td>
+<td>Satal Kheri</td>
+<td>Satalkheri CT</td>
+<td>N/A</td>
+</tr>
+<tr class="gradeA">
+<td>3001</td>
+<td>Secondary</td>
+<td>GOVT.SEC.SCH.GIRLS  MORAK STATION</td>
+<td>Modak Station udpura</td>
+<td>Udpura CT</td>
+<td>Udpura</td>
+</tr>
+<tr class="gradeA">
+<td>3002</td>
+<td>Secondary</td>
+<td>Sec MHATMA GANDHI CHILDREN School Modak Station</td>
+<td>Modak Station udpura</td>
+<td>Udpura CT</td>
+<td>Udpura</td>
+</tr>
+<tr class="gradeA">
+<td>2001</td>
+<td>U Primary</td>
+<td>Govt. Upper primary School  SUKET BOYS</td>
+<td>Suket</td>
+<td>Suket CT</td>
+<td>Ward No. 1</td>
+</tr>
+<tr class="gradeA">
+<td>2002</td>
+<td>U Primary</td>
+<td>Govt. Upper primary School  SUKET GIRLS</td>
+<td>Suket</td>
+<td>Suket CT</td>
+<td>Ward No. 1</td>
+</tr>
+<tr class="gradeA">
+<td>2003</td>
+<td>U Primary</td>
+<td>RANI PUBLIC SCHOOL SUKET</td>
+<td>Suket</td>
+<td>Suket CT</td>
+<td>Ward No. 1</td>
+</tr>
+<tr class="gradeA">
+<td>2004</td>
+<td>U Primary</td>
+<td>NAVIN MIDDLE SCHOOL SUKET</td>
+<td>Suket</td>
+<td>Suket CT</td>
+<td>Ward No. 1</td>
+</tr>
+<tr class="gradeA">
+<td>2006</td>
+<td>U Primary</td>
+<td>RAHMANIYA MIDIL SCHOOL</td>
+<td>Suket</td>
+<td>Suket CT</td>
+<td>Ward No. 1</td>
+</tr>
+<tr class="gradeA">
+<td>3002</td>
+<td>Secondary</td>
+<td>HITKARI CHILDREN SEC. SCHOOL SUKET</td>
+<td>Suket</td>
+<td>Suket CT</td>
+<td>Ward No. 1</td>
+</tr>
+<tr class="gradeA">
+<td>3003</td>
+<td>Secondary</td>
+<td>JAI SARSWATI ADARSH SEC. SCHOOL</td>
+<td>Suket</td>
+<td>Suket CT</td>
+<td>Ward No. 1</td>
+</tr>
+<tr class="gradeA">
+<td>4001</td>
+<td>H Secondary</td>
+<td>GOVT.SR.SEC.SCH. GIRLS SUKET</td>
+<td>Suket</td>
+<td>Suket CT</td>
+<td>Ward No. 1</td>
+</tr>
+<tr class="gradeA">
+<td>4002</td>
+<td>H Secondary</td>
+<td>GOVT.SR.SEC.SCH. BOYS SUKET</td>
+<td>Suket</td>
+<td>Suket CT</td>
+<td>Ward No. 1</td>
+</tr>
+<tr class="gradeA">
+<td>1001</td>
+<td>Primary</td>
+<td>G.p.s., Sangod</td>
+<td>Sangod</td>
+<td>Sangod M</td>
+<td>WARD NO. 01</td>
+</tr>
+<tr class="gradeA">
+<td>2001</td>
+<td>U Primary</td>
+<td>G.u.p.s. ,sangod</td>
+<td>Sangod</td>
+<td>Sangod M</td>
+<td>WARD NO. 01</td>
+</tr>
+<tr class="gradeA">
+<td>2002</td>
+<td>U Primary</td>
+<td>U.p.s.keshav Vidya Mandi</td>
+<td>Sangod</td>
+<td>Sangod M</td>
+<td>WARD NO. 01</td>
+</tr>
+<tr class="gradeA">
+<td>2007</td>
+<td>U Primary</td>
+<td>U.p.s.subhash Public Sch</td>
+<td>Sangod</td>
+<td>Sangod M</td>
+<td>WARD NO. 01</td>
+</tr>
+<tr class="gradeA">
+<td>4001</td>
+<td>H Secondary</td>
+<td>G.sr.sec.sch..,sangod</td>
+<td>Sangod</td>
+<td>Sangod M</td>
+<td>WARD NO. 01</td>
+</tr>
+<tr class="gradeA">
+<td>4002</td>
+<td>H Secondary</td>
+<td>G.g.sr.sec.sch.,sangod</td>
+<td>Sangod</td>
+<td>Sangod M</td>
+<td>WARD NO. 01</td>
+</tr>
+<tr class="gradeA">
+<td>1003</td>
+<td>Primary</td>
+<td>Govt..p.s. Sangod Ward 3</td>
+<td>Sangod</td>
+<td>Sangod M</td>
+<td>WARD NO. 01</td>
+</tr>
+<tr class="gradeA">
+<td>1004</td>
+<td>Primary</td>
+<td>Govt..p.s. Sangod Ward  5</td>
+<td>Sangod</td>
+<td>Sangod M</td>
+<td>WARD NO. 01</td>
+</tr>
+<tr class="gradeA">
+<td>1005</td>
+<td>Primary</td>
+<td>Govt..p.s.Sangod Ward  8</td>
+<td>Sangod</td>
+<td>Sangod M</td>
+<td>WARD NO. 01</td>
+</tr>
+<tr class="gradeA">
+<td>3003</td>
+<td>Secondary</td>
+<td>Sec New Ideal School</td>
+<td>Ganesh Talab</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  15</td>
+</tr>
+<tr class="gradeA">
+<td>1004</td>
+<td>Primary</td>
+<td>Govt.primary school rosli road Ramganjmandi</td>
+<td>RAMGANJMANDI</td>
+<td>Ramganj Mandi M</td>
+<td>N/A</td>
+</tr>
+<tr class="gradeA">
+<td>1006</td>
+<td>Primary</td>
+<td>Govt.Primary School RAIDAS COLONY RAMGANJMANDI</td>
+<td>RAMGANJMANDI</td>
+<td>Ramganj Mandi M</td>
+<td>N/A</td>
+</tr>
+<tr class="gradeA">
+<td>1005</td>
+<td>Primary</td>
+<td>Govt.Primary School YADV MOHALLA RAMGANJMANDI</td>
+<td>RAMGANJMANDI</td>
+<td>Ramganj Mandi M</td>
+<td>N/A</td>
+</tr>
+<tr class="gradeA">
+<td>1003</td>
+<td>Primary</td>
+<td>GOVT.PRIMARY SCHOOL MARUTI NAGAR</td>
+<td>MARUTI NAGAR RAMGANJMANDI</td>
+<td>Ramganj Mandi M</td>
+<td>N/A</td>
+</tr>
+<tr class="gradeA">
+<td>1007</td>
+<td>Primary</td>
+<td>Govt.Primary School CEMENT ROAD RAMGANJMANDI</td>
+<td>RAMGANJMANDI</td>
+<td>Ramganj Mandi M</td>
+<td>N/A</td>
+</tr>
+<tr class="gradeA">
+<td>1002</td>
+<td>Primary</td>
+<td>Govt. PS stock basti morak station</td>
+<td>MORAK STATION UDPURA</td>
+<td>Udpura CT</td>
+<td>Udpura</td>
+</tr>
+<tr class="gradeA">
+<td>2001</td>
+<td>U Primary</td>
+<td>Govt. UPS Sogariya</td>
+<td>Sogariya</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  41</td>
+</tr>
+<tr class="gradeA">
+<td>1003</td>
+<td>Primary</td>
+<td>Bhavani Children Primary School Satalkheri Khan</td>
+<td>Satalkheri Khan Distt Kota </td>
+<td>Satalkheri CT</td>
+<td>N/A</td>
+</tr>
+<tr class="gradeA">
+<td>2003</td>
+<td>U Primary</td>
+<td>SUNRISE PUBLIC MIDDLE SCHOOL SATALKHERI KHAN</td>
+<td>SUNRISE PUBLIC MIDDLE SCHOOL SATALKHERI KHAN DISTT KOTA RAJ</td>
+<td>Satalkheri CT</td>
+<td>N/A</td>
+</tr>
+<tr class="gradeA">
+<td>2004</td>
+<td>U Primary</td>
+<td>SHIVANI ADARSH VIDHYA MANDIR SATALKHERI KHAN</td>
+<td>SHIVANI ADARSH VIDHYA MANDIR SATALKHERI KHAN</td>
+<td>Satalkheri CT</td>
+<td>N/A</td>
+</tr>
+<tr class="gradeA">
+<td>2018</td>
+<td>U Primary</td>
+<td>MAHATMA GANDHI CHILDREN MIDDLE SCHOOL RAMGANJMANDI</td>
+<td>MAHATMA GANDHI CHILDREN MIDDLE SCHOOL HIMMAT NAGAR SUKET ROAD RAMGANJMANDI </td>
+<td>Ramganj Mandi M</td>
+<td>N/A</td>
+</tr>
+<tr class="gradeA">
+<td>2019</td>
+<td>U Primary</td>
+<td>SHRI DEV BAL VIDHYA MANDIR UPS RAMGANJMANDI</td>
+<td>SHRI DEV BAL VIDHYA MANDIR UPS BAZAR NO.3 RAMGANJMANDI</td>
+<td>Ramganj Mandi M</td>
+<td>N/A</td>
+</tr>
+<tr class="gradeA">
+<td>1002</td>
+<td>Primary</td>
+<td>PALIWAL ADARSH VIDHYA MANDIR MORAK GAON</td>
+<td>MORAK GAON</td>
+<td>Modak CT</td>
+<td>N/A</td>
+</tr>
+<tr class="gradeA">
+<td>1004</td>
+<td>Primary</td>
+<td>Govt.PS  Puniya Devari</td>
+<td>Puniya Devari</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  5</td>
+</tr>
+<tr class="gradeA">
+<td>1001</td>
+<td>Primary</td>
+<td>Govt.PS  SWAMI VIVEKA NAND NAGAR</td>
+<td>SWAMI VIVEKANAND NAGAR</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  5</td>
+</tr>
+<tr class="gradeA">
+<td>1002</td>
+<td>Primary</td>
+<td>PS AMRATA VIDHYA MANDIR PRIMARY NAYA GAON</td>
+<td>NAYA GAON</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  5</td>
+</tr>
+<tr class="gradeA">
+<td>2005</td>
+<td>U Primary</td>
+<td>U.p.s. Ma Sharda Vidya Mandi</td>
+<td>Sogaria Kota M.C.</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  41</td>
+</tr>
+<tr class="gradeA">
+<td>2005</td>
+<td>U Primary</td>
+<td>UPS SANJEEVANI BAL VIDHYA NIKETAN MORAK GAON</td>
+<td>MORAK GAON</td>
+<td>Modak CT</td>
+<td>N/A</td>
+</tr>
+<tr class="gradeA">
+<td>2002</td>
+<td>U Primary</td>
+<td>Govt. UPS Poonam Colony Sogariya</td>
+<td>Poonam Colony Sogariya Kota M.C.</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  41</td>
+</tr>
+<tr class="gradeA">
+<td>2005</td>
+<td>U Primary</td>
+<td>SAVITRI KRISHNA BAL VIDHYA MANDIR KHAN SATAL KHERI</td>
+<td>SAVITRI KRISHNA BAL VIDHYA MANDIR KHAN SATAL KHERI</td>
+<td>Satalkheri CT</td>
+<td>N/A</td>
+</tr>
+<tr class="gradeA">
+<td>2007</td>
+<td>U Primary</td>
+<td>SAURABH CHILDREN UPS SCHOOL KHAN SATAL KHERI</td>
+<td>SAURABH CHILDREN UPS SCHOOL KHAN SATAL KHERI</td>
+<td>Satalkheri CT</td>
+<td>N/A</td>
+</tr>
+<tr class="gradeA">
+<td>2014</td>
+<td>U Primary</td>
+<td>EBENEZER SCHOOL UPS RAMGANJMANDI</td>
+<td>EBENEZER SCHOOL UPS RAMGANJMANDI</td>
+<td>Ramganj Mandi M</td>
+<td>N/A</td>
+</tr>
+<tr class="gradeA">
+<td>1004</td>
+<td>Primary</td>
+<td>P.S .Adarsh Vidhya Mandir Primaryschool chechat</td>
+<td>NEAR GOVT. HOSPITAL RATHOR SAMAJ NOHRA CHECHAT DISTT. KOTA 326518</td>
+<td>Chechat CT</td>
+<td>N/A</td>
+</tr>
+<tr class="gradeA">
+<td>1004</td>
+<td>Primary</td>
+<td>Govt. Primary  School Shiv colony suket</td>
+<td>SHIV COLONY SUKET</td>
+<td>Suket CT</td>
+<td>N/A</td>
+</tr>
+<tr class="gradeA">
+<td>1005</td>
+<td>Primary</td>
+<td>Govt. Primary School piliyakhal Suket</td>
+<td>piliya khal suket distt. Kota</td>
+<td>Suket CT</td>
+<td>N/A</td>
+</tr>
+<tr class="gradeA">
+<td>1003</td>
+<td>Primary</td>
+<td>Govt.PS  VIVEKA NAND NAGAR</td>
+<td>VIVEKANAND NAGAR</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  5</td>
+</tr>
+<tr class="gradeA">
+<td>4002</td>
+<td>H Secondary</td>
+<td>Govt. sr. sec. School ,sogaria</td>
+<td>Sogaria Kota M.C.</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  41</td>
+</tr>
+<tr class="gradeA">
+<td>1008</td>
+<td>Primary</td>
+<td>RELIABALE PUBLIC SCHOOL SUKET</td>
+<td>SUKET</td>
+<td>Suket CT</td>
+<td>N/A</td>
+</tr>
+<tr class="gradeA">
+<td>1002</td>
+<td>Primary</td>
+<td>Govt. PS Sogariya</td>
+<td>Sogariya Kota M.C.</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  41</td>
+</tr>
+<tr class="gradeA">
+<td>2004</td>
+<td>U Primary</td>
+<td>Govt. UPS Arjunpura</td>
+<td>Arjunpura</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  41</td>
+</tr>
+<tr class="gradeA">
+<td>1002</td>
+<td>Primary</td>
+<td>Govt. Primary School Meena Basti Chechat</td>
+<td>Meena Basti Chechat Distt. Kota</td>
+<td>Chechat CT</td>
+<td>N/A</td>
+</tr>
+<tr class="gradeA">
+<td>1003</td>
+<td>Primary</td>
+<td>Govt. Primary School Pratappura chechat</td>
+<td>Pratappura Chechat distt. Kota</td>
+<td>Chechat CT</td>
+<td>N/A</td>
+</tr>
+<tr class="gradeA">
+<td>1004</td>
+<td>Primary</td>
+<td>MAA BAHAVANI ADARSH VIDHYA MANDIR KHAN SATALKHERI</td>
+<td>MAA BAHAVANI ADARSH VIDHYA MANDIR KHAN SATALKHERI</td>
+<td>Satalkheri CT</td>
+<td>N/A</td>
+</tr>
+<tr class="gradeA">
+<td>1008</td>
+<td>Primary</td>
+<td>MANGALAM D.A.V. PUBLIC SCHOOL RAMGANJMANDI</td>
+<td>MANGALAM D.A.V. PUBLIC SCHOOL BAZAR NO.6 NEAR GREAT INDIA TRANSPORT CO.RAMGANJMANDI 326519</td>
+<td>Ramganj Mandi M</td>
+<td>N/A</td>
+</tr>
+<tr class="gradeA">
+<td>2020</td>
+<td>U Primary</td>
+<td>VATSALLYA UPS  HIMMAT NAGAR SUKET ROAD RAMGANJMANDI</td>
+<td>VATSALLYA UPS  HIMMAT NAGAR SUKET ROAD RAMGANJMANDI</td>
+<td>Ramganj Mandi M</td>
+<td>N/A</td>
+</tr>
+<tr class="gradeA">
+<td>1005</td>
+<td>Primary</td>
+<td>P.S. Saini Bal Vidhya Mandir primary school chechat</td>
+<td>Saini Bal Vidhya Mandir primary school Chechat Near govt. hospital Chechat,distt. Kota</td>
+<td>Chechat CT</td>
+<td>N/A</td>
+</tr>
+<tr class="gradeA">
+<td>2013</td>
+<td>U Primary</td>
+<td>Govt. UPS  DOLAT GUNJ</td>
+<td>DOLAT GANJ</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  5</td>
+</tr>
+<tr class="gradeA">
+<td>2014</td>
+<td>U Primary</td>
+<td>Govt. UPS  GANESH NAGAR</td>
+<td>GANESH NAGAR</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  5</td>
+</tr>
+<tr class="gradeA">
+<td>2006</td>
+<td>U Primary</td>
+<td>Maa Annpoorna upsKHANSATALKHERI</td>
+<td>Maa Annpoorna upsKHANSATALKHERI</td>
+<td>Satalkheri CT</td>
+<td>N/A</td>
+</tr>
+<tr class="gradeA">
+<td>2015</td>
+<td>U Primary</td>
+<td>ATUL NISHA UPS HOUSING BOARD RAMGANJMANDI</td>
+<td>ATUL NISHA UPS HOUSING BOARD RAMGANJMANDI</td>
+<td>Ramganj Mandi M</td>
+<td>N/A</td>
+</tr>
+<tr class="gradeA">
+<td>2016</td>
+<td>U Primary</td>
+<td>DIVINE PUBLIC UPS UNDAVA ROAD RAMGANJMANDI</td>
+<td>DIVINE PUBLIC UPS UNDAVA ROAD RAMGANJMANDI</td>
+<td>Ramganj Mandi M</td>
+<td>N/A</td>
+</tr>
+<tr class="gradeA">
+<td>2017</td>
+<td>U Primary</td>
+<td>MAA GAYATRI SHISHU SHIKSHA KENDRA HOUSNG BOARD COLONY RAMGANJMANDI</td>
+<td>MAA GAYATRI SHISHU SHIKSHA KENDRA HOUSNG BOARD COLONY RAMGANJMANDI</td>
+<td>Ramganj Mandi M</td>
+<td>N/A</td>
+</tr>
+<tr class="gradeA">
+<td>2021</td>
+<td>U Primary</td>
+<td>VINAYAK GYAN BHARTI SCHOOL BAZAR NO. 3 RAMGANJMANDI </td>
+<td>VINAYAK GYAN BHARTI SCHOOL BAZAR NO. 3 RAMGANJMANDI </td>
+<td>Ramganj Mandi M</td>
+<td>N/A</td>
+</tr>
+<tr class="gradeA">
+<td>2003</td>
+<td>U Primary</td>
+<td>UPS Nalanda Bal Vidhya Samiti New Basti Sogariya</td>
+<td>New Basti Sogariya Kota M.C.</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  41</td>
+</tr>
+<tr class="gradeA">
+<td>4001</td>
+<td>H Secondary</td>
+<td>Sr. Sec, Saraswati Vidhya Mandir Sogariya</td>
+<td>Sogaria Kota M.C.</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  41</td>
+</tr>
+<tr class="gradeA">
+<td>2015</td>
+<td>U Primary</td>
+<td>UPS Sneha Bharti Public School Vivekanand nagar</td>
+<td>Vivekanand nagar</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  5</td>
+</tr>
+<tr class="gradeA">
+<td>3006</td>
+<td>Secondary</td>
+<td>Sec. Sonam Pub. School. Girdharpura</td>
+<td>Girdharpura</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  1</td>
+</tr>
+<tr class="gradeA">
+<td>2009</td>
+<td>U Primary</td>
+<td>Govt. U.P.S. Gordhanpura , Bundi Road</td>
+<td>Gordhanpura , Bundi Road</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  1</td>
+</tr>
+<tr class="gradeA">
+<td>1002</td>
+<td>Primary</td>
+<td>Govt. P.S. Mardia, Balita</td>
+<td>Mardia, Balita</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  1</td>
+</tr>
+<tr class="gradeA">
+<td>1001</td>
+<td>Primary</td>
+<td>Govt. P.S. Bapu Nagar (K.B.) Kunhari</td>
+<td> Bapu Nagar (K.B.) Kunhari</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  1</td>
+</tr>
+<tr class="gradeA">
+<td>2006</td>
+<td>U Primary</td>
+<td>U.P.S. Navy Kids Convent School, Balita</td>
+<td> Balita</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  1</td>
+</tr>
+<tr class="gradeA">
+<td>4001</td>
+<td>H Secondary</td>
+<td>Sr. Sec. Gurunanak Pub. School, Badgaon</td>
+<td>Badgaon</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  1</td>
+</tr>
+<tr class="gradeA">
+<td>2007</td>
+<td>U Primary</td>
+<td>U.P.S. Kala Vidhya Mandir, Balita Road</td>
+<td> Balita Road, Kunhari</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  1</td>
+</tr>
+<tr class="gradeA">
+<td>2008</td>
+<td>U Primary</td>
+<td>Govt. U.P.S. Suman Colony, Girdharpura</td>
+<td> Suman Colony, Girdharpura</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  1</td>
+</tr>
+<tr class="gradeA">
+<td>2002</td>
+<td>U Primary</td>
+<td>J.H.PUBLIC SANSKRIT VIDHYAPEETH  UPS CHECHAT</td>
+<td>CHECHAT</td>
+<td>Chechat CT</td>
+<td>N/A</td>
+</tr>
+<tr class="gradeA">
+<td>2006</td>
+<td>U Primary</td>
+<td>GOVT. UPS MANGALAM MORAK </td>
+<td> MAHAVEER COLONY MANGALAM MORAK</td>
+<td>Modak CT</td>
+<td>N/A</td>
+</tr>
+<tr class="gradeA">
+<td>3005</td>
+<td>Secondary</td>
+<td>SEC. SCH. SONALI BAL VIDHYA MANDIR Suket</td>
+<td>Suket</td>
+<td>Suket CT</td>
+<td>Ward No. 1</td>
+</tr>
+<tr class="gradeA">
+<td>1003</td>
+<td>Primary</td>
+<td>Govt.p.s. Meera Basti ,kaithun</td>
+<td>Kaithun     M</td>
+<td>Kaithoon</td>
+<td>N/A</td>
+</tr>
+<tr class="gradeA">
+<td>2002</td>
+<td>U Primary</td>
+<td>Govt.u.p.s.,kaithun</td>
+<td>Kaithun     M</td>
+<td>Kaithoon</td>
+<td>N/A</td>
+</tr>
+<tr class="gradeA">
+<td>1001</td>
+<td>Primary</td>
+<td>Govt.p.s. Kaithun I</td>
+<td>Kaithun     M</td>
+<td>Kaithoon</td>
+<td>N/A</td>
+</tr>
+<tr class="gradeA">
+<td>2008</td>
+<td>U Primary</td>
+<td>Govt.Girls.u.p.s. Kaithun</td>
+<td>Kaithun     M</td>
+<td>Kaithoon</td>
+<td>N/A</td>
+</tr>
+<tr class="gradeA">
+<td>2004</td>
+<td>U Primary</td>
+<td>U.p.s.Tishta vidhya vihar Kaithoon</td>
+<td>Kaithoon</td>
+<td>Kaithoon</td>
+<td>N/A</td>
+</tr>
+<tr class="gradeA">
+<td>3001</td>
+<td>Secondary</td>
+<td>U.p.s.bright Children Kai   Ward 19</td>
+<td>Kaithun     M</td>
+<td>Kaithoon</td>
+<td>N/A</td>
+</tr>
+<tr class="gradeA">
+<td>1006</td>
+<td>Primary</td>
+<td>A.S.I. P.S. KHAN  KUMBHA KOT</td>
+<td>Kumbhkot</td>
+<td>Kumbhkot CT</td>
+<td>N/A</td>
+</tr>
+<tr class="gradeA">
+<td>3002</td>
+<td>Secondary</td>
+<td>GOVT. SEC. KUMBHA KOT</td>
+<td>Kumbhkot</td>
+<td>Kumbhkot CT</td>
+<td>N/A</td>
+</tr>
+<tr class="gradeA">
+<td>2003</td>
+<td>U Primary</td>
+<td>U.p.s.aadarsh Vidya Mandi  Ward 1</td>
+<td>Kaithun     M</td>
+<td>Kaithoon</td>
+<td>N/A</td>
+</tr>
+<tr class="gradeA">
+<td>4001</td>
+<td>H Secondary</td>
+<td>Govt.sr.sec.school,kaithun</td>
+<td>Kaithun     M</td>
+<td>Kaithoon</td>
+<td>N/A</td>
+</tr>
+<tr class="gradeA">
+<td>4002</td>
+<td>H Secondary</td>
+<td>Govt.Girls.sr. Sec. School,kaithun</td>
+<td>Kaithun     M</td>
+<td>Kaithoon</td>
+<td>N/A</td>
+</tr>
+<tr class="gradeA">
+<td>1002</td>
+<td>Primary</td>
+<td>Govt.p.s. Deoli Road</td>
+<td>Kaithun     M</td>
+<td>Kaithoon</td>
+<td>N/A</td>
+</tr>
+<tr class="gradeA">
+<td>2005</td>
+<td>U Primary</td>
+<td>U.p.s. Indra Priy Darshini</td>
+<td>Kaithun     M</td>
+<td>Kaithoon</td>
+<td>N/A</td>
+</tr>
+<tr class="gradeA">
+<td>1005</td>
+<td>Primary</td>
+<td>SARSWATI BAL VIDHYA MANDIR</td>
+<td>Kumbhkot</td>
+<td>Kumbhkot CT</td>
+<td>N/A</td>
+</tr>
+<tr class="gradeA">
+<td>2001</td>
+<td>U Primary</td>
+<td>Govt.u.p.s. Ramnagar kaithun K.B.</td>
+<td>Kaithun     M</td>
+<td>Kaithoon</td>
+<td>N/A</td>
+</tr>
+<tr class="gradeA">
+<td>2006</td>
+<td>U Primary</td>
+<td>U.p.s.gyan Sarowar Pub.s.</td>
+<td>Kaithun     M</td>
+<td>Kaithoon</td>
+<td>N/A</td>
+</tr>
+<tr class="gradeA">
+<td>1004</td>
+<td>Primary</td>
+<td>Govt.primary School  KUMBHA KOT</td>
+<td>Kumbhkot</td>
+<td>Kumbhkot CT</td>
+<td>N/A</td>
+</tr>
+<tr class="gradeA">
+<td>1006</td>
+<td>Primary</td>
+<td>P.S. TARUN BHARTI INTRNALA SCHOOL</td>
+<td>SANGOD</td>
+<td>Sangod M</td>
+<td>WARD NO. 01</td>
+</tr>
+<tr class="gradeA">
+<td>2016</td>
+<td>U Primary</td>
+<td>U.P.S.  NEW PARSHANT VIDHYA</td>
+<td>SANGOD</td>
+<td>Sangod M</td>
+<td>WARD NO. 01</td>
+</tr>
+<tr class="gradeA">
+<td>1007</td>
+<td>Primary</td>
+<td>Govt.P.S.Sangod  Ward  12</td>
+<td>Sangod</td>
+<td>Sangod M</td>
+<td>WARD NO. 01</td>
+</tr>
+<tr class="gradeA">
+<td>2014</td>
+<td>U Primary</td>
+<td>U.p.s.VISHVE  BHARTI VIDHYA BHAVEN</td>
+<td>SANGOD</td>
+<td>Sangod M</td>
+<td>WARD NO. 01</td>
+</tr>
+<tr class="gradeA">
+<td>4003</td>
+<td>H Secondary</td>
+<td>S.Sec. MAA SHRADA  S.S. VIDALAY</td>
+<td>SANGOD</td>
+<td>Sangod M</td>
+<td>WARD NO. 01</td>
+</tr>
+<tr class="gradeA">
+<td>3004</td>
+<td>Secondary</td>
+<td>Sec.Sch.saurabh Bal Vidhya Mandir Sangod</td>
+<td>Sangod</td>
+<td>Sangod M</td>
+<td>WARD NO. 01</td>
+</tr>
+<tr class="gradeA">
+<td>4005</td>
+<td>H Secondary</td>
+<td>Sr.Sec.Sch.mahatma Gandhi Vidhya Niketan Sangod</td>
+<td>Sangod</td>
+<td>Sangod M</td>
+<td>WARD NO. 01</td>
+</tr>
+<tr class="gradeA">
+<td>2013</td>
+<td>U Primary</td>
+<td>U.p.s.AANAND BHARATI VIDHYA NIKETAN</td>
+<td>SANGOD</td>
+<td>Sangod M</td>
+<td>WARD NO. 01</td>
+</tr>
+<tr class="gradeA">
+<td>2017</td>
+<td>U Primary</td>
+<td>Govt.Girls.u.p.s.,sangod</td>
+<td>Sangod</td>
+<td>Sangod M</td>
+<td>WARD NO. 01</td>
+</tr>
+<tr class="gradeA">
+<td>1008</td>
+<td>Primary</td>
+<td>P.S.G.N.D.Public School Sangod</td>
+<td>Sangod</td>
+<td>Sangod M</td>
+<td>WARD NO. 01</td>
+</tr>
+<tr class="gradeA">
+<td>4006</td>
+<td>H Secondary</td>
+<td>Sr.Sec.Sch.Tarun Bharti Pub. Sangod</td>
+<td>Sangod</td>
+<td>Sangod M</td>
+<td>WARD NO. 01</td>
+</tr>
+<tr class="gradeA">
+<td>4004</td>
+<td>H Secondary</td>
+<td>Sr.Sec.Sch.Jyoti Bal Vidyalay  Sangod</td>
+<td>Sangod</td>
+<td>Sangod M</td>
+<td>WARD NO. 01</td>
+</tr>
+<tr class="gradeA">
+<td>4007</td>
+<td>H Secondary</td>
+<td>Sr.Sec.Nitika Vidhya Niketan Sch. Sangod</td>
+<td>Sangod</td>
+<td>Sangod M</td>
+<td>WARD NO. 01</td>
+</tr>
+<tr class="gradeA">
+<td>1003</td>
+<td>Primary</td>
+<td>primary modern convent school morak station</td>
+<td>morak station udpura</td>
+<td>Udpura CT</td>
+<td>Udpura</td>
+</tr>
+<tr class="gradeA">
+<td>1009</td>
+<td>Primary</td>
+<td>primary sanskar shiksha niketan suket</td>
+<td>suket</td>
+<td>Suket CT</td>
+<td>N/A</td>
+</tr>
+<tr class="gradeA">
+<td>4003</td>
+<td>H Secondary</td>
+<td>SR. SEC. BHARTIY SEC.VIDHYA SUKET</td>
+<td>Suket</td>
+<td>Suket CT</td>
+<td>Ward No. 1</td>
+</tr>
+<tr class="gradeA">
+<td>1002</td>
+<td>Primary</td>
+<td>Govt P. S. Peer Baba ki Majar Kunhari</td>
+<td>Kunhari</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  2</td>
+</tr>
+<tr class="gradeA">
+<td>3008</td>
+<td>Secondary</td>
+<td>Sec. School Hadoti  Vidya Vihar Balapura Kunhari</td>
+<td>Kunhari</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  2</td>
+</tr>
+<tr class="gradeA">
+<td>2007</td>
+<td>U Primary</td>
+<td>Ups GAY HEARTS Pub. School Kunhari</td>
+<td>Mataji Road Kunhari</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  2</td>
+</tr>
+<tr class="gradeA">
+<td>1003</td>
+<td>Primary</td>
+<td>P.S. Navdeep Vidhya Mandir Balapura Kunhari</td>
+<td>Kunhari</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  2</td>
+</tr>
+<tr class="gradeA">
+<td>3009</td>
+<td>Secondary</td>
+<td>Sec. Satyam Public School Vikas Nagar, Nanta Road</td>
+<td>Vikas Nagar, Nanta Road</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  2</td>
+</tr>
+<tr class="gradeA">
+<td>2007</td>
+<td>U Primary</td>
+<td>U.p.s.New Pahal Acedamy  Kaithoon</td>
+<td>Kaithoon</td>
+<td>Kaithoon</td>
+<td>N/A</td>
+</tr>
+<tr class="gradeA">
+<td>2001</td>
+<td>U Primary</td>
+<td>Ups B. S. N. Academy Laxmi Vihar Kunhari</td>
+<td>Laxmi Vihar Kunhari</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  2</td>
+</tr>
+<tr class="gradeA">
+<td>1005</td>
+<td>Primary</td>
+<td>Govt.P.S. Harijan Basti WARD 1 Kaithoon</td>
+<td> Kaithoon</td>
+<td>Kaithoon</td>
+<td>N/A</td>
+</tr>
+<tr class="gradeA">
+<td>1007</td>
+<td>Primary</td>
+<td>P.S.Wilkin Children Sch. Kaithoon</td>
+<td> Kaithoon</td>
+<td>Kaithoon</td>
+<td>N/A</td>
+</tr>
+<tr class="gradeA">
+<td>3002</td>
+<td>Secondary</td>
+<td>Sec.Shri Chitragupt Sch. Kaithoon</td>
+<td> Kaithoon</td>
+<td>Kaithoon</td>
+<td>N/A</td>
+</tr>
+<tr class="gradeA">
+<td>1006</td>
+<td>Primary</td>
+<td>Govt.P.S.Todi Mohalla Kaithoon</td>
+<td>Kaithoon</td>
+<td>Kaithoon</td>
+<td>N/A</td>
+</tr>
+<tr class="gradeA">
+<td>2009</td>
+<td>U Primary</td>
+<td>U.P.S.Vivek Vidhya Vihar Kaithoon</td>
+<td>Kaithoon</td>
+<td>Kaithoon</td>
+<td>N/A</td>
+</tr>
+<tr class="gradeA">
+<td>1001</td>
+<td>Primary</td>
+<td>Govt. P.S. Ganeshpal Balapura Kunhari</td>
+<td>Kunhari</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  2</td>
+</tr>
+<tr class="gradeA">
+<td>2008</td>
+<td>U Primary</td>
+<td>UPS Anand Bal Vidhya Niketan Vikas Nagar Kunhari</td>
+<td>Kunhari</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  2</td>
+</tr>
+<tr class="gradeA">
+<td>4008</td>
+<td>H Secondary</td>
+<td>Sr.Sec. St. Johns School Bundi Road Kunhari</td>
+<td>Kunhari</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  2</td>
+</tr>
+<tr class="gradeA">
+<td>1004</td>
+<td>Primary</td>
+<td>Govt.P.S. Kishan Pura Bhanda Hera Road Kaithoon</td>
+<td> Kaithoon</td>
+<td>Kaithoon</td>
+<td>N/A</td>
+</tr>
+<tr class="gradeA">
+<td>2010</td>
+<td>U Primary</td>
+<td>U.P.S. Flawar Children School Kaithoon</td>
+<td>Kaithoon</td>
+<td>Kaithoon</td>
+<td>N/A</td>
+</tr>
+<tr class="gradeA">
+<td>4009</td>
+<td>H Secondary</td>
+<td>Sr. Sec. Adarsh School Panchwati Nagar Kunhari</td>
+<td>Kunhari</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  2</td>
+</tr>
+<tr class="gradeA">
+<td>2011</td>
+<td>U Primary</td>
+<td>U.P.S. Sanskriti Pub. Sch. Kaithoon</td>
+<td> Kaithoon</td>
+<td>Kaithoon</td>
+<td>N/A</td>
+</tr>
+<tr class="gradeA">
+<td>3003</td>
+<td>Secondary</td>
+<td>Sec.Sandipsni Vidhya Mandir Kaithoon</td>
+<td> Kaithoon</td>
+<td>Kaithoon</td>
+<td>N/A</td>
+</tr>
+<tr class="gradeA">
+<td>3006</td>
+<td>Secondary</td>
+<td>Secondary Jai Ambika Bal Vidhya Mandir School Sakatpura</td>
+<td>Sakatpura</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  3</td>
+</tr>
+<tr class="gradeA">
+<td>2008</td>
+<td>U Primary</td>
+<td>U.P.S.D.V.M.School Sakatpura</td>
+<td>Sakatpura</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  3</td>
+</tr>
+<tr class="gradeA">
+<td>3001</td>
+<td>Secondary</td>
+<td>Sec. Baba Public School 1-J-43 Teacher Colony Keshavpura</td>
+<td>Teacher Colony Keshavpura</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  13</td>
+</tr>
+<tr class="gradeA">
+<td>3002</td>
+<td>Secondary</td>
+<td>Sec. Shriram Bal Niketan School 51-52 Keshavpura Sec-7</td>
+<td> Keshavpura</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  13</td>
+</tr>
+<tr class="gradeA">
+<td>4001</td>
+<td>H Secondary</td>
+<td>Sr. Sec. Shishu Bharti School 1-D-13 Teachers Colony Keshavpura </td>
+<td>Teachers Colony Keshavpura </td>
+<td>Kota M Corp.</td>
+<td>WARD NO  13</td>
+</tr>
+<tr class="gradeA">
+<td>4003</td>
+<td>H Secondary</td>
+<td>Sr. Sec. Chatrapati Shivaji Children Sch Bhitriya Kund Shivpura</td>
+<td>Shivpura</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  6</td>
+</tr>
+<tr class="gradeA">
+<td>3001</td>
+<td>Secondary</td>
+<td>Sec. Indian Public School near Purani Maszid Sakatpura</td>
+<td>Sakatpura</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  3</td>
+</tr>
+<tr class="gradeA">
+<td>2007</td>
+<td>U Primary</td>
+<td>UPS Adarsh Bhaskar School Karni Nagar Nanta</td>
+<td>Nanta</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  4</td>
+</tr>
+<tr class="gradeA">
+<td>2008</td>
+<td>U Primary</td>
+<td>UPS Shri Karni Bal Vidhya Mandir Nanta</td>
+<td>Nanta</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  4</td>
+</tr>
+<tr class="gradeA">
+<td>2003</td>
+<td>U Primary</td>
+<td>Govt. UPS Basant Vihar Near Teen Batti Circle</td>
+<td>Basant Vihar</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  14</td>
+</tr>
+<tr class="gradeA">
+<td>2007</td>
+<td>U Primary</td>
+<td>UPS Deepshikha Bal Vidhya Mandir Shyam Nagar Rawat Bhata Raod</td>
+<td>Shyam Nagar</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  14</td>
+</tr>
+<tr class="gradeA">
+<td>1001</td>
+<td>Primary</td>
+<td>Govt. P.S. Bajrang Basti Sakatpura</td>
+<td>Sakatpura </td>
+<td>Kota M Corp.</td>
+<td>WARD NO  3</td>
+</tr>
+<tr class="gradeA">
+<td>1002</td>
+<td>Primary</td>
+<td>Govt. P.S. Hanuman Basti Sakatpura</td>
+<td>Sakatpura</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  3</td>
+</tr>
+<tr class="gradeA">
+<td>4001</td>
+<td>H Secondary</td>
+<td>Sr.Sec Tilak School M. N. Ext. Sec-3</td>
+<td>Mahaveer Nagar Ext.</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  12</td>
+</tr>
+<tr class="gradeA">
+<td>4003</td>
+<td>H Secondary</td>
+<td>Sr. Sec. Grow - Well Public School 2/59-60 Ganesh Talab </td>
+<td>Basant Vihar</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  14</td>
+</tr>
+<tr class="gradeA">
+<td>2004</td>
+<td>U Primary</td>
+<td>Govt. UPS Santoshi Nagar Kachhi Basti</td>
+<td>Santoshi Nagar</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  14</td>
+</tr>
+<tr class="gradeA">
+<td>2009</td>
+<td>U Primary</td>
+<td>Govt. UPS Shambhu Pura </td>
+<td>Shambhu Pura Kota</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  4</td>
+</tr>
+<tr class="gradeA">
+<td>2007</td>
+<td>U Primary</td>
+<td>UPS Deepak Bal Vidhya Mandir Hanuman Nagar Shivpura</td>
+<td>Shivpura</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  6</td>
+</tr>
+<tr class="gradeA">
+<td>3006</td>
+<td>Secondary</td>
+<td>Sec. Bright Way Public School Shivpura</td>
+<td>Shivpura</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  6</td>
+</tr>
+<tr class="gradeA">
+<td>2003</td>
+<td>U Primary</td>
+<td>UPS Tilak Balika Vidhyalaya Sec 3 Mahaveer Nagar Ext. </td>
+<td>Mahaveer Nagar Ext.</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  12</td>
+</tr>
+<tr class="gradeA">
+<td>4005</td>
+<td>H Secondary</td>
+<td>Sr. Sec. Modi Public School Dadabari Ext.</td>
+<td>Dadabari Ext.</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  15</td>
+</tr>
+<tr class="gradeA">
+<td>1002</td>
+<td>Primary</td>
+<td>Govt. PS Berwa Basti Balakund </td>
+<td>Balakund Dadabari</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  16</td>
+</tr>
+<tr class="gradeA">
+<td>4005</td>
+<td>H Secondary</td>
+<td>Sr. Sec. Ankur Bal Mandir Vidyalay 1-G-15 Teachers Colony</td>
+<td>Teachers Colony Keshavpura</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  16</td>
+</tr>
+<tr class="gradeA">
+<td>3002</td>
+<td>Secondary</td>
+<td>Sec LBS Academy Sec 1 M.N. Ext.</td>
+<td>Mahaveer Nagar Ext.</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  12</td>
+</tr>
+<tr class="gradeA">
+<td>3003</td>
+<td>Secondary</td>
+<td>Sec. Shiv Jyoti Convent Mahaveer Nagar Ext. Sec-1</td>
+<td>Mahaveer Nagar Ext.</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  12</td>
+</tr>
+<tr class="gradeA">
+<td>4002</td>
+<td>H Secondary</td>
+<td>Sr. Sec. School Lal Bahadur Shastri M.N. Ext.Sec-1</td>
+<td>Mahaveer Nagar Ext. </td>
+<td>Kota M Corp.</td>
+<td>WARD NO  12</td>
+</tr>
+<tr class="gradeA">
+<td>1003</td>
+<td>Primary</td>
+<td>Govt. PS Udiya Basti Dadabari</td>
+<td>Dadabari</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  14</td>
+</tr>
+<tr class="gradeA">
+<td>1001</td>
+<td>Primary</td>
+<td>Govt. PS Udiya Basti Talwandi</td>
+<td>Udiya Basti Talwandi</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  17</td>
+</tr>
+<tr class="gradeA">
+<td>4004</td>
+<td>H Secondary</td>
+<td>Sr. Sec. Secred Heart Children School 1-C-7 Talwandi</td>
+<td>1-C-7 Talwandi</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  18</td>
+</tr>
+<tr class="gradeA">
+<td>2004</td>
+<td>U Primary</td>
+<td>Govt. U.P.S. Ramnagar Banajara Basti Nanta</td>
+<td>Nanta</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  4</td>
+</tr>
+<tr class="gradeA">
+<td>2006</td>
+<td>U Primary</td>
+<td>U.P.S.New Satyam Public School Karni Nagar Nanta</td>
+<td>Nanta</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  4</td>
+</tr>
+<tr class="gradeA">
+<td>1002</td>
+<td>Primary</td>
+<td>Govt. PS Shivpura Rawat Bhata Road </td>
+<td>Shivpura</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  6</td>
+</tr>
+<tr class="gradeA">
+<td>2001</td>
+<td>U Primary</td>
+<td>Govt. UPS Ambedkar Nagar Back Side Mahaveer Nagar Polic Station</td>
+<td>Mahaveer Nagar</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  12</td>
+</tr>
+<tr class="gradeA">
+<td>4004</td>
+<td>H Secondary</td>
+<td>Sr. Sec. Abhinav Vidya Mandir School Chitragupt Colony </td>
+<td>Chitragupt Colony Basant Vihar</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  14</td>
+</tr>
+<tr class="gradeA">
+<td>2001</td>
+<td>U Primary</td>
+<td>UPS  Vandana Public School 118 Retwali</td>
+<td>Retwali</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  23</td>
+</tr>
+<tr class="gradeA">
+<td>1001</td>
+<td>Primary</td>
+<td>Govt. PS Naveen Udia Basti Sanjay Nagar</td>
+<td>Sanjay Nagar</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  27</td>
+</tr>
+<tr class="gradeA">
+<td>1001</td>
+<td>Primary</td>
+<td>Govt. PS  Shripura   I Ramtalai</td>
+<td>Shripura   I Ramtalai</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  23</td>
+</tr>
+<tr class="gradeA">
+<td>2003</td>
+<td>U Primary</td>
+<td>UPS Dr. Bansi Dhar Shriram Nagar Colony</td>
+<td>Shriram Nagar Colony</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  30</td>
+</tr>
+<tr class="gradeA">
+<td>3003</td>
+<td>Secondary</td>
+<td>Govt. Sec. School Dhakar Kheri </td>
+<td>Dhakar Kheri </td>
+<td>Kota M Corp.</td>
+<td>WARD NO  31</td>
+</tr>
+<tr class="gradeA">
+<td>3004</td>
+<td>Secondary</td>
+<td>Sec. National Children School Dhakar Kheri</td>
+<td>Dhakar Kheri</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  31</td>
+</tr>
+<tr class="gradeA">
+<td>2005</td>
+<td>U Primary</td>
+<td>Govt. UPS Bangali Basti Chawni </td>
+<td>Bangali Basti Chawni </td>
+<td>Kota M Corp.</td>
+<td>WARD NO  35</td>
+</tr>
+<tr class="gradeA">
+<td>1002</td>
+<td>Primary</td>
+<td>Govt. PS Santoshi Nagar </td>
+<td>Santoshi Nagar</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  14</td>
+</tr>
+<tr class="gradeA">
+<td>2006</td>
+<td>U Primary</td>
+<td>UPS Shikhar Special School 2-N-3 Dadabari</td>
+<td>Dadabari</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  14</td>
+</tr>
+<tr class="gradeA">
+<td>3001</td>
+<td>Secondary</td>
+<td>Sec. Sanjay Gandhi Bal Vidhya Niketan Nr. Rly. Fatak DCM Road Sanjay Gandhi Nagar</td>
+<td>Sanjay Gandhi Nagar</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  25</td>
+</tr>
+<tr class="gradeA">
+<td>1001</td>
+<td>Primary</td>
+<td>Govt. PS Gulab Bari Kachhi Basti Raipura</td>
+<td>Gulab Bari Kachhi Basti Raipura</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  31</td>
+</tr>
+<tr class="gradeA">
+<td>3001</td>
+<td>Secondary</td>
+<td>Sec. Praveen Navankur Vidhyalay Dai Mai Ka Chowk Chawani</td>
+<td>Chawani</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  35</td>
+</tr>
+<tr class="gradeA">
+<td>2005</td>
+<td>U Primary</td>
+<td>Govt. UPS M. N. Ext Sec-6 Basant Vihar</td>
+<td>Basant Vihar</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  14</td>
+</tr>
+<tr class="gradeA">
+<td>2002</td>
+<td>U Primary</td>
+<td>UPS R.N. Public School 2-A-8 Chhatarapura</td>
+<td>2-A-8 Chhatarapura</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  25</td>
+</tr>
+<tr class="gradeA">
+<td>2001</td>
+<td>U Primary</td>
+<td>Govt. UPS Sanjay Nagar</td>
+<td>Sanjay Nagar</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  27</td>
+</tr>
+<tr class="gradeA">
+<td>2001</td>
+<td>U Primary</td>
+<td>Govt. G. UPS Dhaker Kheri</td>
+<td>Dhaker Kheri</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  31</td>
+</tr>
+<tr class="gradeA">
+<td>2002</td>
+<td>U Primary</td>
+<td>Govt. UPS Kanwarpura Behind Dakar Kheri</td>
+<td>Kanwarpura Behind Dakar Kheri</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  31</td>
+</tr>
+<tr class="gradeA">
+<td>3001</td>
+<td>Secondary</td>
+<td> Sec. Shiv Jyoti School A-1 Indira Vihar</td>
+<td>Talwandi</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  17</td>
+</tr>
+<tr class="gradeA">
+<td>2006</td>
+<td>U Primary</td>
+<td>UPS Shiv Jyoti School Indira Vihar Talwandi</td>
+<td> Indira Vihar Talwandi</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  17</td>
+</tr>
+<tr class="gradeA">
+<td>4001</td>
+<td>H Secondary</td>
+<td>Sr. Sec. Mamta Children School Parshuram Bhawan Nr. Gayatri Shakti Peeth V.N.</td>
+<td>Parshuram Bhawan Nr. Gayatri Shakti Peeth Vigyan Nagar</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  25</td>
+</tr>
+<tr class="gradeA">
+<td>1001</td>
+<td>Primary</td>
+<td>Govt. PS Soor Sagar </td>
+<td>Soor Sagar</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  34</td>
+</tr>
+<tr class="gradeA">
+<td>2002</td>
+<td>U Primary</td>
+<td>UPS New Decent Public School Chhawani Ramchandrapura</td>
+<td>Chhawani Ramchandrapura</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  38</td>
+</tr>
+<tr class="gradeA">
+<td>2005</td>
+<td>U Primary</td>
+<td>Govt. Girls UPS Nav Srajit Chhawani</td>
+<td>Chhawani</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  38</td>
+</tr>
+<tr class="gradeA">
+<td>1001</td>
+<td>Primary</td>
+<td>Govt. PS Chhatarapura</td>
+<td>Chhatarapura</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  25</td>
+</tr>
+<tr class="gradeA">
+<td>2002</td>
+<td>U Primary</td>
+<td>UPS Shree Gurukul Public School Opp Govt. school Gali No. 1 Shriram Nagar</td>
+<td>Opp Govt. school Gali No. 1 Shriram Nagar</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  30</td>
+</tr>
+<tr class="gradeA">
+<td>1001</td>
+<td>Primary</td>
+<td>Govt. PS Govind Nagar </td>
+<td>Govind Nagar </td>
+<td>Kota M Corp.</td>
+<td>WARD NO  30</td>
+</tr>
+<tr class="gradeA">
+<td>4001</td>
+<td>H Secondary</td>
+<td>Sr. Sec. Ram Prasad Bismil Memorial Raipura DCM </td>
+<td>Raipura DCM </td>
+<td>Kota M Corp.</td>
+<td>WARD NO  31</td>
+</tr>
+<tr class="gradeA">
+<td>2004</td>
+<td>U Primary</td>
+<td>UPS Happy Children School Kansuwa Choky DCM Road</td>
+<td>Kansuwa Choky DCM Road</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  34</td>
+</tr>
+<tr class="gradeA">
+<td>3005</td>
+<td>Secondary</td>
+<td>Sec. Hadoti Bal Vidhya Niketan Chhawni</td>
+<td>Near Ek Minar Maszid Chhawani</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  38</td>
+</tr>
+<tr class="gradeA">
+<td>2009</td>
+<td>U Primary</td>
+<td>UPS Yunik  Pub.  School Near Ramdev Mandir Kotari</td>
+<td>Near Ramdev Mandir Kotari</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  37</td>
+</tr>
+<tr class="gradeA">
+<td>2003</td>
+<td>U Primary</td>
+<td>UPS Mamta Bal DCM Road Raipura</td>
+<td>DCM Road Raipura</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  31</td>
+</tr>
+<tr class="gradeA">
+<td>4004</td>
+<td>H Secondary</td>
+<td>Sr. Sec. Adarsh Vidhya Mandir Near Shiv Mandir Kansuwa</td>
+<td>Near Shiv Mandir Kansuwa</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  34</td>
+</tr>
+<tr class="gradeA">
+<td>1002</td>
+<td>Primary</td>
+<td>Govt. PS Surya Nagar Kachhi Basti Near Dakania St.</td>
+<td>Surya Nagar Kachhi Basti Near Dakania St.</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  34</td>
+</tr>
+<tr class="gradeA">
+<td>2004</td>
+<td>U Primary</td>
+<td>UPS Indian Public School Shama Colony Chhawani</td>
+<td>Shama Colony Chhawani</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  38</td>
+</tr>
+<tr class="gradeA">
+<td>3006</td>
+<td>Secondary</td>
+<td>Sec. Ram Chandra Bal Vidhyalay Chawani Ramchandrapura</td>
+<td>Chawani Ramchandrapura</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  35</td>
+</tr>
+<tr class="gradeA">
+<td>2003</td>
+<td>U Primary</td>
+<td>UPS Shree Shiv Academy Public School Chhawani Ramchandrapura </td>
+<td>Chhawani Ramchandrapura </td>
+<td>Kota M Corp.</td>
+<td>WARD NO  38</td>
+</tr>
+<tr class="gradeA">
+<td>3006</td>
+<td>Secondary</td>
+<td>Sec. Naveen Adarsh Vidhya Mandir Ramchandrapura Chhawani</td>
+<td>Ramchandrapura Chhawani</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  38</td>
+</tr>
+<tr class="gradeA">
+<td>2010</td>
+<td>U Primary</td>
+<td>Govt. UPS Rajnagar</td>
+<td>Rajnagar</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  40</td>
+</tr>
+<tr class="gradeA">
+<td>2015</td>
+<td>U Primary</td>
+<td>UPS Radha Kishan Bal Vidhya Mandir Manpura</td>
+<td>Manpura</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  40</td>
+</tr>
+<tr class="gradeA">
+<td>2007</td>
+<td>U Primary</td>
+<td>UPS GURU GYAN BAL VIDHYALAYA ARJUN PURA</td>
+<td>ARJUNPURA</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  41</td>
+</tr>
+<tr class="gradeA">
+<td>3002</td>
+<td>Secondary</td>
+<td>Govt. Sec. School Chandresal</td>
+<td>Chandresal</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  41</td>
+</tr>
+<tr class="gradeA">
+<td>3007</td>
+<td>Secondary</td>
+<td>Sr. Sec. Veena Dharini School Behind Jain Mandir Chhawani</td>
+<td>Behind Jain Mandir Chhawani</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  38</td>
+</tr>
+<tr class="gradeA">
+<td>3001</td>
+<td>Secondary</td>
+<td>Govt. Girls Sec. School Kotri Gordhanpura</td>
+<td>Kotri Gordhanpura</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  37</td>
+</tr>
+<tr class="gradeA">
+<td>2005</td>
+<td>U Primary</td>
+<td>Govt. UPS Borkhandi</td>
+<td>Borkhandi</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  40</td>
+</tr>
+<tr class="gradeA">
+<td>2008</td>
+<td>U Primary</td>
+<td>Govt. UPS Hathikhera</td>
+<td>Hathikhera</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  40</td>
+</tr>
+<tr class="gradeA">
+<td>3003</td>
+<td>Secondary</td>
+<td>Govt. Sec School Naya Nohra</td>
+<td> Naya Nohra</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  40</td>
+</tr>
+<tr class="gradeA">
+<td>3003</td>
+<td>Secondary</td>
+<td>Sec. Jai Bharat School Poonam Colony Sogariya</td>
+<td>Poonam Colony Sogariya</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  41</td>
+</tr>
+<tr class="gradeA">
+<td>2003</td>
+<td>U Primary</td>
+<td>UPS Ramanand English Medium School Gopal Vihar Police Line</td>
+<td>Gopal Vihar Police Line</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  39</td>
+</tr>
+<tr class="gradeA">
+<td>1001</td>
+<td>Primary</td>
+<td>Govt. PS Shiv Nagar Kaithoon Road </td>
+<td>Shiv Nagar Kaithoon Road </td>
+<td>Kota M Corp.</td>
+<td>WARD NO  39</td>
+</tr>
+<tr class="gradeA">
+<td>2004</td>
+<td>U Primary</td>
+<td>UPS Praveen Shiksha Niketan Sukhdham Colony Baran Road</td>
+<td>Sukhdham Colony Baran Road</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  39</td>
+</tr>
+<tr class="gradeA">
+<td>2009</td>
+<td>U Primary</td>
+<td>Govt. UPS Hanuwatkheda</td>
+<td>Hanuwatkheda</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  40</td>
+</tr>
+<tr class="gradeA">
+<td>2011</td>
+<td>U Primary</td>
+<td>Govt. Girls UPS School Borkhera</td>
+<td>Borkhera</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  40</td>
+</tr>
+<tr class="gradeA">
+<td>3004</td>
+<td>Secondary</td>
+<td>Sec. Shree Nalanda School Jagannathpura</td>
+<td>Jagannathpura</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  40</td>
+</tr>
+<tr class="gradeA">
+<td>2008</td>
+<td>U Primary</td>
+<td>UPS Maharshi Dayanand Public School Chandresal</td>
+<td>Chandresal</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  41</td>
+</tr>
+<tr class="gradeA">
+<td>2010</td>
+<td>U Primary</td>
+<td>UPS Shri Nalanda Bal Vidhyalaya Arjunpura</td>
+<td>Arjunpura</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  41</td>
+</tr>
+<tr class="gradeA">
+<td>3005</td>
+<td>Secondary</td>
+<td>Sec. Mittal Internation Scholl Manpura Baran Road</td>
+<td>Manpura Baran Road</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  40</td>
+</tr>
+<tr class="gradeA">
+<td>3001</td>
+<td>Secondary</td>
+<td>Govt. Sec School Arjunpura</td>
+<td>Arjunpura</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  41</td>
+</tr>
+<tr class="gradeA">
+<td>2006</td>
+<td>U Primary</td>
+<td>Govt. UPS Mandaniya</td>
+<td>Mandaniya</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  40</td>
+</tr>
+<tr class="gradeA">
+<td>1002</td>
+<td>Primary</td>
+<td>Govt. PS Shankarpura</td>
+<td>Shankarpura</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  40</td>
+</tr>
+<tr class="gradeA">
+<td>2016</td>
+<td>U Primary</td>
+<td>UPS Gyandeep Bal Middle Deoli Arab</td>
+<td>Deoli Arab</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  40</td>
+</tr>
+<tr class="gradeA">
+<td>1004</td>
+<td>Primary</td>
+<td>PS Hope Life Children School Roteda</td>
+<td>Roteda</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  41</td>
+</tr>
+<tr class="gradeA">
+<td>1005</td>
+<td>Primary</td>
+<td>PS Kusum Bal Vidhyalaya New Basti Sogariya</td>
+<td>New Basti Sogariya</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  41</td>
+</tr>
+<tr class="gradeA">
+<td>2001</td>
+<td>U Primary</td>
+<td>UPS Pragati Public School Bajrang Nagar Police Line</td>
+<td>Bajrang Nagar Police Line</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  39</td>
+</tr>
+<tr class="gradeA">
+<td>2012</td>
+<td>U Primary</td>
+<td>Govt. UPS Manpura</td>
+<td>Manpura</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  40</td>
+</tr>
+<tr class="gradeA">
+<td>2013</td>
+<td>U Primary</td>
+<td>UPS New Uma Bhartiya Vidhya Mandir Naya Nohra</td>
+<td>Naya Nohra</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  40</td>
+</tr>
+<tr class="gradeA">
+<td>4002</td>
+<td>H Secondary</td>
+<td>Govt. Sr. Sec. School Borkhandi</td>
+<td>Borkhandi</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  40</td>
+</tr>
+<tr class="gradeA">
+<td>4003</td>
+<td>H Secondary</td>
+<td>Sr. Sec. Sir Padampat Singhania School Naya Nohra Baran Road</td>
+<td>Naya Nohra Baran Road</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  40</td>
+</tr>
+<tr class="gradeA">
+<td>1003</td>
+<td>Primary</td>
+<td>PS Ganpati Bal Vidhya Mandir Sogariya Near Ganesh Temple</td>
+<td>Sogariya Near Ganesh Temple</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  41</td>
+</tr>
+<tr class="gradeA">
+<td>2007</td>
+<td>U Primary</td>
+<td>Govt. UPS Jhalipura</td>
+<td>Jhalipura</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  40</td>
+</tr>
+<tr class="gradeA">
+<td>2014</td>
+<td>U Primary</td>
+<td>UPS Pratibha Children Public School Jagannathpura</td>
+<td>Jagannathpura</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  40</td>
+</tr>
+<tr class="gradeA">
+<td>4001</td>
+<td>H Secondary</td>
+<td>Sr. Sec. Vidhyashram Public School Vidhya Vihar Naya Nohra</td>
+<td>Vidhya Vihar Naya Nohra</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  40</td>
+</tr>
+<tr class="gradeA">
+<td>3004</td>
+<td>Secondary</td>
+<td>Sec. Everest Public School Suman Nagar Chandresal</td>
+<td>Suman Nagar Chandresal</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  41</td>
+</tr>
+<tr class="gradeA">
+<td>1001</td>
+<td>Primary</td>
+<td>Govt. PS Choti Borkhandi Naya Nohra</td>
+<td>Choti Borkhandi Naya Nohra</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  40</td>
+</tr>
+<tr class="gradeA">
+<td>2009</td>
+<td>U Primary</td>
+<td>UPS Adity Academy Public School Sogariya</td>
+<td>Sogariya</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  41</td>
+</tr>
+<tr class="gradeA">
+<td>4003</td>
+<td>H Secondary</td>
+<td>Sr. Sec. Adarsh Vidhya Niketan Ganesh pura Road Shastri Colony Kota Jn.</td>
+<td>Ganesh pura Road Shastri Colony Kota Jn.</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  42</td>
+</tr>
+<tr class="gradeA">
+<td>2002</td>
+<td>U Primary</td>
+<td>Govt..U.P.S.,Purohit Ji Ki Tapari</td>
+<td>Purohit Ji Ki Tapari</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  44</td>
+</tr>
+<tr class="gradeA">
+<td>1002</td>
+<td>Primary</td>
+<td>Govt.P.S.Ganesh Pura K.B.</td>
+<td>Ganesh Pura</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  42</td>
+</tr>
+<tr class="gradeA">
+<td>3002</td>
+<td>Secondary</td>
+<td>Sec.. Sch. Rani Laxmi Bai  Bhadana Rangpur Road</td>
+<td>Rangpur Road</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  42</td>
+</tr>
+<tr class="gradeA">
+<td>1002</td>
+<td>Primary</td>
+<td>Govt.P.S.Rang Talab</td>
+<td>Rang Talab</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  44</td>
+</tr>
+<tr class="gradeA">
+<td>2017</td>
+<td>U Primary</td>
+<td>UPS  Al-Heera Academy Deoli Arab Road Borkhera</td>
+<td>Borkhera</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  40</td>
+</tr>
+<tr class="gradeA">
+<td>4005</td>
+<td>H Secondary</td>
+<td>Sr.Sec. Saraswati Ball  Vidhyalaya Girls Railway  hospital Road</td>
+<td>Railway Colony, Kota Junction</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  43</td>
+</tr>
+<tr class="gradeA">
+<td>2006</td>
+<td>U Primary</td>
+<td>U.P.S.Shiva Saraswati Gyan Mandir</td>
+<td>MotiMaharaj Road Chhawani</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  38</td>
+</tr>
+<tr class="gradeA">
+<td>1001</td>
+<td>Primary</td>
+<td>Govt. P.S.Sundar Nagar Kota Jn.</td>
+<td>Sundar Nagar Kota Jn.</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  44</td>
+</tr>
+<tr class="gradeA">
+<td>1001</td>
+<td>Primary</td>
+<td>Govt. P.S.Khari Bawari Mahatma Gandhi Colony </td>
+<td>Mahatma Gandhi Colony ,kota Jun.</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  45</td>
+</tr>
+<tr class="gradeA">
+<td>3008</td>
+<td>Secondary</td>
+<td>Sec. New Little Modern School F/6 Krishna Vihar Borkhera</td>
+<td> F/6 Krishna Vihar Borkhera</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  46</td>
+</tr>
+<tr class="gradeA">
+<td>3010</td>
+<td>Secondary</td>
+<td>Sec. Praveen Shiksha Niketan A11 Sukhdham Colony Baran Road</td>
+<td>A11 Sukhdham Colony Baran Road</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  46</td>
+</tr>
+<tr class="gradeA">
+<td>1001</td>
+<td>Primary</td>
+<td>Govt. PS Chashme Ki Bawri Ghantaghar</td>
+<td>Chashme Ki Bawri Ghantaghar</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  51</td>
+</tr>
+<tr class="gradeA">
+<td>3003</td>
+<td>Secondary</td>
+<td>Sec. Diwakar Bal Mandir School Bhatapara Rampura</td>
+<td>Bhatapara Rampura</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  52</td>
+</tr>
+<tr class="gradeA">
+<td>2008</td>
+<td>U Primary</td>
+<td>UPS Lucky Middle School Sarola House Shripura</td>
+<td>Sarola House Shripura</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  48</td>
+</tr>
+<tr class="gradeA">
+<td>3005</td>
+<td>Secondary</td>
+<td>Sec MORDEN CHILDREN   SCH. Chechat</td>
+<td>Chechat</td>
+<td>Chechat CT</td>
+<td>Ward No. 1</td>
+</tr>
+<tr class="gradeA">
+<td>2007</td>
+<td>U Primary</td>
+<td> UPS K.G.N. School Ganz Shahida Shripura</td>
+<td>Ganz Shahida Shripura</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  48</td>
+</tr>
+<tr class="gradeA">
+<td>3002</td>
+<td>Secondary</td>
+<td>G.sec.music School</td>
+<td>Rampura</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  52</td>
+</tr>
+<tr class="gradeA">
+<td>2002</td>
+<td>U Primary</td>
+<td>UPS Habeeb Children School Chashme Ki Bawri Ghantaghar</td>
+<td>Chashme Ki Bawri Ghantaghar</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  51</td>
+</tr>
+<tr class="gradeA">
+<td>1002</td>
+<td>Primary</td>
+<td>Govt. PS Chandraghata Harijan Basti</td>
+<td>Chandraghata Harijan Basti</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  51</td>
+</tr>
+<tr class="gradeA">
+<td>4002</td>
+<td>H Secondary</td>
+<td>Govt. Sr. Sec. School Mahatma Gandhi Rampura</td>
+<td>Rampura</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  52</td>
+</tr>
+<tr class="gradeA">
+<td>4001</td>
+<td>H Secondary</td>
+<td>Sr.sec. New Moddel School 101 Ballabh Bari</td>
+<td>Ballabh Bari</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  47</td>
+</tr>
+<tr class="gradeA">
+<td>2006</td>
+<td>U Primary</td>
+<td>UPS Saini Kanwar Ram Vidhya Mandir Sindhu Bhawan Shripura </td>
+<td>Sindhu Bhawan Shripura </td>
+<td>Kota M Corp.</td>
+<td>WARD NO  48</td>
+</tr>
+<tr class="gradeA">
+<td>2002</td>
+<td>U Primary</td>
+<td>UPS Radiant Way Public School 144 Ballabh Bari Gumanpura</td>
+<td>144 Ballabh Bari Gumanpura</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  47</td>
+</tr>
+<tr class="gradeA">
+<td>2011</td>
+<td>U Primary</td>
+<td>Ups Nand Bal Vidyalay</td>
+<td>Patanpole</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  50</td>
+</tr>
+<tr class="gradeA">
+<td>1001</td>
+<td>Primary</td>
+<td>Govt. PS Jamna Colony Borkhera</td>
+<td>Borkhera</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  46</td>
+</tr>
+<tr class="gradeA">
+<td>3007</td>
+<td>Secondary</td>
+<td>Sec. Sardar Patel School Jai Hind Nagar I Police Line </td>
+<td>Jai Hind Nagar I Police Line </td>
+<td>Kota M Corp.</td>
+<td>WARD NO  46</td>
+</tr>
+<tr class="gradeA">
+<td>3009</td>
+<td>Secondary</td>
+<td>Sec. Saroj Devi Public School A-111 Pratap Nagar Borkhera</td>
+<td>A-111 Pratap Nagar Borkhera</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  46</td>
+</tr>
+<tr class="gradeA">
+<td>2003</td>
+<td>U Primary</td>
+<td>UPS Little Holy Angels School Shripura Kota</td>
+<td>Shripura Kota</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  48</td>
+</tr>
+<tr class="gradeA">
+<td>2001</td>
+<td>U Primary</td>
+<td>Govt. UPS Brijrajpura I Chittora Ka Nohra</td>
+<td>Brij Raj Pura l Chittora Ka Nohra</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  49</td>
+</tr>
+<tr class="gradeA">
+<td>2004</td>
+<td>U Primary</td>
+<td>UPS Yash Bal Niketan 245 Radha Vilas Patan Pole</td>
+<td>Radha Vilas Patan Pole</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  50</td>
+</tr>
+<tr class="gradeA">
+<td>2003</td>
+<td>U Primary</td>
+<td>Ups Nav Bharat Pub. School Mama Karima  Ka Chowk Chandra Ghata</td>
+<td>Chandra Ghata</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  51</td>
+</tr>
+<tr class="gradeA">
+<td>4003</td>
+<td>H Secondary</td>
+<td>Sr.Sec. Jupiter School Gulab Bari Ladpura</td>
+<td>Ladpura</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  53</td>
+</tr>
+<tr class="gradeA">
+<td>4004</td>
+<td>H Secondary</td>
+<td>Sr. Sec. Shree Annapurna School Karbala Road Ladpura</td>
+<td>Ladpura</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  53</td>
+</tr>
+<tr class="gradeA">
+<td>3002</td>
+<td>Secondary</td>
+<td>Sec. Alok Children School Pratap Colony Rangpur Road Kota Jn.</td>
+<td>Pratap Colony Rangpur Road Kota Jn.</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  57</td>
+</tr>
+<tr class="gradeA">
+<td>2004</td>
+<td>U Primary</td>
+<td>UPS Future Point Children School Nehru Colony Nayapura </td>
+<td>Nehru Colony Nayapura </td>
+<td>Kota M Corp.</td>
+<td>WARD NO  54</td>
+</tr>
+<tr class="gradeA">
+<td>2002</td>
+<td>U Primary</td>
+<td>UPS Shri Chandra Bal Vidhyalay Near Dev Narayan Temple Khand Gawari Nayapura</td>
+<td>Khand Gawari Nayapura</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  56</td>
+</tr>
+<tr class="gradeA">
+<td>2005</td>
+<td>U Primary</td>
+<td>UPS Ganpati Bal Vidhya Mandir Nandaji ki Bari Kherli Phatak</td>
+<td>Nandaji ki Bari Kherli Phatak</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  56</td>
+</tr>
+<tr class="gradeA">
+<td>2007</td>
+<td>U Primary</td>
+<td>Govt. Girls UPS Ladpura</td>
+<td>Ladpura</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  53</td>
+</tr>
+<tr class="gradeA">
+<td>4006</td>
+<td>H Secondary</td>
+<td>Sr. Sec.  Abhinav Bal Vidya Niketan Mahaveercolony</td>
+<td>Rangpura Road</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  43</td>
+</tr>
+<tr class="gradeA">
+<td>2002</td>
+<td>U Primary</td>
+<td>UPS Saint Lals School Shanti Kutir Near MBS NagarKota Jn.</td>
+<td>Shanti Kutir Near MBS NagarKota Jn.</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  57</td>
+</tr>
+<tr class="gradeA">
+<td>3001</td>
+<td>Secondary</td>
+<td>Sec. Adarash Gurukul School Adarsh Nagar Rangpur Road Kota Jn.</td>
+<td>Adarsh Nagar Rangpur Road Kota Jn.</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  57</td>
+</tr>
+<tr class="gradeA">
+<td>1003</td>
+<td>Primary</td>
+<td>PS Sambhagiya Mook Badhir Mand Buddhi Avasiya Vidhyalaya Ujjawal Vihar Baran Road </td>
+<td>Ujjawal Vihar Baran Road </td>
+<td>Kota M Corp.</td>
+<td>WARD NO  40</td>
+</tr>
+<tr class="gradeA">
+<td>4002</td>
+<td>H Secondary</td>
+<td>Sr. Sec. Army School Dadwara Kota</td>
+<td>Dadwara Kota</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  57</td>
+</tr>
+<tr class="gradeA">
+<td>1001</td>
+<td>Primary</td>
+<td>Govt. PS Kherli Purohit Kota</td>
+<td>Kherli Purohit Kota</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  56</td>
+</tr>
+<tr class="gradeA">
+<td>1001</td>
+<td>Primary</td>
+<td>Govt. PS Civil Lines Nayapura </td>
+<td>Civil Lines Nayapura </td>
+<td>Kota M Corp.</td>
+<td>WARD NO  54</td>
+</tr>
+<tr class="gradeA">
+<td>2005</td>
+<td>U Primary</td>
+<td>UPS Gyan Bharti Shiksha Niketan Bus Stand Nayapura</td>
+<td>Bus Stand Nayapura</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  54</td>
+</tr>
+<tr class="gradeA">
+<td>2005</td>
+<td>U Primary</td>
+<td>UPS Ramanand School Mahaveer Colony Rangpur Road</td>
+<td>Mahaveer Colony Rangpur Road</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  43</td>
+</tr>
+<tr class="gradeA">
+<td>2001</td>
+<td>U Primary</td>
+<td>UPS Bal Mandir School Jain Mandir Road Bhimganj Mandi Kota Jn.</td>
+<td>Jain Mandir Road Bhimganj Mandi Kota Jn.</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  57</td>
+</tr>
+<tr class="gradeA">
+<td>4003</td>
+<td>H Secondary</td>
+<td>Sr.Sec.Sch.Shri Karshin Rawat Bhata Road Chechat  </td>
+<td> Chechat  </td>
+<td>Chechat CT</td>
+<td>N/A</td>
+</tr>
+<tr class="gradeA">
+<td>1006</td>
+<td>Primary</td>
+<td>P.S.Anjuman Islah Madrsa Nilgarn Maszid Chachet</td>
+<td>Chachet</td>
+<td>Chechat CT</td>
+<td>N/A</td>
+</tr>
+<tr class="gradeA">
+<td>2001</td>
+<td>U Primary</td>
+<td>Govt.P.U.School Brijraj Pura  II</td>
+<td>D.I.E.T Parishar</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  5</td>
+</tr>
+<tr class="gradeA">
+<td>1005</td>
+<td>Primary</td>
+<td>govt.PS Rathkankara. </td>
+<td>Rathkankara </td>
+<td>Kota M Corp.</td>
+<td>WARD NO  5</td>
+</tr>
+<tr class="gradeA">
+<td>1006</td>
+<td>Primary</td>
+<td>Govt. P.S. Talaw Gaon Kresher Basti Anantpura</td>
+<td> Anantpura</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  5</td>
+</tr>
+<tr class="gradeA">
+<td>1007</td>
+<td>Primary</td>
+<td>Govt. P.S. Ajay Ahuja Nagar</td>
+<td>Ajay Ahuja Nagar</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  5</td>
+</tr>
+<tr class="gradeA">
+<td>1008</td>
+<td>Primary</td>
+<td>Prabha Gyan Peeth 4/121, Swami Vivekanand Nagar</td>
+<td>4/121, Swami Vivekanand Nagar</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  5</td>
+</tr>
+<tr class="gradeA">
+<td>3002</td>
+<td>Secondary</td>
+<td>Sec. Shiv Acadamy Pub. School</td>
+<td>Rangbari</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  8</td>
+</tr>
+<tr class="gradeA">
+<td>2018</td>
+<td>U Primary</td>
+<td>UPS Sun Shine Children School,Vivekanand Nagar</td>
+<td>V.H.E.25, Vivekanand Nagar</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  5</td>
+</tr>
+<tr class="gradeA">
+<td>3003</td>
+<td>Secondary</td>
+<td>Sec. Ram Krishna Academy School, Swami Vivekanand Nagar</td>
+<td>1/70, Swami Vivekanand Nagar</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  5</td>
+</tr>
+<tr class="gradeA">
+<td>4001</td>
+<td>H Secondary</td>
+<td>Sr.Sec.Jyotiba School, Rangbari</td>
+<td>Rangbari</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  8</td>
+</tr>
+<tr class="gradeA">
+<td>3005</td>
+<td>Secondary</td>
+<td>Sec. Ravindra Pub. Sch. 6a31</td>
+<td>Mahaveer  Nagar  Ext</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  14</td>
+</tr>
+<tr class="gradeA">
+<td>3002</td>
+<td>Secondary</td>
+<td>Sec Shri Ram Vidya Mandir</td>
+<td>1209 Bsant Bihar</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  15</td>
+</tr>
+<tr class="gradeA">
+<td>2003</td>
+<td>U Primary</td>
+<td>UPS Siddhi Vinayak Public School, Rangbari</td>
+<td>Rangbari</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  8</td>
+</tr>
+<tr class="gradeA">
+<td>4004</td>
+<td>H Secondary</td>
+<td>Sr. SEC. SPRINGDALS CHILDERN SCHOOL NAYAGAON</td>
+<td>NAYA GAON</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  5</td>
+</tr>
+<tr class="gradeA">
+<td>4006</td>
+<td>H Secondary</td>
+<td>Sr.sec. New Look School MD Mission Campus Keshavpura</td>
+<td>Keshavpura</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  16</td>
+</tr>
+<tr class="gradeA">
+<td>2002</td>
+<td>U Primary</td>
+<td>UPS Maharshi Parashar Publlic School, Rangbari</td>
+<td> Rangbari</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  8</td>
+</tr>
+<tr class="gradeA">
+<td>4002</td>
+<td>H Secondary</td>
+<td>SR. Sec.  Madhu Smriti Central School, Rangbari</td>
+<td>Rangbari</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  8</td>
+</tr>
+<tr class="gradeA">
+<td>2003</td>
+<td>U Primary</td>
+<td>Ups Deeksha Gyan Peeth 320 Basant Vihar Keshavpura-9</td>
+<td>Keshopura</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  15</td>
+</tr>
+<tr class="gradeA">
+<td>3004</td>
+<td>Secondary</td>
+<td>Sec Kendriya Shikshan Sansthan School 5-A-11 M. N. Ext</td>
+<td>Mahaveer Nagar Ext. </td>
+<td>Kota M Corp.</td>
+<td>WARD NO  14</td>
+</tr>
+<tr class="gradeA">
+<td>1001</td>
+<td>Primary</td>
+<td>Govt. P.S. Rangbari</td>
+<td> Rangbari</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  8</td>
+</tr>
+<tr class="gradeA">
+<td>4005</td>
+<td>H Secondary</td>
+<td>Higher Sec. Gandhi Sanskar Bharti School, Bapu Colony, kota Jun.</td>
+<td>Adarsh Nagar,Bapu Colony, kota Jun.</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  58</td>
+</tr>
+<tr class="gradeA">
+<td>2010</td>
+<td>U Primary</td>
+<td>UPS Durgarani Pub. School Dadwara</td>
+<td>Dadwara</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  59</td>
+</tr>
+<tr class="gradeA">
+<td>1002</td>
+<td>Primary</td>
+<td>Govt. PS Nehru Nagar Dadwara</td>
+<td>Nehru Nagar Dadwara</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  59</td>
+</tr>
+<tr class="gradeA">
+<td>4004</td>
+<td>H Secondary</td>
+<td>Sr.Sec. Hadoti  bal vidhyalaya.2A1</td>
+<td>Mahaveer  Nagar  Ext.</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  12</td>
+</tr>
+<tr class="gradeA">
+<td>4003</td>
+<td>H Secondary</td>
+<td>Sr.Sec. Aadarsh Bal Niketan</td>
+<td>Mahaveer Nagar Ext.</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  12</td>
+</tr>
+<tr class="gradeA">
+<td>4005</td>
+<td>H Secondary</td>
+<td>Sr.sec joyti bal vidhya mandir Mahaveer Nagar III</td>
+<td>1-G-32 Mahaveer Nagar III</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  10</td>
+</tr>
+<tr class="gradeA">
+<td>2002</td>
+<td>U Primary</td>
+<td>Ups. Shri Tiwari Pub. School Mahaveer Nagar Ext</td>
+<td>4T22 Mahaveer Nagar Ext.</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  11</td>
+</tr>
+<tr class="gradeA">
+<td>2004</td>
+<td>U Primary</td>
+<td>GU.p.s.,keshopura,sec.3</td>
+<td>Keshopura</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  12</td>
+</tr>
+<tr class="gradeA">
+<td>3007</td>
+<td>Secondary</td>
+<td>Sec Shri Ram Bal Niketan School 51, Keshavpura</td>
+<td>Keshavpura</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  13</td>
+</tr>
+<tr class="gradeA">
+<td>1001</td>
+<td>Primary</td>
+<td>Govt PS. Shrinathpuram (B)</td>
+<td>Shrinathpuram</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  7</td>
+</tr>
+<tr class="gradeA">
+<td>2009</td>
+<td>U Primary</td>
+<td>Govt. UPS. Shrinathpuram Sec. C</td>
+<td>Shrinathpuram Sec. C</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  7</td>
+</tr>
+<tr class="gradeA">
+<td>4016</td>
+<td>H Secondary</td>
+<td>Sr. Sec, Arcadia Academy School, R.K.Puram </td>
+<td>FAR-1 Sec. B R.K.Puram </td>
+<td>Kota M Corp.</td>
+<td>WARD NO  7</td>
+</tr>
+<tr class="gradeA">
+<td>4007</td>
+<td>H Secondary</td>
+<td>Sr. Sec. Kautilya School Bhamashah Mandi Road</td>
+<td>Anantpura</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  9</td>
+</tr>
+<tr class="gradeA">
+<td>3005</td>
+<td>Secondary</td>
+<td>Sec. Swami Vivekanand Vidhya NiketanGirls School</td>
+<td>Mahaveer Nagar III</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  10</td>
+</tr>
+<tr class="gradeA">
+<td>3002</td>
+<td>Secondary</td>
+<td>Sec. Abhishek  School</td>
+<td>Mahaveer Nagar Iii Kota</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  10</td>
+</tr>
+<tr class="gradeA">
+<td>4003</td>
+<td>H Secondary</td>
+<td>Sr. Sec. Navoday Bal Vidyalay</td>
+<td>Mahaveer Nagar Ext.</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  11</td>
+</tr>
+<tr class="gradeA">
+<td>3005</td>
+<td>Secondary</td>
+<td>Sec. Sant Dayanand Sec. Sch.</td>
+<td>Keshavpura</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  13</td>
+</tr>
+<tr class="gradeA">
+<td>3006</td>
+<td>Secondary</td>
+<td>Sec. Sant Oxford  Academy</td>
+<td>Keshavpura</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  13</td>
+</tr>
+<tr class="gradeA">
+<td>3008</td>
+<td>Secondary</td>
+<td>Sec. Saint Kabir Bal Vidhyalya 244-45 Keshavpura - 4</td>
+<td>Keshopura</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  13</td>
+</tr>
+<tr class="gradeA">
+<td>4003</td>
+<td>H Secondary</td>
+<td>Sr.Sec. Darshan Gyan Bharti Vid.</td>
+<td>Keshopura</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  13</td>
+</tr>
+<tr class="gradeA">
+<td>4004</td>
+<td>H Secondary</td>
+<td>Sr.Sec.  Bharatia Vidya Mandir</td>
+<td>Keshavpura</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  13</td>
+</tr>
+<tr class="gradeA">
+<td>4005</td>
+<td>H Secondary</td>
+<td>Sr.Sec. Vidur Navoday Sec. Sch.</td>
+<td>Teachers Colony, Keshav Pura</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  13</td>
+</tr>
+<tr class="gradeA">
+<td>3004</td>
+<td>Secondary</td>
+<td>Sec. Panth  Public   Sch</td>
+<td>Mahaveer  Nagar  Iii</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  10</td>
+</tr>
+<tr class="gradeA">
+<td>3004</td>
+<td>Secondary</td>
+<td>Govt.Sec. School Thegara</td>
+<td>Thegara</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  39</td>
+</tr>
+<tr class="gradeA">
+<td>2001</td>
+<td>U Primary</td>
+<td>Ups  Bright Children School</td>
+<td>Ambedker, Dhakaniya</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  29</td>
+</tr>
+<tr class="gradeA">
+<td>4006</td>
+<td>H Secondary</td>
+<td>Sr.Sec. Swami Vivekanand  School</td>
+<td>Mahaveer Nagar Iii</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  10</td>
+</tr>
+<tr class="gradeA">
+<td>4007</td>
+<td>H Secondary</td>
+<td>Sr. Sec.jenious Children. School</td>
+<td>Mahaveer Nagar   Ii</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  10</td>
+</tr>
+<tr class="gradeA">
+<td>4017</td>
+<td>H Secondary</td>
+<td>Sr. Sec. School Arihant Children R.K.Puram</td>
+<td>A-1314, R.K.Puram</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  7</td>
+</tr>
+<tr class="gradeA">
+<td>2005</td>
+<td>U Primary</td>
+<td>Govt.U.P.S.,Pandit Deendayal Upadhyay Nagar</td>
+<td>Pandit Deendayal Upadhyay Nagar</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  9</td>
+</tr>
+<tr class="gradeA">
+<td>1001</td>
+<td>Primary</td>
+<td>Govt. P.S. Anant Pura</td>
+<td>Anant Pura</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  9</td>
+</tr>
+<tr class="gradeA">
+<td>2008</td>
+<td>U Primary</td>
+<td>Govt.Girls U.P.S .Mahaveer Nagar lll</td>
+<td>Mahaveer Nagar lll</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  10</td>
+</tr>
+<tr class="gradeA">
+<td>4006</td>
+<td>H Secondary</td>
+<td>Sr. Sec. Instrumentation School I.L. Town Ship</td>
+<td>Mahaveer Nagar l </td>
+<td>Kota M Corp.</td>
+<td>WARD NO  9</td>
+</tr>
+<tr class="gradeA">
+<td>4002</td>
+<td>H Secondary</td>
+<td>Sr.Sec. Maa Subhodh Bharti School Mahaveer Nagar  Ext</td>
+<td>1K4 Mahaveer Nagar  Ext.</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  11</td>
+</tr>
+<tr class="gradeA">
+<td>4003</td>
+<td>H Secondary</td>
+<td>Govt..Girls.sr.sec.school Mahaveer Nagar  III</td>
+<td>Mahaveer Nagar  III</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  10</td>
+</tr>
+<tr class="gradeA">
+<td>3001</td>
+<td>Secondary</td>
+<td>Sec. Jawahar Vidya Mandir</td>
+<td>Sanjay Gandhi Nagar</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  27</td>
+</tr>
+<tr class="gradeA">
+<td>3005</td>
+<td>Secondary</td>
+<td>Sec. Central Children Academy, Mahaveer Nagar Ext.</td>
+<td>Mahaveer Nagar Ext.4-C-7</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  12</td>
+</tr>
+<tr class="gradeA">
+<td>3006</td>
+<td>Secondary</td>
+<td>Govt. Sec. Sch. Aawasan Mandal</td>
+<td>Aawasan Mandal,keshopura</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  12</td>
+</tr>
+<tr class="gradeA">
+<td>2001</td>
+<td>U Primary</td>
+<td>U.P.S. Maharshi Sandeepan Vidhya PeethNew Jawahar  Nagar</td>
+<td>New Jawahar  Nagar</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  19</td>
+</tr>
+<tr class="gradeA">
+<td>2002</td>
+<td>U Primary</td>
+<td>U.P.S.Children Peradise School PLOT NO. 30Jawahar Nagar</td>
+<td>Jawahar Nagar</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  19</td>
+</tr>
+<tr class="gradeA">
+<td>1002</td>
+<td>Primary</td>
+<td>Govt.P.S.GHORA BASTI SECOND</td>
+<td>GHORA BASTI SECOND</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  19</td>
+</tr>
+<tr class="gradeA">
+<td>2011</td>
+<td>U Primary</td>
+<td>U.P.S.RIVER WAY SCHOOL GUMANPURA</td>
+<td>GUMANPURA</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  24</td>
+</tr>
+<tr class="gradeA">
+<td>3001</td>
+<td>Secondary</td>
+<td>Sec. Pushpa Public School, Dadabari</td>
+<td>Hanuman Nagar, Dadabari</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  20</td>
+</tr>
+<tr class="gradeA">
+<td>2010</td>
+<td>U Primary</td>
+<td>G.u.p.s. Gumanpura</td>
+<td>Gumanpura</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  24</td>
+</tr>
+<tr class="gradeA">
+<td>4007</td>
+<td>H Secondary</td>
+<td>Sr.Sec.Emmanuel Mission School Talwandi</td>
+<td>Talwandi Sector C</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  19</td>
+</tr>
+<tr class="gradeA">
+<td>3002</td>
+<td>Secondary</td>
+<td>Sec Progressive Children Public School</td>
+<td>Dadabari</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  20</td>
+</tr>
+<tr class="gradeA">
+<td>3003</td>
+<td>Secondary</td>
+<td>Sec. Shiv Vidya Mandir School</td>
+<td>Kishorepura</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  21</td>
+</tr>
+<tr class="gradeA">
+<td>4004</td>
+<td>H Secondary</td>
+<td>Sr.Sec.Sophia Girls School Vallabh Nagar</td>
+<td> Vallabh Nagar</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  22</td>
+</tr>
+<tr class="gradeA">
+<td>1002</td>
+<td>Primary</td>
+<td>Govt.P.S.Sazi Dehara</td>
+<td>Sazi Dehara Nale Ke pas</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  22</td>
+</tr>
+<tr class="gradeA">
+<td>2006</td>
+<td>U Primary</td>
+<td>U.P.S.BHATIA PUBLIC SCHOOL VALLBH NAGAR</td>
+<td>ASHOK COLONY VALLBH NAGAR </td>
+<td>Kota M Corp.</td>
+<td>WARD NO  22</td>
+</tr>
+<tr class="gradeA">
+<td>2003</td>
+<td>U Primary</td>
+<td>UPS. CENTRAL PUBLIC SCHOOL</td>
+<td>3G 14-15 Talwandi</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  18</td>
+</tr>
+<tr class="gradeA">
+<td>4008</td>
+<td>H Secondary</td>
+<td>Sr. Sec.children paradise public school</td>
+<td>jawahar  Nagar </td>
+<td>Kota M Corp.</td>
+<td>WARD NO  19</td>
+</tr>
+<tr class="gradeA">
+<td>4006</td>
+<td>H Secondary</td>
+<td>Sr.  Sec.DAV Public school Talwandi</td>
+<td>Talwandi sector C</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  19</td>
+</tr>
+<tr class="gradeA">
+<td>2012</td>
+<td>U Primary</td>
+<td>UPS Annapurna Public School</td>
+<td>Mozi Baba Dham, Near Chambal Garden</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  21</td>
+</tr>
+<tr class="gradeA">
+<td>4011</td>
+<td>H Secondary</td>
+<td> Sr.Sec. Jawahar Children School</td>
+<td>2C7 Vigyan Nagar</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  26</td>
+</tr>
+<tr class="gradeA">
+<td>4012</td>
+<td>H Secondary</td>
+<td>Sr.sec. Sain,is Chinar Public School </td>
+<td>3 PA 56 Vigyan Nagar</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  26</td>
+</tr>
+<tr class="gradeA">
+<td>1001</td>
+<td>Primary</td>
+<td>Govt.P.S.GHORA BASTI FIRST</td>
+<td>GHORA BASTI FIRST</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  19</td>
+</tr>
+<tr class="gradeA">
+<td>2003</td>
+<td>U Primary</td>
+<td>Govt. UPS Durga Basti, Kota</td>
+<td> Durga Basti, Kota</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  19</td>
+</tr>
+<tr class="gradeA">
+<td>2011</td>
+<td>U Primary</td>
+<td>UPS Zed  School,Kishorepura</td>
+<td>Near Police Staion, Kishorepura</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  21</td>
+</tr>
+<tr class="gradeA">
+<td>3004</td>
+<td>Secondary</td>
+<td>Sec New W.P.M. School, Waqf Nagar</td>
+<td> Waqf Nagar, Dadabri</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  21</td>
+</tr>
+<tr class="gradeA">
+<td>1001</td>
+<td>Primary</td>
+<td>Govt.P.S.Banjara Basti </td>
+<td>Banjara Basti Adarsh Nagar</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  22</td>
+</tr>
+<tr class="gradeA">
+<td>1003</td>
+<td>Primary</td>
+<td>Govt.P.S. WARD 25 SAZI DEHARA</td>
+<td>SAZI DEHARA</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  22</td>
+</tr>
+<tr class="gradeA">
+<td>3005</td>
+<td>Secondary</td>
+<td>SEC.SAINT SOLDIER SCHOOL GUMANPURA</td>
+<td>GUMANPURA</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  24</td>
+</tr>
+<tr class="gradeA">
+<td>4013</td>
+<td>H Secondary</td>
+<td> Sr.Sec. New Public .school</td>
+<td>6 B 32-35 Vigyan Nagar EXT</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  26</td>
+</tr>
+<tr class="gradeA">
+<td>2010</td>
+<td>U Primary</td>
+<td>Ups New AnkitBal Vidhya Niketan Prem Nagar III</td>
+<td>Prem Nagar III</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  32</td>
+</tr>
+<tr class="gradeA">
+<td>1002</td>
+<td>Primary</td>
+<td>Govt. Ps  Prem Nagar II</td>
+<td> Prem Nagar III</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  33</td>
+</tr>
+<tr class="gradeA">
+<td>2004</td>
+<td>U Primary</td>
+<td>Govt. UPS  Prem Nagar </td>
+<td> Prem Nagar </td>
+<td>Kota M Corp.</td>
+<td>WARD NO  33</td>
+</tr>
+<tr class="gradeA">
+<td>4004</td>
+<td>H Secondary</td>
+<td>Sr.Sec.PriydarshiniSchool Govind Nagar</td>
+<td>Govind Nagar</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  33</td>
+</tr>
+<tr class="gradeA">
+<td>4003</td>
+<td>H Secondary</td>
+<td>Sr. Sec. Pratibha  Mandir</td>
+<td>6 g 29-30 Vigyan Nagar Ext.</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  28</td>
+</tr>
+<tr class="gradeA">
+<td>2012</td>
+<td>U Primary</td>
+<td>UPS Kiran Public School  Indra Gandhi Nagar</td>
+<td> Indra Gandhi Nagar</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  32</td>
+</tr>
+<tr class="gradeA">
+<td>2011</td>
+<td>U Primary</td>
+<td>UPS Lovely Shashtri Vidhya Mandir Indra Gandhi Nagar</td>
+<td> Indra Gandhi Nagar</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  32</td>
+</tr>
+<tr class="gradeA">
+<td>2009</td>
+<td>U Primary</td>
+<td>UPS Shri Shakti Vidhya Mandir Prem Nagar III</td>
+<td>Prem Nagar III</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  32</td>
+</tr>
+<tr class="gradeA">
+<td>3005</td>
+<td>Secondary</td>
+<td>Sec. Nav Prabhat School  Prem Nagar </td>
+<td>RajputColony  Prem Nagar</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  33</td>
+</tr>
+<tr class="gradeA">
+<td>1001</td>
+<td>Primary</td>
+<td>Govt.Ps. Ambedkar Nagar</td>
+<td>Ambedkar NagarVigya Nagar</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  29</td>
+</tr>
+<tr class="gradeA">
+<td>2002</td>
+<td>U Primary</td>
+<td>Govt.Ups Jagpura</td>
+<td>Jagpura</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  29</td>
+</tr>
+<tr class="gradeA">
+<td>2003</td>
+<td>U Primary</td>
+<td>Ups Subhash Children School Jagpura</td>
+<td>Jagpura</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  29</td>
+</tr>
+<tr class="gradeA">
+<td>2008</td>
+<td>U Primary</td>
+<td>Govt. Ups Prem Nagar III</td>
+<td>Prem Nagar III</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  32</td>
+</tr>
+<tr class="gradeA">
+<td>2007</td>
+<td>U Primary</td>
+<td>UPS. Nehru Children school</td>
+<td>Indra Gandhi Nagar</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  32</td>
+</tr>
+<tr class="gradeA">
+<td>1001</td>
+<td>Primary</td>
+<td>Govt. Ps Prem Nagar I</td>
+<td> Prem Nagar I</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  33</td>
+</tr>
+<tr class="gradeA">
+<td>1001</td>
+<td>Primary</td>
+<td>Govt.P.S.Awasan Mandal Kesavpura</td>
+<td> Kesavpura</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  12</td>
+</tr>
+<tr class="gradeA">
+<td>3003</td>
+<td>Secondary</td>
+<td>Sec. Neeraj Bal Vidhya Mandir Ganesh NAgar</td>
+<td> 248, Ganesh Nagar Rangbari Road Kota</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  8</td>
+</tr>
+<tr class="gradeA">
+<td>2001</td>
+<td>U Primary</td>
+<td>GOVT.U.P.S.mahaveer Nagar  III</td>
+<td>Mahaveer Nagar   III</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  11</td>
+</tr>
+<tr class="gradeA">
+<td>4007</td>
+<td>H Secondary</td>
+<td>Sr. Sec. Modern School Talwandi</td>
+<td>Talwandi Sec. A</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  18</td>
+</tr>
+<tr class="gradeA">
+<td>4004</td>
+<td>H Secondary</td>
+<td>Sr.Sec.bakhshis Springs dalus School Borkheda</td>
+<td>Devli arab road  Borkheda</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  40</td>
+</tr>
+<tr class="gradeA">
+<td>4003</td>
+<td>H Secondary</td>
+<td>Sr.Sec.St.Pauls School mala road </td>
+<td>mala road kota junction </td>
+<td>Kota M Corp.</td>
+<td>WARD NO  57</td>
+</tr>
+<tr class="gradeA">
+<td>4006</td>
+<td>H Secondary</td>
+<td> Sr.Sec.Gandhi Sanskar Bhartiya Adarsh Nagar Bapu Colony</td>
+<td>Rangpur Road</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  42</td>
+</tr>
+<tr class="gradeA">
+<td>3008</td>
+<td>Secondary</td>
+<td>Sec.Sandeep Pub.School Girdharpura</td>
+<td>Girdharpura</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  1</td>
+</tr>
+<tr class="gradeA">
+<td>4010</td>
+<td>H Secondary</td>
+<td>Sr.Sec.Lovely Diamond School Kunhari</td>
+<td> Kunhari</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  2</td>
+</tr>
+<tr class="gradeA">
+<td>2010</td>
+<td>U Primary</td>
+<td>U.P.S.B.S.N.Academy Nanta Kunhari</td>
+<td>Nanta  Kunhari</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  4</td>
+</tr>
+<tr class="gradeA">
+<td>3006</td>
+<td>Secondary</td>
+<td>Sec.Exillant Pub.Sch.4-s-17 Dada Bari ext.</td>
+<td> Dada Bari ext.</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  14</td>
+</tr>
+<tr class="gradeA">
+<td>2004</td>
+<td>U Primary</td>
+<td>U.P.S.Shiv Jyoti Girls Sch. Indira Vihar Talwandi</td>
+<td>Indira Vihar Talwandi</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  17</td>
+</tr>
+<tr class="gradeA">
+<td>2012</td>
+<td>U Primary</td>
+<td>U.P.S.Bal Jeevan Vidya Mandir Kolipara</td>
+<td> Kolipara</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  24</td>
+</tr>
+<tr class="gradeA">
+<td>2011</td>
+<td>U Primary</td>
+<td>Govt.U.P.S.Roteda</td>
+<td>Roteda</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  41</td>
+</tr>
+<tr class="gradeA">
+<td>4005</td>
+<td>H Secondary</td>
+<td>Sr.Sec.Sarvoday Bal Vidya Kherli Phatak</td>
+<td> Kherli Phatak</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  56</td>
+</tr>
+<tr class="gradeA">
+<td>1006</td>
+<td>Primary</td>
+<td>P.S.Adarsh Vinayak Bal Vidhyalaya Gordhanpura</td>
+<td>Gordhanpura</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  1</td>
+</tr>
+<tr class="gradeA">
+<td>4011</td>
+<td>H Secondary</td>
+<td>Sr.Sec.Bhartiya Shisu Niketan Kunhri</td>
+<td> Kunhri</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  2</td>
+</tr>
+<tr class="gradeA">
+<td>3007</td>
+<td>Secondary</td>
+<td>Govt.Sec.School Girdharpura</td>
+<td> Girdharpura</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  1</td>
+</tr>
+<tr class="gradeA">
+<td>4013</td>
+<td>H Secondary</td>
+<td>Sr.Sec.National Pub.Sch.Panchwati Nagar Kunhari</td>
+<td>Panchwati Nagar Kunhari</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  2</td>
+</tr>
+<tr class="gradeA">
+<td>2004</td>
+<td>U Primary</td>
+<td>U.P.S.NewHorizon Academy Maghaveer Nagar ext.</td>
+<td> Maghaveer Nagar ext.</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  11</td>
+</tr>
+<tr class="gradeA">
+<td>2009</td>
+<td>U Primary</td>
+<td>U.P.S.New Delta Shiksha Niketan Near New Middle Sch. Mokhapara</td>
+<td> Mokhapara Shripura</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  23</td>
+</tr>
+<tr class="gradeA">
+<td>2006</td>
+<td>U Primary</td>
+<td>Govt.U.P.S.Chawani Naveen</td>
+<td>Chawani Naveen</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  35</td>
+</tr>
+<tr class="gradeA">
+<td>2006</td>
+<td>U Primary</td>
+<td>U.P.S.New Maa Sharda Vidhya Niketan Kala Talab</td>
+<td> Kala Talab</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  44</td>
+</tr>
+<tr class="gradeA">
+<td>1005</td>
+<td>Primary</td>
+<td>Govt.P.S.Ramchandrapura K.B. Balita Road Kunhari</td>
+<td>Ramchandrapura K.B. Balita Road Kunhari</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  1</td>
+</tr>
+<tr class="gradeA">
+<td>3010</td>
+<td>Secondary</td>
+<td>Govt.Sec.School.Kunhari</td>
+<td>Kunhari</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  2</td>
+</tr>
+<tr class="gradeA">
+<td>4012</td>
+<td>H Secondary</td>
+<td>Sr.Sec.Nav Rachna Public Shool Ambedkar Nagar </td>
+<td>Kunhari</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  2</td>
+</tr>
+<tr class="gradeA">
+<td>4014</td>
+<td>H Secondary</td>
+<td>Sr.Sec.Shri Niketan Bal School Adarsh Nagar Bundi Road </td>
+<td>Kunhari</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  2</td>
+</tr>
+<tr class="gradeA">
+<td>3007</td>
+<td>Secondary</td>
+<td>Sec.Kaushal Kishor Bal Vidya Mandir Sakatpura</td>
+<td>Sakatpura</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  3</td>
+</tr>
+<tr class="gradeA">
+<td>1003</td>
+<td>Primary</td>
+<td>Govt.P.S.Sanjay Nagar K.B.Vigyan nagar</td>
+<td>Sanjay Nagar K.B.Vigyan nagar</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  27</td>
+</tr>
+<tr class="gradeA">
+<td>3005</td>
+<td>Secondary</td>
+<td>Sec.Sch.Indira Gandhi Bal Vidyalaya Mahatma Gandhi Colony</td>
+<td> Mahatma Gandhi Colony Kota Jn.</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  44</td>
+</tr>
+<tr class="gradeA">
+<td>3005</td>
+<td>Secondary</td>
+<td>Sec.Sch.Indira Gandhi Bal Vidyalaya Mahatma Gandhi Colony</td>
+<td> Mahatma Gandhi Colony Kota Jn.</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  45</td>
+</tr>
+<tr class="gradeA">
+<td>2009</td>
+<td>U Primary</td>
+<td>U.P.S.Shri  Maharshi Goutam Sch.Agrasen Market Kent Ki Chowki</td>
+<td>Agrasen Market Kent Ki Chowki</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  48</td>
+</tr>
+<tr class="gradeA">
+<td>2012</td>
+<td>U Primary</td>
+<td>Govt.GirlsU.P.S.Chandraghata PatanpoleTipta 1</td>
+<td>Chandraghata PatanpoleTipta 1</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  50</td>
+</tr>
+<tr class="gradeA">
+<td>2009</td>
+<td>U Primary</td>
+<td>U.P.S.Jawahar Lal Nehru Vidya Niketan Sakatpura</td>
+<td>Sakatpura</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  3</td>
+</tr>
+<tr class="gradeA">
+<td>2020</td>
+<td>U Primary</td>
+<td>U.P.S.Shiv Vinayak Pub. Sch.Rojri</td>
+<td>Rojri</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  5</td>
+</tr>
+<tr class="gradeA">
+<td>2014</td>
+<td>U Primary</td>
+<td>U.P.S.Madhu Mook Badhir (Add) Keshavpura</td>
+<td>Keshopura</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  16</td>
+</tr>
+<tr class="gradeA">
+<td>4004</td>
+<td>H Secondary</td>
+<td>Sr.Sec.Swami Vivekanand Vidya Niketan Sch.Chawani</td>
+<td>Chawani</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  35</td>
+</tr>
+<tr class="gradeA">
+<td>2006</td>
+<td>U Primary</td>
+<td>U.P.S.Bakhshis Springdales Sch.Paliwal Compound Chawani</td>
+<td> Chawani</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  36</td>
+</tr>
+<tr class="gradeA">
+<td>2011</td>
+<td>U Primary</td>
+<td>Govt..U.P.S.Bheem Mandi Naveen</td>
+<td>Bheem Mandi Naveen</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  59</td>
+</tr>
+<tr class="gradeA">
+<td>4005</td>
+<td>H Secondary</td>
+<td>Sr.Sec.Suman Children School Sakatpura</td>
+<td> Sakatpura</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  3</td>
+</tr>
+<tr class="gradeA">
+<td>2019</td>
+<td>U Primary</td>
+<td>U.P.S.Jaydev Shri Modren Pub.Sch.Naya Gaon </td>
+<td>Naya Gaon</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  5</td>
+</tr>
+<tr class="gradeA">
+<td>2008</td>
+<td>U Primary</td>
+<td>Govt.U.P.S.Basic Model Ramtalai Mokhapara</td>
+<td> Ramtalai Mokhapara</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  23</td>
+</tr>
+<tr class="gradeA">
+<td>2005</td>
+<td>U Primary</td>
+<td>U.P.S.Tiranga Pub. Sch.Near Police Chowki Kotri</td>
+<td>Near Police Chowki Kotri</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  36</td>
+</tr>
+<tr class="gradeA">
+<td>3011</td>
+<td>Secondary</td>
+<td>Sec.Sch.Adarsh Krishna Pub.c</td>
+<td> Polish Line</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  46</td>
+</tr>
+<tr class="gradeA">
+<td>2010</td>
+<td>U Primary</td>
+<td>U.P.S.Suman Bharti Sch.Vikram Chowk Ladoura</td>
+<td>Vikram Chowk Ladoura</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  52</td>
+</tr>
+<tr class="gradeA">
+<td>2009</td>
+<td>U Primary</td>
+<td>U.P.S.Ayaj Memorial Sch.Bajaj Khane Ki Gali Rampura</td>
+<td>Bajaj Khane Ki Gali Rampura</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  52</td>
+</tr>
+<tr class="gradeA">
+<td>4005</td>
+<td>H Secondary</td>
+<td>Sr.Sec.Sent Bhrigu Bal Vidya Niketan Ladpura</td>
+<td>Ladpura</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  53</td>
+</tr>
+<tr class="gradeA">
+<td>2008</td>
+<td>U Primary</td>
+<td>Govt,U.P.S.Talwandi Sec.2-3</td>
+<td>Talwandi</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  17</td>
+</tr>
+<tr class="gradeA">
+<td>4004</td>
+<td>H Secondary</td>
+<td>Sr.Sec.New Pub. School</td>
+<td>6B32 Vigyan Nagar Ext.</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  28</td>
+</tr>
+<tr class="gradeA">
+<td>4008</td>
+<td>H Secondary</td>
+<td>Sr.Sec. Jyoti  BalVidhya Mandir  School</td>
+<td>Mahaveer Nagar III</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  10</td>
+</tr>
+<tr class="gradeA">
+<td>2021</td>
+<td>U Primary</td>
+<td>Govt.U.P.S.Dharmpura</td>
+<td>Dharmpura</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  5</td>
+</tr>
+<tr class="gradeA">
+<td>3011</td>
+<td>Secondary</td>
+<td>Sec.Indira Gandhi Public Sch.</td>
+<td>Indira Colony Vigyan Nagar</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  26</td>
+</tr>
+<tr class="gradeA">
+<td>2002</td>
+<td>U Primary</td>
+<td>SARVODAYA PABLIC SHOOL</td>
+<td>Satal Kheri</td>
+<td>Satalkheri CT</td>
+<td>N/A</td>
+</tr>
+<tr class="gradeA">
+<td>3001</td>
+<td>Secondary</td>
+<td>SWAMI DAYANAND SARSWATI VIDHYA</td>
+<td>Satal Kheri</td>
+<td>Satalkheri CT</td>
+<td>N/A</td>
+</tr>
+<tr class="gradeA">
+<td>4001</td>
+<td>H Secondary</td>
+<td>GOVT.SR.SEC.SCH. SATALKHEDI</td>
+<td>Satal Kheri</td>
+<td>Satalkheri CT</td>
+<td>N/A</td>
+</tr>
+<tr class="gradeA">
+<td>4003</td>
+<td>H Secondary</td>
+<td>Sr.Sec.SAROJINI NAYDU PUBLIC SCHOOL</td>
+<td>Modak Gaon</td>
+<td>Modak CT</td>
+<td>N/A</td>
+</tr>
+<tr class="gradeA">
+<td>2018</td>
+<td>U Primary</td>
+<td>ups madrsha anjuman islamiya  sangod</td>
+<td>sangod</td>
+<td>Sangod M</td>
+<td>WARD NO. 01</td>
+</tr>
+<tr class="gradeA">
+<td>4008</td>
+<td>H Secondary</td>
+<td>sr. sec. sawami vakanandschool vidhay mandir sangod</td>
+<td>sangod</td>
+<td>Sangod M</td>
+<td>WARD NO. 01</td>
+</tr>
+<tr class="gradeA">
+<td>3005</td>
+<td>Secondary</td>
+<td>sec. kashipuri adrash vidhay mandir sangod</td>
+<td>sangod</td>
+<td>Sangod M</td>
+<td>WARD NO. 01</td>
+</tr>
+<tr class="gradeA">
+<td>2019</td>
+<td>U Primary</td>
+<td>UPSMilenium public school</td>
+<td></td>
+<td>Sangod M</td>
+<td>WARD NO. 01</td>
+</tr>
+<tr class="gradeA">
+<td>3011</td>
+<td>Secondary</td>
+<td>Sec.Kusham bal vidhalaya kunari</td>
+<td>kunari</td>
+<td>Kota M Corp.</td>
+<td>WARD NO  2</td>
+</tr>
+<tr class="gradeA">
+<td>2029</td>
+<td>U Primary</td>
+<td>UPS Aajad Children School</td>
+<td>Ramganjmandi</td>
+<td>Ramganj Mandi M</td>
+<td>N/A</td>
+</tr>
+<tr class="gradeA">
+<td>4001</td>
+<td>H Secondary</td>
+<td>Govt.Sr.Sec. School boys ramganjmandi</td>
+<td>ramganjmandi </td>
+<td>Ramganj Mandi M</td>
+<td>N/A</td>
+</tr>
+<tr class="gradeA">
+<td>4002</td>
+<td>H Secondary</td>
+<td>Govt. Sr. Sec. Girls School Ramganjmandi</td>
+<td>ramganjmandi</td>
+<td>Ramganj Mandi M</td>
+<td>N/A</td>
+</tr>
+<tr class="gradeA">
+<td>3011</td>
+<td>Secondary</td>
+<td>Sec.School Sarvottam bal vidhalaya</td>
+<td>ramganjmandi</td>
+<td>Ramganj Mandi M</td>
+<td>N/A</td>
+</tr>
+<tr class="gradeA">
+<td>4003</td>
+<td>H Secondary</td>
+<td>Sr.Sec.school daudiya public children </td>
+<td>ramganjmandi</td>
+<td>Ramganj Mandi M</td>
+<td>N/A</td>
+</tr>
+<tr class="gradeA">
+<td>3012</td>
+<td>Secondary</td>
+<td>Sec.School Mahaveer bal vidha mandir</td>
+<td>ramganjmandi</td>
+<td>Ramganj Mandi M</td>
+<td>N/A</td>
+</tr>
+<tr class="gradeA">
+<td>3013</td>
+<td>Secondary</td>
+<td>Sec. School Adrash Vidhaya mandir </td>
+<td>ramganjmandi</td>
+<td>Ramganj Mandi M</td>
+<td>N/A</td>
+</tr>
+<tr class="gradeA">
+<td>3014</td>
+<td>Secondary</td>
+<td>Sec.  Taigor Shishu Bharti Vidhalaya</td>
+<td>ramganjmandi</td>
+<td>Ramganj Mandi M</td>
+<td>N/A</td>
+</tr>
+<tr class="gradeA">
+<td>3015</td>
+<td>Secondary</td>
+<td>Sec.Annpurana School</td>
+<td>ramganjmandi</td>
+<td>Ramganj Mandi M</td>
+<td>N/A</td>
+</tr>
+<tr class="gradeA">
+<td>3016</td>
+<td>Secondary</td>
+<td>Sec. Alpha children school</td>
+<td>ramjganjmandi</td>
+<td>Ramganj Mandi M</td>
+<td>N/A</td>
+</tr>
+<tr class="gradeA">
+<td>3017</td>
+<td>Secondary</td>
+<td>sec.bal vidhya niketan ramganj mandi</td>
+<td>ramganjmandi</td>
+<td>Ramganj Mandi M</td>
+<td>N/A</td>
+</tr>
+<tr class="gradeA">
+<td>3018</td>
+<td>Secondary</td>
+<td>sec.immnualmission school ramganjmandi</td>
+<td>ramganjmandi</td>
+<td>Ramganj Mandi M</td>
+<td>N/A</td>
+</tr>
+<tr class="gradeA">
+<td>3019</td>
+<td>Secondary</td>
+<td>sec.srvottam ball vidhyamandir subhash colony         ramganjmandi</td>
+<td>ramganjmandi</td>
+<td>Ramganj Mandi M</td>
+<td>N/A</td>
+</tr>
+<tr class="gradeA">
+<td>3020</td>
+<td>Secondary</td>
+<td>Sec.Nehru Bal Vidhaya mandir School</td>
+<td>ramganjmandi</td>
+<td>Ramganj Mandi M</td>
+<td>N/A</td>
+</tr>
+<tr class="gradeA">
+<td>3021</td>
+<td>Secondary</td>
+<td>Sec. New Happy Public School </td>
+<td>ramganjmandi</td>
+<td>Ramganj Mandi M</td>
+<td>N/A</td>
+</tr>
+<tr class="gradeA">
+<td>3022</td>
+<td>Secondary</td>
+<td>Sec.Hyudan modal school</td>
+<td>ramganjmandi</td>
+<td>Ramganj Mandi M</td>
+<td>N/A</td>
+</tr>
+<tr class="gradeA">
+<td>1010</td>
+<td>Primary</td>
+<td>Govt Primary School</td>
+<td>Hanumant Khera</td>
+<td>Ramganj Mandi M</td>
+<td>N/A</td>
+</tr>
+<tr class="gradeA">
+<td>2022</td>
+<td>U Primary</td>
+<td>Govt.Girls Upper Primary School</td>
+<td>Ramganjmandi</td>
+<td>Ramganj Mandi M</td>
+<td>N/A</td>
+</tr>
+<tr class="gradeA">
+<td>2027</td>
+<td>U Primary</td>
+<td>UPS Saraswati vidhya mandir</td>
+<td>RAMGANJMANDI</td>
+<td>Ramganj Mandi M</td>
+<td>N/A</td>
+</tr>
+<tr class="gradeA">
+<td>2028</td>
+<td>U Primary</td>
+<td>UPS Maa Saraswati Bal Vidhyalaya</td>
+<td>Ramganjmandi</td>
+<td>Ramganj Mandi M</td>
+<td>N/A</td>
+</tr>
+<tr class="gradeA">
+<td>2026</td>
+<td>U Primary</td>
+<td>Govt. Upper Primary School</td>
+<td>Mahaveer Nagar, Ramganjmandi.</td>
+<td>Ramganj Mandi M</td>
+<td>N/A</td>
+</tr>
+<tr class="gradeA">
+<td>1009</td>
+<td>Primary</td>
+<td>Govt. Primary School</td>
+<td>Ramganjmandi I</td>
+<td>Ramganj Mandi M</td>
+<td>N/A</td>
+</tr>
+<tr class="gradeA">
+<td>2023</td>
+<td>U Primary</td>
+<td>Govt.Girls Neveen Upper Primary School</td>
+<td>Ramganjmandi </td>
+<td>Ramganj Mandi M</td>
+<td>N/A</td>
+</tr>
+<tr class="gradeA">
+<td>2024</td>
+<td>U Primary</td>
+<td>Govt. Upper Primary School</td>
+<td>Ramganjmandi III</td>
+<td>Ramganj Mandi M</td>
+<td>N/A</td>
+</tr>
+<tr class="gradeA">
+<td>2025</td>
+<td>U Primary</td>
+<td>Govt. Upper Primary School</td>
+<td>Gordhanpura Ramganjmandi </td>
+<td>Ramganj Mandi M</td>
+<td>N/A</td>
+</tr>
+<tr class="gradeA">
+<td>2030</td>
+<td>U Primary</td>
+<td>UPS Bharat Bharti School</td>
+<td>Ramganjmandi</td>
+<td>Ramganj Mandi M</td>
+<td>N/A</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</table>
+</div>
+</div>
+</div>
+<div>
+<link href="css/aises-css.css" rel="stylesheet" type="text/css"/>
+<div class="footer">
+<div class="footer-left">
+<a href="http://www.nic.in/" target="_blank"><img alt="National Informatics Centre" border="0" height="28" src="images/nic_logo.jpg" title="National Informatics Centre" width="28"/></a>
+© Copyright 2010, <a class="nic" href="http://www.nic.in/" target="_blank" title="National Informatics Centre (External website opens in a new window)">National Informatics Centre</a>. All rights reserved.
+Content Provided and maintained by <a class="nic" href="http://www.ncert.nic.in/" target="_blank" title="National Council Of Educational Research And Training (External website opens in a new window)">NCERT</a></div>
+<div class="footer-right">
+<ul class="footernav">
+<li> <a href="/disclaimer;jsessionid=71D387DF200C9D17621514EA82306420" title="Disclaimer">Disclaimer</a></li>
+<li>|</li>
+<li><a href="/glossary;jsessionid=71D387DF200C9D17621514EA82306420" title="Glossary">Glossary</a></li>
+</ul>
+</div>
+<br/><br/><br/><br/>
+    
+This site is best viewed with Internet Explorer version 7.0 and above or Mozilla Firefox version 3.0 and above on a screen resolution setting of 1024x768 or higher. Requires latest version of      <a class="gray11pxlink" href="http://www.adobe.com/support/flashplayer/downloads.html" target="_blank" title="Download Adobe Flash Player (External website opens in a new window)">Adobe Flash Player.</a>
+</div>
+</div>
+</div>
+</body>
+</html>
